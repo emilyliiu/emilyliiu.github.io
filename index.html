@@ -12,7 +12,9 @@
         crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="Portfolio.css" />
-  </head>
+  <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
 
   <body>
     <!-- Nav bar-->    
@@ -20,8 +22,8 @@
 <nav id="mainNavbar" class="navbar navbar-expand-md fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand">
-                <img class="logo" src="assets/Logo 4.png" alt="">
+            <a href="www.emilyliu.co" class="navbar-brand">
+                <!-- <img class="logo" src="assets/Logo 4.png" alt=""> -->
             </a>
         </div>
         <ul class="nav navbar-nav">
@@ -46,9 +48,11 @@
     <section id="intro">
         <div class="container">
         <div class="row align-items-center content">
-            <div class="col-lg-7">
-                <div class="d-none d-lg-block mt-5">
-                    <h1>Hi there!</h1>
+            <div class="col-lg-5 col-sm-12">
+                <div class="d-none d-lg-block mt-3">
+                    <h1>Hello,</h1>
+                    <h2>My name is Emily Liu, it's nice to meet you!</h2>
+                    <br>
                     <p>I’m a designer who focuses on creating genuine experiences for the user through developing functional user interfaces that combines simplicity and elegance.</p>
                     <br>Art has always been a passion of mine, whether that be working with traditional (pencil and paper) mediums or crafting more technical digital animations. 
                     <br><br>
@@ -56,15 +60,36 @@
                     <br><br>Thanks for stopping by!</p>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <img class="img-fluid" src="assets/Me.jpg" alt="">
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div style = "position:relative; left:200px;">
+                    <img id="portrait" class="img-fluid" src="assets/Me.jpg" alt="me">
+                </div>
             </div>
         </div>
     </section>
 
 <section id="projects" class="container-fluid px-0">
-        
-        <div class="row align-items-center content">
+    <div class="row">
+        <div class="column">
+            <div class="proj-card">
+                <h1>1</h1>
+            </div>
+        </div>
+        <div class="column">
+            <div class="proj-card">
+                <h1>2</h1>
+            </div>
+        </div>
+        <div class="column">
+            <div class="proj-card">
+                <h1>3</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="container-fluid px-0">
+    <div class="row align-items-center">
             <div class="col-md-4 order-1 order-md-2">
                 <img src="imgs/milk.png" class="img-fluid">
             </div>
