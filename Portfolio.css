@@ -65,7 +65,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-#projects a:hover {
+#projects a:hover { 
     margin:  0px 12px;
     color:#BAA6CC;
     transition: 500ms;
@@ -76,7 +76,7 @@ h2 {
 .proj-card {
     background-color: #FFF;
     padding: 10px 20px;
-    height: 350px;
+    height: 380px;
 }
 
 /* .proj-card:hover {
@@ -87,6 +87,7 @@ h2 {
 .proj-header {
     color: rgb(236, 228, 245);
 }
+
 
 .thumbnail {
     width: 20px;
