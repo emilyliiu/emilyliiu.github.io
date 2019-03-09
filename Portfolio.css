@@ -50,12 +50,44 @@ h2 {
     font-size: 30px;
 }
 
+a {
+    position: relative;
+    color: rgb(152, 127, 173);
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: rgb(152, 127, 173);
+    text-decoration: none;
+  }
+
+a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(152, 127, 173);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
 #projects {
     background-color: rgb(236, 228, 245);
     padding: 100px 40px 150px; 
 }
 
-#projects a {
+#projects .more {
     color:rgb(236, 228, 245);
     font-size: 25px;
     position: absolute;
@@ -65,7 +97,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-#projects a:hover { 
+#projects .more:hover { 
     margin:  0px 12px;
     color:#BAA6CC;
     transition: 500ms;
@@ -85,10 +117,32 @@ h2 {
 
 .proj-header {
     color: rgb(236, 228, 245);
+    margin-bottom: -10px;
 }
 
-#projects .proj-card:hover .proj-header{ 
+.proj-h2 {
+    color: rgb(236, 228, 245);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#projects .proj-card:hover .proj-h2 { 
     color:#BAA6CC;
+    transition: 500ms;
+}
+
+hr {
+    border: 1px solid rgb(236, 228, 245);
+    margin-top: 0px;
+}
+
+#projects .proj-card:hover .proj-header { 
+    color:#BAA6CC;
+    transition: 500ms;
+}
+
+#projects .proj-card:hover { 
+   box-shadow: 10px 10px 0px #BAA6CC;
     transition: 500ms;
 }
 
