@@ -1,7 +1,6 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
     color: rgb(85, 85, 85);
-    /* background-image: url("assets/background.jpg"); */
 }
 
 #mainNavbar {
@@ -27,22 +26,23 @@ body {
 }
 
 .intro-content {
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 150px;
 }
 
 #portrait {
+    margin-top: 20px;
     box-shadow: 10px 10px 0px rgb(158, 146, 177);
 }
 
 #portrait:hover {
-    box-shadow: 10px 10px 0px rgb(61, 41, 94);
-    transition: 1000ms;
+    box-shadow: 13px 13px 0px rgb(61, 41, 94);
+    transition: 500ms;
 }
 
 h1 {
     color: #BAA6CC;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ h2 {
 
 #projects {
     background-color: rgb(236, 228, 245);
-    padding: 15px 40px 50px;
+    padding: 100px 40px 150px; 
 }
 
 #projects a {
@@ -73,21 +73,24 @@ h2 {
     margin-bottom: 30px;
 }
 
+.column {
+    margin-top: 50px;
+}
+
 .proj-card {
     background-color: #FFF;
     padding: 10px 20px;
-    height: 380px;
+    height: 400px;
 }
-
-/* .proj-card:hover {
-    background-color: #B9A6CC;
-    transition: 1000ms ease-in-out;
-} */
 
 .proj-header {
     color: rgb(236, 228, 245);
 }
 
+#projects .proj-card:hover .proj-header{ 
+    color:#BAA6CC;
+    transition: 500ms;
+}
 
 .thumbnail {
     width: 20px;
