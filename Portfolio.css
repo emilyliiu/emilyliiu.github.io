@@ -50,6 +50,7 @@ h2 {
     font-size: 30px;
 }
 
+/* skills */
 a {
     position: relative;
     color: rgb(152, 127, 173);
@@ -82,37 +83,64 @@ a:before {
     transform: scaleX(1);
   }
 
-#projects {
+#skills {
     background-color: rgb(236, 228, 245);
     padding: 100px 40px 150px; 
 }
 
-#projects .more {
-    color:rgb(236, 228, 245);
-    font-size: 25px;
-    position: absolute;
-    bottom: 0; 
-    padding: 2px 10px;
-    border: 3px solid rgb(236, 228, 245);
-    margin-bottom: 30px;
-}
-
-#projects .more:hover { 
-    margin:  0px 12px;
-    color:#BAA6CC;
-    transition: 500ms;
-    border: 3px solid #BAA6CC;
-    margin-bottom: 30px;
-}
 
 .column {
     margin-top: 50px;
 }
 
-.proj-card {
+.skills-card {
     background-color: #FFF;
     padding: 10px 20px;
     height: 400px;
+}
+
+.skills-header {
+    color: rgb(236, 228, 245);
+    margin-bottom: -10px;
+}
+
+.skills-h2 {
+    color: rgb(236, 228, 245);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#skills .skills-card:hover .skills-h2 { 
+    color:#BAA6CC;
+    transition: 500ms;
+}
+
+hr {
+    border: 1px solid rgb(236, 228, 245);
+    margin-top: 0px;
+}
+
+#skills .skills-card:hover .skills-header { 
+    color:#BAA6CC;
+    transition: 500ms;
+}
+
+#skills .skills-card:hover { 
+   box-shadow: 10px 10px 0px #BAA6CC;
+    transition: 500ms;
+}
+
+/* projects */
+#projects {
+    background-color: rgb(255, 255, 255);
+    padding: 100px 40px 150px; 
+}
+
+.proj-card {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    height: 400px;
+    border: 1px solid black;
 }
 
 .proj-header {
@@ -126,24 +154,19 @@ a:before {
     font-weight: bold;
 }
 
-#projects .proj-card:hover .proj-h2 { 
+#projects .more {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0; 
+    padding: 2px 10px;
+    margin-bottom: 30px;
+}
+
+#projects .more:hover { 
+    margin:  0px 12px;
     color:#BAA6CC;
     transition: 500ms;
-}
-
-hr {
-    border: 1px solid rgb(236, 228, 245);
-    margin-top: 0px;
-}
-
-#projects .proj-card:hover .proj-header { 
-    color:#BAA6CC;
-    transition: 500ms;
-}
-
-#projects .proj-card:hover { 
-   box-shadow: 10px 10px 0px #BAA6CC;
-    transition: 500ms;
+    margin-bottom: 30px;
 }
 
 .thumbnail {
