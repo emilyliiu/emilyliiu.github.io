@@ -1,16 +1,16 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
-    color: rgb(73, 73, 73);
+    color: rgb(85, 85, 85);
     /* background-image: url("assets/background.jpg"); */
 }
 
-
 #mainNavbar {
-    font-weight: 100;  
+    font-weight: 100; 
 }
 
 #mainNavbar .nav-link {
     color: gray;
+    padding: 0px 30px;
 }
 
 #mainNavbar .nav-link:hover {
@@ -47,21 +47,45 @@ h1 {
 }
 
 h2 {
-    color: rgb(73, 73, 73);
     font-size: 30px;
 }
 
-
 #projects {
-    background-color: rgb(253, 226, 253);
-    padding: 50px;
+    background-color: rgb(236, 228, 245);
+    padding: 15px 40px 50px;
+}
+
+#projects a {
+    color:rgb(236, 228, 245);
+    font-size: 25px;
+    position: absolute;
+    bottom: 0; 
+    padding: 2px 10px;
+    border: 3px solid rgb(236, 228, 245);
+    margin-bottom: 30px;
+}
+
+#projects a:hover {
+    margin:  0px 12px;
+    color:#BAA6CC;
+    transition: 500ms;
+    border: 3px solid #BAA6CC;
+    margin-bottom: 30px;
 }
 
 .proj-card {
-    background-color: #fff;
-    margin:10px;
-    padding: 10px;
-    
+    background-color: #FFF;
+    padding: 10px 20px;
+    height: 350px;
+}
+
+/* .proj-card:hover {
+    background-color: #B9A6CC;
+    transition: 1000ms ease-in-out;
+} */
+
+.proj-header {
+    color: rgb(236, 228, 245);
 }
 
 .thumbnail {
