@@ -51,18 +51,19 @@ h2 {
 }
 
 /* skills */
-a {
+
+.underline a {
     position: relative;
     color: rgb(152, 127, 173);
     text-decoration: none;
   }
   
-a:hover {
+.underline a:hover {
     color: rgb(152, 127, 173);
     text-decoration: none;
   }
 
-a:before {
+.underline a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -77,20 +78,20 @@ a:before {
     transition: all 0.3s ease-in-out 0s;
   }
 
-  a:hover:before {
+.underline a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-  }
+}
 
 #skills {
     background-color: rgb(236, 228, 245);
-    padding: 100px 40px 150px; 
+    padding: 80px 40px; 
 }
-
 
 .column {
     margin-top: 50px;
+    margin: auto;
 }
 
 .skills-card {
@@ -130,54 +131,86 @@ hr {
     transition: 500ms;
 }
 
+#technical {
+    margin-top: 100px;
+    background-color: 
+}
+
+#technical img {
+    margin-left: 50px;
+}
+
+h4 {
+    text-align: center;
+    padding: 10px;
+}
+
 /* projects */
 #projects {
     background-color: rgb(255, 255, 255);
-    padding: 100px 40px 150px; 
+    margin: 100px;
 }
 
 .proj-card {
-    background-color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    height: 400px;
-    border: 1px solid black;
+    margin: 120px 0px;
 }
 
-.proj-header {
-    color: rgb(236, 228, 245);
-    margin-bottom: -10px;
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 500px;
+    background-color: rgb(255, 255, 255);
+    color: #555;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    border: 1px solid rgb(206, 206, 206);
 }
 
 .proj-h2 {
-    color: rgb(236, 228, 245);
-    text-transform: uppercase;
+    color: rgb(51, 51, 51);
     font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin: 30px;
 }
 
-#projects .more {
-    font-size: 25px;
+.arrow {
     position: absolute;
-    bottom: 0; 
-    padding: 2px 10px;
-    margin-bottom: 30px;
+    padding: 3px; /* Arrow size */
+    box-shadow: 1px -1px 0 1px rgb(61, 61, 61);
+    -webkit-box-shadow: 2px -2px rgb(61, 61, 61);
+    border: solid transparent;
+    border-width: 0 0 0.3rem 0.3rem;
+    transition: 0.2s;
+    bottom: 22px;
+  }
+  
+.more .arrow:hover {
+    box-shadow: 2px -2px 0 2px rgb(206, 206, 206);
+    -webkit-box-shadow: 4px -4px rgb(206, 206, 206);
 }
 
-#projects .more:hover { 
-    margin:  0px 12px;
-    color:#BAA6CC;
-    transition: 500ms;
-    margin-bottom: 30px;
+.arrow-right { 
+      transform:rotate(45deg) 
 }
 
-.thumbnail {
-    width: 20px;
+.more {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.more:hover {
+    color: rgb(206, 206, 206);
+    transition: 0.2s;
+}
+   
+#projects .text-block:hover {
+    box-shadow: 8px 8px 0px rgb(61, 61, 61); 
+    border: 1px solid rgb(206, 206, 206);
+    transition: 400ms;
 }
 
 .logo {
     width: 40px;
-}
-
-#moreProjs:hover {
-    opacity: 0.4;
-    transition: 500ms;
 }

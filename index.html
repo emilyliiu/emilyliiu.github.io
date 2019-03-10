@@ -20,13 +20,13 @@
 <nav id="mainNavbar" class="navbar navbar-expand-md fixed-top">
     <div class="container">
         <div class="navbar-header collapse navbar-collapse">
-            <a href="www.emilyliu.co" class="navbar-brand">
+            <a href="httsp://www.emilyliu.co" class="navbar-brand">
                 <img class="logo" src="assets/Logo 4.png" alt="">
             </a>
         </div>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav underline">
             <li class="nav-item">
-                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#intro" class="nav-link">ABOUT</a>
             </li>
             <li class="nav-item">
                 <a href="#projects" class="nav-link">PROJECTS</a>
@@ -71,8 +71,8 @@
                 <h1>Primary Skills</h1>
                 <p>My studies at the University of Waterloo's Global Business and Digital Arts program, background in business, and passion for design has allowed me to develop a unique and diverse set of skills. 
                     Here, I have listed three main areas that I believe my strengths lie in. 
-                    <br><br>Please refer to my <a href="#projects">past projects</a>, <a href="https://www.linkedin.com/in/emilyliu716/">LinkedIn</a>, 
-                    or <a href="assets/Emily_Liu_Resume.pdf" target="_blank">resume</a> for a more detailed description. 
+                    <br><br>Please refer to my <span class="underline"><a class="underline" href="#projects">past projects</a>, <a href="https://www.linkedin.com/in/emilyliu716/" class="underline">LinkedIn</a>, 
+                    or <a class="underline" href="assets/Emily_Liu_Resume.pdf" target="_blank">resume</a></span> for a more detailed description. 
                 </p>
              </div>
         </div>
@@ -98,66 +98,85 @@
             </div>
         </div>
     </div>
-</section>
 
-
-<section id="projects" class="container-fluid">
+<div id="technical" class="container">
     <div class="row">
-        <div class="column col-lg-3 col-md-10 col-sm-12">
-            <div style="text-align:left;">
-                <h1>Projects</h1>
-                <p class="proj-content">Click on each project to learn more!</p>
-             </div>
+        <div class="col-lg-2">
+            <img src="assets/Technical/figma.png" alt="" width="60px"> <br><h4>Figma</h4>
         </div>
-        <div class="column col-lg-3 col-md-10 col-sm-12">
-            <div class="proj-card">
-                <h1 class="proj-header">1</h1>
-                <h2>Mackenzie Health</h2>
-                <p class="proj-content">Worked with a group of talented students to design an interface for expediating communication between patients and their respective nurses at Mackenzie Health Hospital, using a Google Home. </p>
-                <a class="more" href="#">Work in Progress</a>
+        <div class="col-lg-2">
+            <img src="assets/Technical/xd.png" alt="" width="60px"><br><h4>Adobe XD</h4>
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/Technical/ps.png" alt="" width="60px"><br><h4>Photoshop</h4>
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/Technical/html.png" alt="" width="60px"><br><h4>HTML</h4>
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/Technical/css.png" alt="" width="60px"><br><h4>CSS</h4>
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/Technical/js.png" alt="" width="60px"><br><h4>Javascript</h4>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <div class="container">
+            <!-- <h1>Projects</h1> -->
+        <div class="proj-card">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <img src="assets/MH.png" alt="YFP" style="width:100%;">
+                    <div class="text-block"> 
+                        <h2 class="proj-h2">Mackenzie Health <hr> </h2>
+                        <p>Worked with a group of talented students to design an interface for expediating communication between patients and their respective nurses at Mackenzie Health Hospital, using a Google Home.
+                         <br><br>
+                         <span class="more">View Project  <a class="arrow arrow-right" href="#intro"></a> </span>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="column col-lg-3 col-md-10 col-sm-12">
-            <div class="proj-card">
-                <h1 class="proj-header">2</h1>
-                <h2>Young Funds Program</h2>
-                <p class="proj-content">Using low and high-fidelity wireframes to redesign the user experience on YFP's website by incorporating popular UI design trends while maintaining a professional brand image.</p>
-                <a class="more" href="#">Work in Progress</a>
+        <div class="proj-card">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <img src="assets/YFP.png" alt="YFP" style="width:100%;">
+                    <div class="text-block"> 
+                        <h2 class="proj-h2">Young Funds Program <hr> </h2>
+                        <p>Using low and high-fidelity wireframes to redesign the user experience on YFP's website by incorporating popular UI design trends while maintaining a professional brand image.
+                            <br><br>
+                            <span class="more">View Project  <a class="arrow arrow-right" href="#intro"></a> </span>
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="column col-lg-3 col-md-10 col-sm-12">
             <div class="proj-card">
-                <h1 class="proj-header">3</h1>
-                <h3>Poster Designs</h3>
-                <p class="proj-content">One of my main responsibilites in the extracurriculars I'm involved in is creating graphic content, whether that be event posters, wireframes for web development, or designing sponsorship packages.</p>
-                <a class="more" href="#">Work in Progress</a>
+                <div class="row">
+                    <div class="col-lg-8 col-sm-12">
+                        <img src="assets/YFP.png" alt="YFP" style="width:100%;">
+                        <div class="text-block"> 
+                            <h2 class="proj-h2">More Designs <hr> </h2>
+                            <p>One of my main responsibilites in the extracurriculars I'm involved in is creating graphic content, whether that be event posters, wireframes for web development, or designing sponsorship packages.
+                             <br><br>
+                             <span class="more">View Designs  <a class="arrow arrow-right" href="#intro"></a> </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-
-
-<!--- Other designs/projects section -->
-
-<!-- <div class="container">
-    <div class="row align-items-center content">
-        <div class="col-lg-4">
-            <img class="img-fluid" id="moreProjs" src="assets/Tech Consulting - UWMCC.jpg" alt="">
-        </div>
-
-        <div class="col-lg-4">
-            <img class="img-fluid" id="moreProjs" src="assets/FemStem.jpg" alt="">
-        </div>
-
-        <div class="col-lg-4">
-            <img class="img-fluid" id="moreProjs" src="assets/Hiring - Enactus.jpg" alt="">
-        </div>
-    </div>
-</div> -->
 
 <!--- Footer section -->
 <div class="container">
     <div class="py-2" style="text-align:center;">
+        <hr>
         <p>© 2019 Coded by Emily Liu</p>
     </div>  
     <!-- <div class="py-2" style="align-content: left;">
