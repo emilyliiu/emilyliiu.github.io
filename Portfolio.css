@@ -3,17 +3,27 @@ body {
     color: rgb(85, 85, 85);
 }
 
+a {
+    color: inherit; 
+  text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit; 
+    text-decoration: inherit;
+}
+
 #mainNavbar {
     font-weight: 100; 
 }
 
 #mainNavbar .nav-link {
     color: gray;
-    padding: 0px 30px;
+    padding: 0px 20px;
 }
 
 #mainNavbar .nav-link:hover {
-    opacity: 0.4;
+    opacity: 0.7;
     transition: 500ms;
     color: #BAA6CC;
 }
