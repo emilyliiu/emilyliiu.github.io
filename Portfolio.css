@@ -3,9 +3,14 @@ body {
     color: rgb(85, 85, 85);
 }
 
+p {
+    ont-family: "Source Sans Pro", sans-serif;
+    color: rgb(85, 85, 85);  
+}
+
 a {
     color: inherit; 
-  text-decoration: inherit;
+    text-decoration: inherit;
 }
 
 a:hover {
