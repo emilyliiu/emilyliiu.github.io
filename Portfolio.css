@@ -2,21 +2,6 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     color: rgb(85, 85, 85);
 }
-
-p {
-    ont-family: "Source Sans Pro", sans-serif;
-    color: rgb(85, 85, 85);  
-}
-
-a {
-    color: inherit; 
-    text-decoration: inherit;
-}
-
-a:hover {
-    color: inherit; 
-    text-decoration: inherit;
-}
  
 #mainNavbar {
     font-weight: 100; 
