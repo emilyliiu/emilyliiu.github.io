@@ -1,15 +1,18 @@
 body {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: rgb(85, 85, 85);
 }
  
+.logo {
+    width: 30px;
+}
 #mainNavbar {
     font-weight: 100; 
 }
 
 #mainNavbar .nav-link {
     color: gray;
-    padding: 0px 20px;
+    padding: -5px 20px;
 }
 
 #mainNavbar .nav-link:hover {
@@ -132,8 +135,7 @@ hr {
 }
 
 #technical {
-    margin-top: 100px;
-    background-color: 
+    margin-top: 100px; 
 }
 
 #technical img {
@@ -211,11 +213,6 @@ h4 {
     transition: 400ms;
 }
 
-.logo {
-    width: 40px;
-}
-
-
 .popup {
     position: relative;
     display: inline-block;
@@ -263,3 +260,7 @@ h4 {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+.Footer {
+    font-size: 10px;
+}
