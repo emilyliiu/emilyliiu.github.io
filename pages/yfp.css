@@ -77,6 +77,12 @@ h4 {
     margin-bottom: 30px;
 }
 
+#proj-body {
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+
 #img-holder {
     position:relative;
     min-height:150px;
@@ -89,7 +95,6 @@ h4 {
     left:0;
     right:0;
     width:60%;
-    padding:4px;
     outline:0;
     cursor:pointer;
  }
