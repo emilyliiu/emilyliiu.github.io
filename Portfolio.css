@@ -50,7 +50,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 28px;
 }
 
 /* skills */
@@ -100,7 +100,7 @@ h2 {
 .skills-card {
     background-color: #FFF;
     padding: 10px 20px;
-    height: 400px;
+    height: 440px;
 }
 
 .skills-header {
