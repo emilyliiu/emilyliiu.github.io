@@ -21,3 +21,7 @@ body {
 .Footer {
     font-size: 10px;
 }
+
+a {
+  text-decoration: none;
+}

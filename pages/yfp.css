@@ -41,15 +41,21 @@ h2 {
   font-weight: bold;
 }
 
-h4 {
+h3 {
   font-size: 30px;
   color:#CCCCCC;
+  padding-top: 60px;
+}
+
+h4 {
+  color: #292929;
+  padding: 15px;
 }
 
 /* Side navbar */
 .sidenav {
   height: 100%; 
-  width: 20%; 
+  width: 18%; 
   position: fixed; 
   z-index: 1; 
   top: 0; 
@@ -61,7 +67,6 @@ h4 {
 
 .sidenav a {
   padding: 6px 8px 6px 15px;
-  text-decoration: none;
   color: #acacac;
   display: block;
   font-family: ;
@@ -88,7 +93,7 @@ h4 {
 /* Content */
 .content {
   margin-left: 20%;
-  padding: 50px 50px;
+  padding: 0px 30px;
   font-size: 14px;
 }
 
@@ -138,9 +143,14 @@ button a {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
 a:hover {
   text-decoration: none;
-  color: #242424;
+  color: #b3b3b3;
 }
 
 button:hover {
@@ -150,115 +160,9 @@ button:hover {
   text-decoration: none;
 }
 
-/* 
-#img-holder {
-    position:relative;
-    min-height:150px;
-    margin-bottom: 100px;
- }
-
-#mask,#pic {
-    position:absolute;
-    z-index: 1;
-    left:0;
-    right:0;
-    width:60%;
-    outline:0;
-    cursor:pointer;
- }
-
-#mask {
-    z-index:3;
-    width:60%;
-    height:60%;
-    padding:0;
-    border:0;
-    background-color:transparent;
-    box-shadow:none;
- }
-
-#mask:focus~#pic  {
-    -webkit-animation:newsize 1s forwards;
-    animation:newsize 1s forwards;
- }
-
-#mask:focus{
-    -webkit-animation:masksize 1s forwards;
-    animation:masksize 1s forwards;
- }
-
-#pic:focus  {
-    -webkit-animation:oldsize 1s forwards;
-    animation:oldsize 1s forwards;
- }
- 
-@-webkit-keyframes newsize {
-  from {
-    width:60%;
-    padding:4px;
-  }
-  to {
-    width:130%;
-    padding:12px;
-  }
- }
-
-@keyframes newsize {
-  from {
-    width:60%;
-    padding:4px;
-  }
-  to {
-    width:130%;
-    padding:12px;
-  }
- }
-
-@-webkit-keyframes masksize {
-  from {
-    width:226px;
-    height:143px;	
-  }
-  to {
-    width:0;
-    height:0;
-  }
- }
-
-@keyframes masksize {
-  from {
-    width:226px;
-    height:143px;	
-  }
-  to {
-    width:0;
-    height:0;
-  }
- }
-
-@-webkit-keyframes oldsize {
-  from {
-    width:130%;
-    padding:12px;
-  }
-  to {
-    width:60%;
-    padding:4px;
-  }
- }
- 
-@keyframes oldsize {
-  from {
-    width:130%;
-    padding:12px;
-  }
-  to {
-    width:60%;
-    padding:4px;
-  }
- } */
-
- 
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .Footer {
      font-size: 10px;
