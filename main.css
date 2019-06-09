@@ -33,18 +33,17 @@ h1 {
   color: #BAA6CC;
   font-size: 70px;
   font-weight: bold;
-  font-family: 'Ramabhadra';
+  font-family: 'Ramabhadra', sans-serif;
 }
 
 h2 {
-  color: rgb(88, 88, 88);
-  font-size: 28px;
+  color: rgb(197, 197, 197);
 }
 
-h4 {
-  color: #292929;
-  text-align: center;
-  padding: 10px;
+h3 {
+  color: #444444;
+  font-size: 20px;
+  padding: 20px 0px 0px 0px;
 }
 
 .underline a {

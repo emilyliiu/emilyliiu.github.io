@@ -1,44 +1,15 @@
+.content {
+  margin: 100px;
+}
+
 h2 {
-  font-size: 50px;
+  font-size: 38px;
   font-weight: bold;
+  padding-top: 30px;
 }
 
-h3 {
-  font-size: 30px;
-  color:#CCCCCC;
-  padding-top: 60px;
-}
-
-#overview {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-td {
-  align-content: center;
-  text-align: center;
-  width: 10%;
-}
-
-#process {
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-
-#pain-pts {
-  margin-top: 30px;
-  margin-bottom: 50px;
-
-}
-
-#design-process {
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
-
-#reflection {
-  margin-top: 30px;
-  margin-bottom: 50px;
+.space {
+  padding-top: 150px;
 }
 
 button {
@@ -57,7 +28,7 @@ button a {
 
 a {
   text-decoration: none;
-  color: #3b3b3b;
+  color: #BAA6CC;
 }
 
 a:hover {
@@ -68,10 +39,18 @@ a:hover {
 button:hover {
   color: #242424;
   background-color: #e4e4e4;
-  transition: .5s;
+  transition: 0.5s;
   text-decoration: none;
 }
 
 .shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gif {
+  padding: 25px 0px 35px 0px;
+}
+
+section {
+  padding-top: 100px;
 }
