@@ -3,185 +3,68 @@
     margin-bottom: 150px;
 }
 
+
+
 #portrait {
-    margin-top: 20px;
-    box-shadow: 10px 10px 0px rgb(158, 146, 177);
+    display: block;
+  margin-left: 60%;
+    box-shadow: 10px 10px 0px #cfc8da;
+    width: 95%;
 }
 
 #portrait:hover {
-    box-shadow: 13px 13px 0px rgb(61, 41, 94);
+    box-shadow: 13px 13px 0px #3d295e;
     transition: 500ms;
 }
-
-#skills {
-    background-color: rgb(236, 228, 245);
-    padding: 80px 40px; 
-}
-
-.column {
-    margin-top: 50px;
-    margin: auto;
-}
-
-.skills-card {
-    background-color: #FFF;
-    padding: 10px 20px;
-    height: 440px;
-}
-
-.skills-header {
-    color: rgb(236, 228, 245);
-    margin-bottom: -10px;
-}
-
-.skills-h2 {
-    color: rgb(236, 228, 245);
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#skills .skills-card:hover .skills-h2 { 
-    color:#BAA6CC;
-    transition: 500ms;
-}
-
-hr {
-    border: 1px solid rgb(236, 228, 245);
-    margin-top: 0px;
-}
-
-#skills .skills-card:hover .skills-header { 
-    color:#BAA6CC;
-    transition: 500ms;
-}
-
-#skills .skills-card:hover { 
-   box-shadow: 10px 10px 0px #BAA6CC;
-    transition: 500ms;
-}
-
-#technical {
-    margin-top: 100px; 
-}
-
-#technical img {
-    margin-left: 50px;
-}
-
-/* projects */
-#projects {
-    background-color: rgb(255, 255, 255);
-    margin: 100px;
-}
-
-.proj-card {
-    margin: 120px 0px;
-}
-
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    left: 500px;
-    background-color: rgb(255, 255, 255);
-    color: #555;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 400px;
-    border: 1px solid rgb(206, 206, 206);
-}
-
-.proj-h2 {
-    color: rgb(51, 51, 51);
-    font-weight: bold;
-    font-size: 28px;
-    text-align: center;
-    margin: 30px;
-}
-
-.arrow {
-    position: absolute;
-    padding: 3px; /* Arrow size */
-    box-shadow: 1px -1px 0 1px rgb(61, 61, 61);
-    -webkit-box-shadow: 2px -2px rgb(61, 61, 61);
-    border: solid transparent;
-    border-width: 0 0 0.3rem 0.3rem;
-    transition: 0.2s;
-    bottom: 22px;
-  }
-  
-.more .arrow:hover {
-    box-shadow: 2px -2px 0 2px rgb(206, 206, 206);
-    -webkit-box-shadow: 4px -4px rgb(206, 206, 206);
-}
-
-.arrow-right { 
-      transform:rotate(45deg) 
-}
-
-.more {
-    font-weight: bold;
-    font-size: 110%;
-}
-
-.more:hover {
-    color: rgb(206, 206, 206);
-    transition: 0.2s;
-}
-   
-#projects .text-block:hover {
-    box-shadow: 8px 8px 0px rgb(61, 61, 61); 
-    border: 1px solid rgb(206, 206, 206);
-    transition: 400ms;
-}
-
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-  }
-  
-  .popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-  }
-  
-  .popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-  }
-  
-  .popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s
-  }
-  
-  @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-  }
-  
-  @keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-  }
 
 .Footer {
     font-size: 10px;
 }
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 30px auto;
+    width: inherit;
+    min-height: 100%;
+  box-shadow: 10px 10px 10px -6px #888;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 20px;
+  }
+
+/* .card-image {
+    max-height: 100%;
+    max-width: 100%;
+    border: 1px solid red;
+  }
+   */
+  .card .card-title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+  }
+  
+.card-title:hover { 
+    color:#BAA6CC;
+    transition: 500ms;
+}
+
+  .card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 10px 10px 0px #BAA6CC;
+    transition: 500ms;
+  }
+  
+ 
+  @media all and (max-width: 500px) {
+    .card-list {
+      flex-direction: column;
+    }
+  }
+  
