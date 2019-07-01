@@ -1,70 +1,80 @@
-.intro-content {
-    margin-top: 120px;
-    margin-bottom: 150px;
+#about {
+  margin-top: 120px;
+  display: none;
 }
 
+/* Animation bar */
+#more-about { 
+  height: 25px;
+  width: 375px;
+  position: absolute;
+  z-index: 1;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  background-color: #f0f0f0;
+  display: none;
+}
 
+.about-content, .more-content {
+  padding-top: 40px;
+  display: none;
+}
+
+.more-content {
+  margin-top: 120px;
+  margin-bottom: 150px;
+}
 
 #portrait {
-    display: block;
-  margin-left: 60%;
-    box-shadow: 10px 10px 0px #cfc8da;
-    width: 95%;
+  float: right;
+  margin-left: 40px;
+  box-shadow: 10px 10px 0px #4e3c7c;
+  width: 30%;
 }
 
 #portrait:hover {
-    box-shadow: 13px 13px 0px #3d295e;
-    transition: 500ms;
+  box-shadow: 13px 13px 0px #6571A6;
+  transition: 500ms;
 }
 
 .Footer {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    margin: 30px auto;
-    width: inherit;
-    min-height: 100%;
-  box-shadow: 10px 10px 10px -6px #888;
-    cursor: pointer;
-    transition: 0.4s;
-    padding: 20px;
-  }
-
-/* .card-image {
-    max-height: 100%;
-    max-width: 100%;
-    border: 1px solid red;
-  }
-   */
-  .card .card-title {
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-  }
-  
-.card-title:hover { 
-    color:#BAA6CC;
-    transition: 500ms;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-  .card:hover {
-    transform: scale(0.9, 0.9);
-    box-shadow: 10px 10px 0px #BAA6CC;
-    transition: 500ms;
+.card {
+  margin: 30px auto;
+  width: inherit;
+  min-height: 100%;
+  box-shadow: 10px 10px 10px -6px #888;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 20px;
+}
+
+.card .card-image {
+  min-height: 200px;
+}
+
+.card .card-title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 10px 10px 0px #6571A6;
+  transition: 500ms;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
   }
-  
- 
-  @media all and (max-width: 500px) {
-    .card-list {
-      flex-direction: column;
-    }
-  }
-  
+}

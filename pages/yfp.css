@@ -1,7 +1,38 @@
+.proj-header {
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 40px;
+}
+
+body {
+  margin: 20px;
+  font-size: 85%;
+  color: #7a7a7a;
+}
+
+img {
+  max-width: 80%; 
+  height: auto;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
 h2 {
-  font-size: 38px;
-  font-weight: bold;
-  padding-top: 30px;
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+}
+
+.description {
+  padding: 100px;
 }
 
 button {
@@ -15,23 +46,6 @@ button {
 
 button a {
   color: #acacac;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: #BAA6CC;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #b3b3b3;
-}
-
-button:hover {
-  color: #242424;
-  background-color: #e4e4e4;
-  transition: 0.5s;
   text-decoration: none;
 }
 

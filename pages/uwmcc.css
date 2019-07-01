@@ -1,3 +1,10 @@
+.proj-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 40px;
+}
+
 p {
     margin: 20px;
     font-size: 85%;
@@ -12,6 +19,10 @@ img {
     display: inline-block;
 }
 
+h1 {
+    font-size: 2.8rem;
+}
+
 h2 {
     text-align: center;
 }
@@ -20,11 +31,6 @@ h4 {
     text-align: left;
 }
 
-.content {
-    display: inline-block;
-    margin: 50px 220px 100px 220px;
-}
-
 .description {
-    padding: 0px 150px 0px 150px;
+    padding: 100px;
 }
