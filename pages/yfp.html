@@ -10,7 +10,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="yfp.css" />
     <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="../nav.css">
+<!-- js -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <!-- Google Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Mandali|Ramabhadra&display=swap" rel="main.css">
 </head>
@@ -28,12 +29,12 @@
             <ul class="nav navbar-nav">
                 <li><a href="https://emilyliu.co/#about" class="nav-link">About</a></li>
                 <li><a href="https://emilyliu.co/#projects" class="nav-link">Projects</a></li>
-                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
+                <li><a href="../assets/Emily_Liu_Resume.pdf" class="nav-link" target="_blank">Resume</a></li>
             </ul>
         </div>
     </nav>
         
-    <section class="proj-header">
+    <section class="fade-in proj-header">
                 <img style="max-height: 400px;" src="../assets/YFP.png" alt="">
                 <h1>YFP Site Redesign</h1>
                 <p style="text-align: center;"><b>Tools:</b> Adobe Photoshop | Adobe XD | HTML5 | CSS
@@ -42,7 +43,7 @@
                 </p>
     </section>
     
-        <div class="space container">
+        <div class="space container fade-in">
                 <div class="row">
                     <div class="col-lg-6">
                         <h2>Overview</h2>
@@ -167,13 +168,13 @@
                         images.
                             </p>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-sm-2">
                             <img class="img-fluid shadow" src="../pages/YFP/investopedia.png" alt="">
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-sm-2">
                             <img class="img-fluid shadow" src="../pages/YFP/nasdaq.png" alt="">
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-sm-2">
                             <img class="img-fluid shadow" src="../pages/YFP/khanacademy.png" alt="">
                         </div>
                     </div>
@@ -330,29 +331,25 @@
         </section>
     </div>
 
-    <!--- Footer section -->
-    <div class="container Footer space">
-            <div class="py-2" style="text-align:center;">
-                <hr>
-                <p>Say hello at <span><a class="highlight"
-                            href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
-                    <br> <br>
-                    Built with love by Emily Liu – just inspect away!
-                </p>
-            </div>
-        </div>
-
-    <!--- JQuery Section-->
-    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
+<!--- Footer section -->
+<div class="Footer space">
+        <hr>
+        <p>Say hello at <span><a class="highlight"
+                    href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
+            <br> <br>
+            Built with love by Emily Liu – just inspect away!
+        </p>
+</div>
+<!--- JQuery Section sticky navbar-->
+<script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
         });
-    </script>
+    });
+</script>
+
 </body>
 
 </html>

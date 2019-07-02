@@ -1,9 +1,10 @@
 #about {
   margin-top: 120px;
   display: none;
+  margin-bottom: 30px !important;
 }
 
-/* Animation bar */
+/* Animation about -> more-about */
 #more-about { 
   height: 25px;
   width: 375px;
@@ -11,16 +12,13 @@
   z-index: 1;
   top: 0; bottom: 0; left: 0; right: 0;
   margin: auto;
-  background-color: #f0f0f0;
-  display: none;
-}
-
-.about-content, .more-content {
-  padding-top: 40px;
+  background-color: #e4e4e4;
   display: none;
 }
 
 .more-content {
+  /* padding-top: 40px; */
+  display: none;
   margin-top: 120px;
   margin-bottom: 150px;
 }
@@ -37,10 +35,13 @@
   transition: 500ms;
 }
 
-.Footer {
-  font-size: 10px;
+#flat-me {
+  width: 95%;
+  float: right;
+  padding-top: 50px;
 }
 
+/* Projects section */
 .cards-list {
   width: 100%;
   display: flex;
@@ -63,6 +64,7 @@
 }
 
 .card .card-title {
+  font-weight: bold;
   text-align: center;
   border-radius: 0px 0px 40px 40px;
 }
@@ -73,8 +75,10 @@
   transition: 500ms;
 }
 
-@media all and (max-width: 500px) {
-  .card-list {
+/*  */
+@media only screen and (max-width: 540px) {
+  .cards-list {
     flex-direction: column;
+    padding: 35px;
   }
 }

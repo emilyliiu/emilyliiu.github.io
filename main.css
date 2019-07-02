@@ -1,7 +1,9 @@
 /* Colors:
-h1 #4e3c7c
-h2 #6571A6
+#36255f - dark purple (h1)
+#6571A6 - blue (h2, highlight, hover)
+#555 - gray (h3, body)
 */
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,7 +11,7 @@ html {
 /* text */
 body {
   font-family: 'Mandali', sans-serif;
-  color: #545454;
+  color: #555;
 }
 
 h1 {
@@ -29,19 +31,40 @@ h3 {
   padding: 20px 0px 0px 0px;
 }
 
-hr {
-  border: 1px solid #ece4f5;
-  margin-top: 0px;
+/* Nav + footer */
+.logo {
+  width: 30px;
+}
+#mainNavbar {
+  font-weight: 100; 
 }
 
-.logo {
-    width: 30px;
-    margin-bottom: 10px;
+#mainNavbar .nav-link {
+  color: #555;
+  padding: -5px 20px;
 }
-  
+
+#mainNavbar .nav-link:hover {
+  opacity: 0.7;
+  transition: 500ms;
+  color: #6571A6;
+}
+
+.navbar.scrolled {
+  background: #fff;
+  opacity: 0.85;
+  transition: background 500ms;
+  box-shadow: 0px 5px 20px -6px #646464;
+}
 
 .Footer {
-  font-size: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.Footer hr {
+  border: 0.25px solid #6571A6;
+  opacity: 0.2;
 }
 
 /* Links */
@@ -102,16 +125,37 @@ a:visited {
   margin: 0 auto;
 }
 
-/* Sizes */
-
-@media only screen and (max-width: 750px) {
-      height: 300px;
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
 }
 
-@media only screen and (max-width: 540px) {
-      height: 200px;
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
 
-@media only screen and (max-width: 750px) {
-      padding: 30px;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
