@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="../emilyliiu.github.io/main.css"/>
     <link rel="stylesheet" href="../emilyliiu.github.io/index.css">
     <!-- js -->
+    <script src="https://kit.fontawesome.com/37496dac6b.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="https://code.jquery.com/color/jquery.color-2.1.0.min.js"></script>
     <script src="../emilyliiu.github.io/index.js"></script>
     <!-- Google Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Mandali|Ramabhadra&display=swap" rel="stylesheet">
@@ -25,13 +25,13 @@
         <div class="container">
             <div class="navbar-header collapse navbar-collapse">
                 <a href="httsp://www.emilyliu.co" class="navbar-brand">
-                    <img class="logo" src="assets/Logo 4.png" alt="">
+                    <img class="logo" src="assets/Logo 4.png" alt="logo"> <span></span>
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
+                <li><a href="#about" class="nav-link"><span class="spin">About</span></a></li>
+                <li><a href="#projects" class="nav-link"><span class="spin">Projects</span></a></li>
+                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank"><span class="spin">Resume</span></a></li>
             </ul>
         </div>
     </nav>
@@ -41,9 +41,9 @@
         
         <div id="about">
             <div class="about-content row">
-                <div class="col-lg-6 col-sm-9">
+                <div class="col-lg-6 col-md-9">
                         <h1>Hello,</h1>
-                        <h2>My name is Emily Liu, <br> nice to e-meet you!</h2>
+                        <h2>My name is Emily Liu, <br> nice to e-meet you!</h2> <br>
                         <p>Studying Global Business and Digital Arts at the University of Waterloo, focusing on HCI,
                             UX/UI, and dabbling in front-end development. I am a designer who aims to solves
                             business-oriented problems through creating genuine experiences for the user.
@@ -51,12 +51,14 @@
                             In my free time I enjoy reading books and Medium articles, hiking, trying new
                             restaurants (phone eats first!), and keeping up with the tech/design community.
                             Click <a class="about-animate highlight" href="#more-about">here</a> to get to know me better.
-
-                            <br><br>In a rush? Click to refer to my
-                            <a class="highlight" href="#projects">past projects</a>,
-                            <a class="highlight" href="assets/Emily_Liu_Resume.pdf" target="_blank">resume</a>,
-                            or <a class="highlight" href="mailto:emilyliu107@gmail.com">e-mail me</a>.
                             <br><br>Thanks for stopping by!</p>
+                              <!-- start social links -->
+                              <ul class="social">
+                                <li><a href="https://www.linkedin.com/in/emilyliu716/"><i class="icon spin fab fa-linkedin"></i></a></li>
+                                <li><a href="mailto:emilyliu107@gmail.com"><i class="icon spin fas fa-envelope"></i></a></li>
+                                <li><a href="assets/Emily_Liu_Resume.pdf" target="blank"><i class="icon spin fas fa-file"></i></a></li>
+                            </ul>
+                            <!-- end social links -->     
                 </div>
                 <div class="col-lg-5 col-sm-2">
                         <img id="flat-me" src="../emilyliiu.github.io/assets/me.png" alt="me">
@@ -86,7 +88,7 @@
                         interest and optimism in others, am understanding and empathetic of another perspective, and
                         loves intuition in problem solving.
                     </p>
-                    <a class="highlight more-animate" href="#about"> Back </a>
+                    <a class="spin more-animate" href="#about"> <i class="icon fas fa-arrow-circle-left"></i></a>
                 </div>
             </div>
         </div>

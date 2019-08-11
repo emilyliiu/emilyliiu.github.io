@@ -1,10 +1,31 @@
+/* SOCIAL LINKS */
+.social {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.social li {
+  display: inline-block;
+  padding: 10px 15px;
+
+}
+
+/* ABOUT ME */
 #about {
-  margin-top: 120px;
+  margin-top: 140px;
   display: none;
   margin-bottom: 30px !important;
 }
 
-/* Animation about -> more-about */
+#flat-me {
+  width: 95%;
+  float: right;
+  padding-top: 50px;
+}
+
+/* ANIMATE ABOUT->MORE-ABOUT */
 #more-about { 
   height: 25px;
   width: 375px;
@@ -12,12 +33,13 @@
   z-index: 1;
   top: 0; bottom: 0; left: 0; right: 0;
   margin: auto;
-  background-color: #e4e4e4;
+  background-color: #FFF;
+  border: 5px solid #6571A6;
   display: none;
 }
 
 .more-content {
-  /* padding-top: 40px; */
+  padding-top: 40px;
   display: none;
   margin-top: 120px;
   margin-bottom: 150px;
@@ -35,13 +57,8 @@
   transition: 500ms;
 }
 
-#flat-me {
-  width: 95%;
-  float: right;
-  padding-top: 50px;
-}
 
-/* Projects section */
+/* PROJECTS CARDS */
 .cards-list {
   width: 100%;
   display: flex;
@@ -72,7 +89,7 @@
 .card:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 10px 10px 0px #6571A6;
-  transition: 500ms;
+  display: inline-block;
 }
 
 /*  */
