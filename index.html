@@ -2,25 +2,28 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="assets/Logo 4.png">
     <title>Emily Liu</title>
-    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../emilyliiu.github.io/main.css"/>
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="../emilyliiu.github.io/main.css" />
     <link rel="stylesheet" href="../emilyliiu.github.io/index.css">
-    <!-- js -->
+    <!-- ICONS, JS -->
     <script src="https://kit.fontawesome.com/37496dac6b.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="../emilyliiu.github.io/index.js"></script>
-    <!-- Google Fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=Mandali|Ramabhadra&display=swap" rel="stylesheet">
+    <!-- GOGLE FONT  -->
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text|Ramabhadra&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Nav bar-->
+    <!-- NAVBAR -->
     <nav id="mainNavbar" class="navbar navbar-expand-md fixed-top">
         <div class="container">
             <div class="navbar-header collapse navbar-collapse">
@@ -29,43 +32,45 @@
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="#about" class="nav-link"><span class="spin">About</span></a></li>
-                <li><a href="#projects" class="nav-link"><span class="spin">Projects</span></a></li>
-                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank"><span class="spin">Resume</span></a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
             </ul>
         </div>
     </nav>
 
-    
+    <!-- START CONTENT -->
     <div class="container fade-in">
-        
+        <!-- ABOUT ME SECTION -->
         <div id="about">
             <div class="about-content row">
                 <div class="col-lg-6 col-md-9">
-                        <h1>Hello,</h1>
-                        <h2>My name is Emily Liu, <br> nice to e-meet you!</h2> <br>
-                        <p>Studying Global Business and Digital Arts at the University of Waterloo, focusing on HCI,
-                            UX/UI, and dabbling in front-end development. I am a designer who aims to solves
-                            business-oriented problems through creating genuine experiences for the user.
-                            <br><br>
-                            In my free time I enjoy reading books and Medium articles, hiking, trying new
-                            restaurants (phone eats first!), and keeping up with the tech/design community.
-                            Click <a class="about-animate highlight" href="#more-about">here</a> to get to know me better.
-                            <br><br>Thanks for stopping by!</p>
-                              <!-- start social links -->
-                              <ul class="social">
-                                <li><a href="https://www.linkedin.com/in/emilyliu716/"><i class="icon spin fab fa-linkedin"></i></a></li>
-                                <li><a href="mailto:emilyliu107@gmail.com"><i class="icon spin fas fa-envelope"></i></a></li>
-                                <li><a href="assets/Emily_Liu_Resume.pdf" target="blank"><i class="icon spin fas fa-file"></i></a></li>
-                            </ul>
-                            <!-- end social links -->     
+                    <h1>Hello <span class="tilt">&#128075;</span> </h1>
+                    <h2>My name is Emily Liu, <br> nice to e-meet you!</h2>
+                    <p>A designer from Vancouver and studying at the University of Waterloo, I dabble in front-end
+                        development and enjoy solving
+                        business-oriented problems through creating genuine user experiences.
+                        <br><br>
+                        In my free time I love to hike, try new
+                        restaurants (phone eats first), and read about financial scandals!
+                        Click <a class="about-animate highlight" href="#more-about">here</a> to get to know me better.
+                        <br><br>Thanks for stopping by!</p>
+                    <!-- start social icons -->
+                    <ul class="social">
+                        <li><a href="https://www.linkedin.com/in/emilyliu716/"><i
+                                    class="icon tilt fab fa-linkedin"></i></a></li>
+                        <li><a href="mailto:emilyliu107@gmail.com"><i class="icon tilt fas fa-envelope"></i></a></li>
+                        <li><a href="assets/Emily_Liu_Resume.pdf" target="blank"><i
+                                    class="icon tilt fas fa-file"></i></a></li>
+                    </ul>
+                    <!-- end social icons -->
                 </div>
                 <div class="col-lg-5 col-sm-2">
-                        <img id="flat-me" src="../emilyliiu.github.io/assets/me.png" alt="me">
+                    <img id="flat-me" src="../emilyliiu.github.io/assets/me.png" alt="me">
                 </div>
             </div>
         </div>
-
+        <!-- more about me pop up animation -->
         <div id="more-about">
             <div class="row more-content">
                 <div class="container col-lg-8 col-md-10">
@@ -88,84 +93,95 @@
                         interest and optimism in others, am understanding and empathetic of another perspective, and
                         loves intuition in problem solving.
                     </p>
-                    <a class="spin more-animate" href="#about"> <i class="icon fas fa-arrow-circle-left"></i></a>
+                    <a class="tilt more-animate" href="#about"> <i class="icon fas fa-arrow-circle-left"></i></a>
                 </div>
             </div>
         </div>
+        <!-- END ABOUT ME SECTION  -->
 
-        <!-- Projects -->
-        <section id="projects">
-            <div class="row cards-list space">
-                <div class="col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="../emilyliiu.github.io/assets/YFP.png">
-                        </div>
-                        <span class="card-title">
-                            <h3>YFP site redesign</h3>
-                        </span>
-                        <div class="card-content">
-                            <p>Using low and high-fidelity wireframes to redesign the user experience on YFP's website
-                                by
-                                incorporating popular UI design trends while maintaining a professional brand image.</p>
-                        </div>
-                        <span><a class="highlight" href="pages/yfp.html" target="blank">Project details</a></span>
+        <section id="projs" class="space">
+            <div id="proj-container">
+                <div class="card">
+                    <img src="../emilyliiu.github.io/pages/YFP/yfp-feature-img.png" alt="">
+                    <div class="info">
+                        <h3>YFP site redesign</h3>
+                    </div>
+                    <div class="actions">
+                        <a href="pages/yfp.html">
+                            <div class="overlay"></div>
+                            <div class="arrow-container">
+                                <div class="arrow icon"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <div class="card">
+                    <img src="../emilyliiu.github.io/pages/UWMCC/uwmcc-feature-img.png" alt="">
 
-                <div class="col-lg-4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="img-fluid" src="../emilyliiu.github.io/pages/UWMCC/uwmcc-logo.png">
-                        </div>
-                        <span class="card-title">
-                            <h3>UWMCC rebrand</h3>
-                        </span>
-
-                        <div class="card-content">
-                            <p>Currently as an advisor for The University of Waterloo's Management Consulting Club, I
-                                decided rebrand through updating event graphics aesthetics. </p>
-                        </div>
-                        <span><a class="highlight" href="pages/uwmcc.html" target="blank">Project details</a></span>
+                    <div class="info">
+                        <h3>Event Posters</h3>
+                    </div>
+                    <div class="actions">
+                        <a href="pages/uwmcc.html">
+                            <div class="overlay"></div>
+                            <div class="arrow-container">
+                                <div class="arrow icon"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-
-                <div class="col-lg-4">
-                    <div class="card">
-                        <div class="card-image"><img class="img-fluid" src="">
-                        </div>
-                        <span class="card-title">
-                            <h3>Apple Wallet redesign</h3>
-                        </span>
-
-                        <div class="card-content">
-                            <p>Currently a work in progress.</p>
-                        </div>
-                        <span><a class="highlight" href="pages/wallet.html">Project details</a></span>
+                <div class="card">
+                    <img src="pages/Wallet/wallet-feature-img.png" alt="">
+                    <div class="info">
+                        <h3>Apple Wallet redesign</h3>
+                    </div>
+                    <div class="actions">
+                        <a href="pages/wallet.html">
+                            <div class="overlay"></div>
+                            <div class="arrow-container">
+                                <div class="arrow icon"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <div class="info">
+                        <h3>TyltGO</h3>
+                    </div>
+                    <div class="actions">
+                        <a href="#">
+                            <div class="overlay"></div>
+                            <div class="arrow-container">
+                                <div class="arrow icon"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--- Footer section -->
+        <!-- END PROJECT CARDS -->
+
+        <!--- FOOTER -->
         <div class="Footer space">
-                <hr>
-                <p>Say hello at <span><a class="highlight"
-                            href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
-                    <br> <br>
-                    Built with love by Emily Liu – just inspect away!
-                </p>
+            <hr>
+            <p>Say hello at <span><a class="highlight"
+                        href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
+                <br> <br>
+                Built with love by Emily Liu – just inspect away!
+            </p>
         </div>
 
-<!--- JQuery Section sticky navbar-->
-<script>
-    $(function () {
-        $(document).scroll(function () {
-            var $nav = $("#mainNavbar");
-            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-        });
-    });
-</script>
+        <!--- STICK NAVBAR -->
+        <script>
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
 
 </body>
 

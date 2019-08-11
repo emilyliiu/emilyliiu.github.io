@@ -14,7 +14,7 @@
 
 /* ABOUT ME */
 #about {
-  margin-top: 140px;
+  margin-top: 160px;
   display: none;
   margin-bottom: 30px !important;
 }
@@ -22,7 +22,7 @@
 #flat-me {
   width: 95%;
   float: right;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 /* ANIMATE ABOUT->MORE-ABOUT */
@@ -59,37 +59,88 @@
 
 
 /* PROJECTS CARDS */
-.cards-list {
-  width: 100%;
+#proj-container {
+  margin-top: 40px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .card {
-  margin: 30px auto;
-  width: inherit;
-  min-height: 100%;
-  box-shadow: 10px 10px 10px -6px #888;
-  cursor: pointer;
-  transition: 0.4s;
-  padding: 20px;
-}
+  cursor: default;
+  margin: 15px;
+  /* padding: 20px; */
+  position: relative;
+  width: 320px;
+  height: 420px;
+  border-radius: 8px;
 
-.card .card-image {
-  min-height: 200px;
-}
-
-.card .card-title {
-  font-weight: bold;
-  text-align: center;
-  border-radius: 0px 0px 40px 40px;
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: all 200ms ease-out;
 }
 
 .card:hover {
-  transform: scale(0.9, 0.9);
-  box-shadow: 10px 10px 0px #6571A6;
+  transform: scale(1.05);
+  transition: all 200ms ease-out;
+  box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover .overlay {
+  cursor: pointer;
+  bottom: -30px;
+  right: -30px;
+  transition: all 300ms ease-out;
+}
+.card .info {
+  height: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.card .overlay {
+  background-color: #6571A6;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -120px;
+  right: -120px;
+  transition: all 300ms ease-in;
+}
+
+.arrow-action {
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.arrow-container {
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.arrow {
+  color: #FFF;
   display: inline-block;
+  position: relative;
+  font-size: 180%;
+}
+
+.arrow:hover {
+  color: #FFF !important;
+}
+
+/* 318 x 313.5 */
+.card img {
+  height: 70%;
+  width: 100%;
+  object-fit: fill;
 }
 
 /*  */
