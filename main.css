@@ -36,12 +36,14 @@ h3 {
 }
 
 #mainNavbar .nav-link {
-  padding: 0 30px;
+  padding: 0px 30px;
   color: #555;
 }
 
 #mainNavbar .nav-link:hover {
   color: #6571A6;
+  opacity: 0.5;
+  transition: 500ms;
 }
 
 .navbar.scrolled {
@@ -124,11 +126,12 @@ a:visited {
 
 .icon {
   font-size: 25px;
-  color: #36255f;
+  color: #6571A6;
 }
 
 .icon:hover {
-  color: #6571A6;
+  color: #36255f;
+  transition: 500ms;
 }
 
 /* ANIMATIONS */
