@@ -39,17 +39,17 @@
 }
 
 .more-content {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   display: none;
   margin-top: 120px;
   margin-bottom: 150px;
 }
 
 #portrait {
-  float: right;
-  margin-left: 40px;
+  /* float: left; */
+  margin-bottom: 50px;
   box-shadow: 10px 10px 0px #4e3c7c;
-  width: 30%;
+  width: 80%;
 }
 
 #portrait:hover {
