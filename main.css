@@ -1,4 +1,4 @@
-/* Colors:
+/* COLOR PALLET:
 #36255f - dark purple (h1)
 #6571A6 - blue (h2, highlight, hover)
 #555 - gray (h3, body)
@@ -100,9 +100,9 @@ a:visited {
   text-decoration: none;
 }
 
-.highlight:hover {
+/* .highlight:hover {
   color: #fff;
-}
+} */
 
 .container .highlight:hover::after {
   height: 115%;
