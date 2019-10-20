@@ -100,9 +100,9 @@ a:visited {
   text-decoration: none;
 }
 
-/* .highlight:hover {
+.highlight:hover {
   color: #fff;
-} */
+}
 
 .container .highlight:hover::after {
   height: 115%;
