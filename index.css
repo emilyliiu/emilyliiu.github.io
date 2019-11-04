@@ -2,13 +2,12 @@
 .social {
   margin: 0;
   padding: 0;
-  display: inline-block;
   margin-top: 15px;
 }
 
 .social li {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
 
 }
 
@@ -34,12 +33,11 @@
   top: 0; bottom: 0; left: 0; right: 0;
   margin: auto;
   background-color: #FFF;
-  border: 5px solid #6571A6;
+  border: 5px solid #ACA1B2;
   display: none;
 }
 
 .more-content {
-  /* padding-top: 40px; */
   display: none;
   margin-top: 120px;
   margin-bottom: 150px;
@@ -48,12 +46,12 @@
 #portrait {
   /* float: left; */
   margin-bottom: 50px;
-  box-shadow: 10px 10px 0px #4e3c7c;
+  box-shadow: 10px 10px 0px #ACA1B2;
   width: 80%;
 }
 
 #portrait:hover {
-  box-shadow: 13px 13px 0px #6571A6;
+  box-shadow: 13px 13px 0px #333;
   transition: 500ms;
 }
 
@@ -71,13 +69,11 @@
 .card {
   cursor: default;
   margin: 15px;
-  /* padding: 20px; */
   position: relative;
   width: 320px;
   height: 420px;
   border-radius: 8px;
-
-  background-color: #ffffff;
+  background-color: #fff;
   overflow: hidden;
   transition: all 200ms ease-out;
 }
@@ -90,8 +86,8 @@
 
 .card:hover .overlay {
   cursor: pointer;
-  bottom: -30px;
-  right: -30px;
+  bottom: -45px;
+  right: -40px;
   transition: all 300ms ease-out;
 }
 .card .info {
@@ -101,7 +97,7 @@
 }
 
 .card .overlay {
-  background-color: #6571A6;
+  background-color: #ACA1B2;
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -121,7 +117,7 @@
 .arrow-container {
   cursor: pointer;
   position: absolute;
-  bottom: 20px;
+  bottom: 5px;
   right: 20px;
 }
 
@@ -138,9 +134,7 @@
 
 /* 318 x 313.5 */
 .card img {
-  height: 70%;
-  /* width: 100%;
-  object-fit: fill; */
+  height: 65%;
 }
 
 /*  */

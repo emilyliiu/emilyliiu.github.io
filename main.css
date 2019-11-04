@@ -2,6 +2,7 @@
 #36255f - dark purple (h1)
 #6571A6 - blue (h2, highlight, hover)
 #555 - gray (h3, body)
+#ACA1B2
 */
 
 html {
@@ -15,14 +16,15 @@ body p {
 }
 
 h1 {
-  color: #36255f;
+  color: #333;
   font-size: 70px;
   font-weight: bold;
   font-family: 'Ramabhadra', sans-serif;
 }
 
 h2 {
-  color: #6571A6;
+  color: #888;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 h3 {
@@ -31,7 +33,7 @@ h3 {
 
 /* LOGO, NAVBAR, FOOTER */
 .logo {
-  width: 30px;
+  width: 50px;
   display: block;
 }
 
@@ -41,7 +43,7 @@ h3 {
 }
 
 #mainNavbar .nav-link:hover {
-  color: #6571A6;
+  color: #ACA1B2;
   opacity: 0.5;
   transition: 500ms;
 }
@@ -54,13 +56,13 @@ h3 {
 }
 
 .Footer {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
 
 .Footer hr {
-  border: 0.25px solid #6571A6;
-  opacity: 0.2;
+  border: 0.25px solid #ACA1B2;
+  opacity: 0.3;
 }
 
 /* LINKS, HIGHLIGHT ANIMATION */
@@ -72,13 +74,9 @@ a:link {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
 .highlight {
   display: inline-block;
-  color: #6571A6;
+  color: #ACA1B2;
   transition: color 250ms, text-shadow 250ms;
   text-decoration: none;
   position: relative;
@@ -93,9 +91,9 @@ a:visited {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   content: '';
-  width: 100%;
+  width: 110%;
   height: 3px;
-  background-color: #6571A6;
+  background-color: #ACA1B2;
   transition: all 250ms;
   text-decoration: none;
 }
@@ -104,9 +102,9 @@ a:visited {
   color: #fff;
 }
 
-.container .highlight:hover::after {
+.highlight:hover::after {
   height: 115%;
-  width: 115%;
+  width: 105%;
 }
 
 /* SPACING */
@@ -126,18 +124,18 @@ a:visited {
 
 .icon {
   font-size: 25px;
-  color: #6571A6;
+  color: #333;
 }
 
 .icon:hover {
-  color: #36255f;
+  color: #ACA1B2;
   transition: 500ms;
 }
 
 /* ANIMATIONS */
 .tilt:hover {
   display: inline-block;
-  transform:  rotateZ(-20deg);
+  transform:  rotateY(-20deg);
   -webkit-transform: rotateZ(-20deg);
   -moz-transform: rotateZ(-20deg);
   -ms-transform: rotateZ(-20ddeg);
@@ -148,6 +146,7 @@ a:visited {
   -ms-transition: .5s;
   -o-transition: .5s;
 }
+
 /* FADE-IN ANIMATION */
 .fade-in {
   animation: fadeIn ease 2s;
