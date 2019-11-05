@@ -4,14 +4,17 @@
 <head>
     <link rel="icon" href="../assets/Logo 4.png" />
     <title>Emily Liu | UWMCC redesign</title>
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-    <!-- Custom CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../pages/uwmcc.css">
-    <!-- js -->
+    <link rel="stylesheet" href="../isotope.css">
+    <!-- JS -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
+    <script src="../isotope.js"></script>
     <!-- Google Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text|Ramabhadra&display=swap" rel="main.css">
 </head>
@@ -23,7 +26,7 @@
         <div class="container">
             <div class="navbar-header collapse navbar-collapse">
                 <a href="https://www.emilyliu.co" class="navbar-brand">
-                    <img class="logo" src="assets/Logo 4.png" alt="">
+                    <img class="logo" src="../assets/Logo 4.png" alt="">
                 </a>
             </div>
             <ul class="nav navbar-nav">
@@ -34,67 +37,137 @@
         </div>
     </nav>
 
-
     <section class="fade-in proj-header">
-        <img src="../pages/UWMCC/uwmcc-feature-img.png" alt="">
-        <p style="text-align: center;"><b>Tools:</b> Photoshop, Illustrator, PowerPoint</p>
+        <img class="feature" src="../pages/UWMCC/uwmcc-feature-img.png" alt="">
+        <br><br>
+        <p style="text-align: center;"><b>Toolkit:</b> Photoshop, Illustrator, PowerPoint</p>
     </section>
-
 
     <div class="container fade-in space">
         <div class="row">
             <div class="col-lg-6">
-            <h2>Background</h2>
-            <p>The University of Waterloo Management Consulting Club (UWMCC) aims to attract help students acquire the
-                basic skills needed to succeed in pursuing opportunities in the consulting industry. I joined the team
-                in my 1B term as a graphic designer, not knowing what exactly consulting is. Over the term, I realized I
-                love problem solving and working with the team. Since then, I have had the role of Marketing
-                Coordinator, VP Marketing, Case Committee, and Advisor. </p>
+                <h2>Background</h2>
+                <p>The University of Waterloo Management Consulting Club (UWMCC) aims to help students acquire the
+                    skills needed to succeed in pursuing opportunities in the consulting industry.
+                    With a love for problem solving, I joined the exec team and have been: Marketing
+                    Coordinator, VP Marketing, Case Committee, and Advisor.</p>
             </div>
+
             <div class="col-lg-6">
-                    <h2>Why's this in my Portfolio?</h2>
-                    <p>Having been involved since first-year, I felt that my designs for UWMCC really shows my progress. Specifically, with deciding the placement of things for marketing purposes, designing for the targeted audience, and use of typography and whitespace. </p>
-                    </div>
-                    <br>
+                <h2>Why's this in my Portfolio?</h2>
+                <p>I felt these showcased my improvement in Photoshop and Illustrator throughout the past 2 years and
+                    highlights my ability to research and design for a specfic industry.</p>
+            </div>
+
             <div class="col-lg-6">
-                <h2>The Problem</h2>
-                <p>Although UWMCC is well-known on campus, I felt that our marketing materials do not represent a brand
-                    due to a lack of consistency in color and design style.
-                    <br>
-                    Aside from consistency the teal color used is quite dull – when used as a background or overlay
-                    color, it washes out the saturation of other images, resulting in a boring, outdated, or
-                    overly-professional feel.
+                <h2>The Problem:</h2>
+                <p>Although UWMCC events are well-known on campus, I felt our marketing materials lacked branding and
+                    execution process due to:
+                    <ul>
+                        <li>Color palet felt outdated and unwelcoming</li>
+                        <li>Inconsistency in all graphic deliverables </li>
+                        <li>Misconception of what information is most important</li>
+                    </ul>
                 </p>
             </div>
+
             <div class="col-lg-6">
-                <h2>Solution</h2>
-                <p>Over the terms, I began to create different styles of designs for graphic deliverables. I referenced
-                    graphics from MBB and Big 4, played around with different shades of teal, and adopted various styles
-                    from mimicking PowerPoints to something more contemporary. </p>
+                <h2>Solution:</h2>
+                <p>Referencing brand guidelines from MBB, Big 4, and asking around for feedback I decided to:
+                    <ul>
+                        <li>Explore various saturations and brightness of teal</li>
+                        <li>Develope hierarchy by leveraging typography and whitespace</li>
+                    </ul>
+                </p>
             </div>
         </div>
     </div>
 
+    <section id="graphicsIsotope">
+        <div id="filters" class="button-group">
+            <button data-filter=".third">Third year</button>
+            <button data-filter=".second">Second year</button>
+            <button data-filter=".first">First year</button>
+            <button class="current" data-filter="*">Show all</button>
+        </div>
+
+        <div class="container-fluid">
+            <div id="graphics" class="row">
+                <!-- THIRD YEAR -->
+                <div class="item third col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case workshop pt2-3.png">
+                </div>
+                <div class="item third col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case workshop-3.png">
+                </div>
+                <div class="item third col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/UWMCC - 3.png">
+                </div>
+                <div class="item third col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Intro-3.png">
+                </div>
+                <div class="item third col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Office Tour-3.png">
+                </div>
+                <div class="item third col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Tech day-3.png">
+                </div>
+                <!-- SECOND YEAR -->
+                <div class="item second col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case comp-2.png">
+                </div>
+                <div class="item second col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Intro-2.png">
+                </div>
+                <div class="item second col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/STEM-2.png">
+                </div>
+                <div class="item second col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Mentorship-2.png">
+                </div>
+                <div class="item second col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case workshop-2.png">
+                </div>
+                <!-- FIRST YEAR -->
+                <div class="item first col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case comp-1.png">
+                </div>
+                <div class="item first col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case workshop pt2-1.png">
+                </div>
+                <div class="item first col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Case workshop-1.png">
+                </div>
+                <div class="item first col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Intro-1.png">
+                </div>
+                <div class="item first col-sm-3">
+                    <img class="img-fluid" src="../pages/UWMCC/Tech day-1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- ANNUAL CASE COMPETITION -->
-    <div class="description">
+    <!-- <div class="description">
         <h2 class="space">Annual Case Competition</h2>
         <br>
-            <div class="col-lg-6">
-                <p>UWMCC holds an annual case competition where students from all universities can compete. Winter 2018
-                    was my first term on the team, as a marketing director I provided feedback for designs and helped to
-                    promote events on social media.
-                </p>
-                <img class="shadow" src="../pages/UWMCC/w18-case-comp.jpg" alt="">
-            </div>
-            <div class="col-lg-6">
-                <p>In Winter 2019, I was VP Marketing where I was responsible for creating all graphic deliverables.
-                    Following the branding guide and using the previous year’s graphic for reference, I used Photoshop
-                    and
-                    Illustrator to create the following graphics.
-                </p>
-                <img class="shadow" src="../pages/UWMCC/w19-case-comp.jpg" alt="">
-            </div>
+        <div class="col-lg-6">
+            <p>UWMCC holds an annual case competition where students from all universities can compete. Winter 2018
+                was my first term on the team, as a marketing director I provided feedback for designs and helped to
+                promote events on social media.
+            </p>
+            <img class="shadow" src="../pages/UWMCC/w18-case-comp.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+            <p>In Winter 2019, I was VP Marketing where I was responsible for creating all graphic deliverables.
+                Following the branding guide and using the previous year’s graphic for reference, I used Photoshop
+                and
+                Illustrator to create the following graphics.
+            </p>
+            <img class="shadow" src="../pages/UWMCC/w19-case-comp.jpg" alt="">
+        </div>
 
 
         <h4 class="space">Countdown social media posts</h4>
@@ -155,16 +228,10 @@
                 <img class="shadow" src="../pages/UWMCC/Case Comp - FB cover.jpg" alt="">
             </div>
         </div>
-    </div>
-
-    <!-- EVENT GRAPHICS -->
-
-    <!-- INTRO TO CONSULTING -->
-
-    <!-- CASE PREP -->
+    </div> -->
 
     <!-- OTHER -->
-    <div class="space description">
+    <!-- <div class="space description">
         <h2 class="space">Event graphics</h2>
         <p class="content">As per the previous marketing guide UWMCC wanted a crisp and modern aesthetic, using
             geometric or business
@@ -236,7 +303,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--- Footer section -->
     <div class="Footer space">

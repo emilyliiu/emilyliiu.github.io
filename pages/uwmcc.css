@@ -6,31 +6,21 @@
 }
 
 p {
-    margin: 20px;
-    font-size: 85%;
-    color: #7a7a7a;
-}
-
-img {
-    max-width: 80%; 
-    height: auto;
-    margin: 20px;
-    text-align: center;
-    display: inline-block;
-}
-
-h1 {
-    font-size: 2.8rem;
-}
-
-h2 {
-    text-align: center;
-}
-
-h4 {
-    text-align: left;
-}
+    margin-bottom: 25px;
+} 
 
 .description {
     padding: 100px;
+}
+
+.description img {
+  height: 400px;
+}
+
+#graphicsIsotope img {
+  box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
+}
+
+#graphicsIsotope {
+  margin: 100px;
 }

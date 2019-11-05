@@ -1,8 +1,9 @@
 /* COLOR PALLET:
-#36255f - dark purple (h1)
-#6571A6 - blue (h2, highlight, hover)
-#555 - gray (h3, body)
-#ACA1B2
+#333 - Dark gray (H1, p)
+#888 - Light gray (H2)
+#555 - Med gray (H3)
+
+#ACA1B2 - Pastel pink (highlight, hover) 
 */
 
 html {
@@ -10,9 +11,10 @@ html {
 }
 
 /* TEXT */
-body p {
+body p, li {
   font-family: 'Red Hat Text', sans-serif;
-  color: #555;
+  color: #333;
+  font-size: 14px;
 }
 
 h1 {
@@ -29,14 +31,27 @@ h2 {
 
 h3 {
   color: #555;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 25px;
 }
 
-/* LOGO, NAVBAR, FOOTER */
+/* SPACING */
+.space {
+  padding-top: 150px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* LOGO */
 .logo {
   width: 50px;
   display: block;
 }
 
+/* NAVBAR */
 #mainNavbar .nav-link {
   padding: 0px 30px;
   color: #555;
@@ -55,6 +70,7 @@ h3 {
   box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.05);
 }
 
+/* FOOTER */
 .Footer {
   font-size: 12px;
   text-align: center;
@@ -65,7 +81,7 @@ h3 {
   opacity: 0.3;
 }
 
-/* LINKS, HIGHLIGHT ANIMATION */
+/* LINKS, HIGHLIGHT ANIMATION, HOVER */
 a {
   text-decoration: none;
 }
@@ -86,13 +102,13 @@ a:link {
 .highlight::after {
   position: absolute;
   z-index: -1;
-  bottom: -5px;
+  bottom: -1px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   content: '';
-  width: 110%;
-  height: 3px;
+  width: 105%;
+  height: 2px;
   background-color: #ACA1B2;
   transition: all 250ms;
   text-decoration: none;
@@ -107,19 +123,9 @@ a:link {
   width: 105%;
 }
 
-/* SPACING */
-.space {
-  padding-top: 150px;
-}
-
 /* IMAGES, ICONS */
 .shadow {
   box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
-}
-
-.center {
-  display: block;
-  margin: 0 auto;
 }
 
 .icon {
@@ -132,10 +138,14 @@ a:link {
   transition: 500ms;
 }
 
+.feature {
+  width: 400px;
+}
+
 /* ANIMATIONS */
 .tilt:hover {
   display: inline-block;
-  transform:  rotateY(-20deg);
+  transform:  rotateZ(-20deg);
   -webkit-transform: rotateZ(-20deg);
   -moz-transform: rotateZ(-20deg);
   -ms-transform: rotateZ(-20ddeg);
