@@ -25,8 +25,8 @@ h1 {
 }
 
 h2 {
-  color: #888;
-  font-family: 'Red Hat Text', sans-serif;
+  color: #555;
+  font-family: 'Ramabhadra', sans-serif;
 }
 
 h3 {
@@ -47,8 +47,7 @@ h3 {
 
 /* LOGO */
 .logo {
-  width: 50px;
-  display: block;
+  width: 35px;
 }
 
 /* NAVBAR */
