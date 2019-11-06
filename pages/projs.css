@@ -1,0 +1,27 @@
+.feature {
+    float: right;
+  }
+
+.proj-header {
+    margin: 120px 0px 80px 120px;
+}
+
+.description {
+    padding: 50px 150px;
+}
+  
+.gif {
+    padding: 20px 0px;
+  }
+  
+#graphicsIsotope img {
+  box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
+}
+
+#graphicsIsotope {
+  margin: 100px;
+}
+
+.proj-header h1 {
+    font-size: 40px;
+}
