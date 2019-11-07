@@ -12,35 +12,28 @@ html {
 
 /* TEXT */
 body p, li {
-  font-family: 'Red Hat Text', sans-serif;
-  color: #333;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
 }
 
 h1 {
   color: #333;
   font-size: 70px;
-  font-weight: bold;
-  font-family: 'Ramabhadra', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 h2 {
   color: #333;
-  font-family: 'Red Hat Text', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }
 
 h3 {
-  color: #555;
-  font-family: 'Red Hat Text', sans-serif;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-}
-
-h4 {
-  color: #999;
-  font-family: 'Ramabhadra', sans-serif;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* SPACING */
@@ -72,7 +65,7 @@ button:hover {
   transform: scale(1.05);
   transition: all 200ms ease-out;
   box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
-  background-color: #ACA1B2;
+  /* background-color: #ACA1B2; */
 }
 
 a:hover button {
@@ -100,12 +93,12 @@ a:hover button {
 }
 
 /* FOOTER */
-.Footer {
+.footer {
   font-size: 12px;
   text-align: center;
 }
 
-.Footer hr {
+.footer hr {
   border: 0.25px solid #ACA1B2;
   opacity: 0.3;
 }
@@ -158,8 +151,8 @@ a:link {
 }
 
 .icon {
-  font-size: 25px;
-  color: #333;
+  color: #888;
+  font-size: 18px;
 }
 
 .icon:hover {
@@ -168,19 +161,11 @@ a:link {
 }
 
 /* ANIMATIONS */
-.tilt:hover {
-  display: inline-block;
-  transform:  rotateZ(-20deg);
-  -webkit-transform: rotateZ(-20deg);
-  -moz-transform: rotateZ(-20deg);
-  -ms-transform: rotateZ(-20ddeg);
-  -o-transform: rotateZ(-20deg);
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-}
+.enlarge:hover {
+    transform: scale(1.3);
+    transition: all 200ms ease-out;
+    box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
+  }
 
 /* FADE-IN ANIMATION */
 .fade-in {

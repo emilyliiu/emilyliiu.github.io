@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151539766-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-151539766-1');
+    </script>
+
+    <meta content="Emily Liu - UX/Product Designer Portfolio" content="width=device-width, initial-scale=1">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="../emilyliiu.github.io/main.css" />
+    <link rel="stylesheet" href="../emilyliiu.github.io/index.css">
+    <!-- ICONS, JS -->
+    <script src="https://kit.fontawesome.com/37496dac6b.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- GOGLE FONT  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/Logo 4.png">
+    <title>Emily Liu - About Me</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <div class="navbar-header collapse navbar-collapse">
+                <a href="httsp://www.emilyliu.co">
+                    <img class="logo" src="../emilyliiu.github.io/assets/Logo 4.png" alt="logo">
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="../emilyliiu.github.io/about.html" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container fade-in" id="about">
+        <div class="row">
+            <div class="col-lg-4">
+                <img id="portrait" src="assets/Me.JPG" alt="me">
+                <br>
+                <p>
+                    <h2>Emily Liu</h2>
+                    <b>Location:</b> Waterloo, ON
+                    <br>
+                    <b>Occupation:</b> Student
+                </p>
+            </div>
+            <div class="col-lg-8">
+                <h3>Bio</h3>
+                <p>Raised in different cities across China and Canada I can confidently say I have a very
+                    diverse background and am open-minded. As a kid, moving every few years was exciting but
+                    also difficult.
+                    Drawing was my go-to mood booster for any situation. Fast forward a few years, I
+                    somehow found myself perusing a degree in my passion, something I feel very fortunate to
+                    be able to say.
+                    <br><br>
+                    <!-- Currently a UX designer at <a class="highlight" href="https://www.tyltgo.ca/"
+                        target="blank">TyltGO</a>, remote Internet Services and Design intern at <a class="highlight"
+                        href="https://www.linkedin.com/company/factors-group-of-companies/?originalSubdomain=ca"
+                        target="blank">Factors Group of Nutritional Companies</a>,
+                    Beta student at <a class="highlight" href="https://kuzoclass.com/" target="blank">KuzoClass</a>,
+                    Design Director at <a class="highlight" href="https://entsoc.ca/" target="blank">UW
+                        Entrepreneurship Society</a>, and VP
+                    Marketing at <a class="highlight" href="https://www.facebook.com/uwmcc/" target="blank">UW
+                        Management Consulting Club</a>. -->
+                </p>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Likes:</h3>
+                        <ul>
+                            <li>Reading. Favourite genres include finance scandals,
+                                personal development, and chick lit</li>
+                            <li>Exploring new resturants</li>
+                            <li>Walking – I am that one friend who insists everything is within walking
+                                distance
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3>Dislikes:</h3>
+                        <ul>
+                            <li>Winter and cold climates</li>
+                            <li>Food photography, even though the phone eats first</li>
+                        </ul>
+                        <br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>3 words that describes me:</h3>
+                        <ul>
+
+                            <li>Ambitious</li>
+                            <li>Balanced</li>
+                            <li>Empathetic</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3>Goals:</h3>
+                        <ul>
+                            <li>A fun and challenging internship for Summer 2020</li>
+                            <li>Consistent self-improvement </li>
+                            <li>A portfolio that accurately reflects my personality and includes interesting
+                                projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--- FOOTER -->
+         <div class="footer space">
+                <hr>
+                <p>Say hello at: <span><a class="highlight"
+                            href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
+                    <br> <br>
+                    Built with ♡ by Emily Liu
+                </p>
+            </div>
+    
+            <!--- STICK NAVBAR -->
+            <script>
+                $(function () {
+                    $(document).scroll(function () {
+                        var $nav = $("#mainNavbar");
+                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                    });
+                });
+            </script>
+</body>
+
+</html>

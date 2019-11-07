@@ -26,23 +26,23 @@
     <!-- js -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <!-- Google Fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text|Ramabhadra&display=swap" rel="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Nav bar-->
-    <nav id="mainNavbar" class="navbar navbar-expand-md fixed-top">
+<!-- NAVBAR -->
+<nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
         <div class="container">
             <div class="navbar-header collapse navbar-collapse">
-                <a href="https://www.emilyliu.co" class="navbar-brand">
+                <a href="httsp://www.emilyliu.co">
                     <img class="logo" src="../assets/Logo 4.png" alt="logo">
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="https://emilyliu.co/#about" class="nav-link">About</a></li>
-                <li><a href="https://emilyliu.co/#projects" class="nav-link">Projects</a></li>
-                <li><a href="../assets/Emily_Liu_Resume.pdf" class="nav-link" target="_blank">Resume</a></li>
+                <li><a href="../emilyliiu.github.io/about.html" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
             </ul>
         </div>
     </nav>
@@ -154,24 +154,25 @@
                     </div>
                 </div>
 
-                <!--- Footer section -->
-                <div class="Footer space">
-                    <hr>
-                    <p>Say hello at <span><a class="highlight"
-                                href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
-                        <br> <br>
-                        Built with love by Emily Liu – just inspect away!
-                    </p>
-                </div>
-                <!--- JQuery Section sticky navbar-->
-                <script>
-                    $(function () {
-                        $(document).scroll(function () {
-                            var $nav = $("#mainNavbar");
-                            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                        });
+        <!--- FOOTER -->
+        <div class="footer space">
+                <hr>
+                <p>Say hello at: <span><a class="highlight"
+                            href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
+                    <br> <br>
+                    Built with ♡ by Emily Liu
+                </p>
+            </div>
+    
+            <!--- STICK NAVBAR -->
+            <script>
+                $(function () {
+                    $(document).scroll(function () {
+                        var $nav = $("#mainNavbar");
+                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
                     });
-                </script>
+                });
+            </script>
 
 </body>
 

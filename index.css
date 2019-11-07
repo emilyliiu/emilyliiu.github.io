@@ -13,8 +13,7 @@
 
 /* ABOUT ME */
 #about {
-  margin-top: 160px;
-  display: none;
+  margin-top: 150px;
   margin-bottom: 30px !important;
 }
 
@@ -24,27 +23,9 @@
   padding-top: 20px;
 }
 
-/* ANIMATE ABOUT->MORE-ABOUT */
-#more-about { 
-  height: 25px;
-  width: 375px;
-  position: absolute;
-  z-index: 1;
-  top: 0; bottom: 0; left: 0; right: 0;
-  margin: auto;
-  background-color: #FFF;
-  border: 5px solid #ACA1B2;
-  display: none;
-}
-
-.more-content {
-  display: none;
-  margin-top: 120px;
-  margin-bottom: 150px;
-}
+/* MORE-ABOUT */
 
 #portrait {
-  /* float: left; */
   margin-bottom: 50px;
   box-shadow: 10px 10px 0px #ACA1B2;
   width: 80%;
@@ -64,7 +45,7 @@
   cursor: default;
   margin: 30px;
   position: relative;
-  height: 500px;
+  max-height: 540px;
   background-color: #fff;
   overflow: hidden;
   transition: all 200ms ease-out;
@@ -77,6 +58,19 @@
 
 .card img {
   height: 65%;
+}
+
+.tags{
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+
+.tags span {
+  background: #eee;
+  color: #999;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 2px;
 }
 
 .card:hover {
