@@ -45,10 +45,11 @@
   cursor: default;
   margin: 30px;
   position: relative;
-  max-height: 540px;
+  max-height: 500px;
   background-color: #fff;
   overflow: hidden;
   transition: all 200ms ease-out;
+  padding: 0px;
 }
 
 .card .info {

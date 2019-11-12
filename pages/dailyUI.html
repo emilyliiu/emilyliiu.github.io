@@ -31,8 +31,8 @@
 
 <body>
 
-<!-- NAVBAR -->
-<nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
         <div class="container">
             <div class="navbar-header collapse navbar-collapse">
                 <a href="https://www.emilyliu.co">
@@ -48,72 +48,83 @@
     </nav>
 
     <section class="fade-in proj-header row">
-            <div class="col-lg-4 col-md-9">
-                <h1>Daily UI Challenges</h1>
-                <br><br>
-                <p>Commitment to designing something new every day</p>
-                    <div class="col-lg-6">
-                        <h4>Toolkit:</h4>
-                        <ul>
-                            <li>Photoshop</li>
-                            <li>Figma</li>
-                            <li>Illustrator</li>
-                            <li>Adobe XD</li>
-                        </ul>
-                </div>
+        <div class="col-lg-4 col-md-9">
+            <h1>Daily UI Challenges</h1>
+            <br><br>
+            <p>Expanding my creativity while exploring UI trends everyday.</p>
+            <div class="col-lg-6">
+                <h4>Toolkit:</h4>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Figma</li>
+                    <li>Illustrator</li>
+                    <li>Adobe XD</li>
+                </ul>
             </div>
-            <div class="col-lg-7 col-md-2 fade-in">
-                <b>Currently being updated! Sorry for the inconvenience :(</b>
-            </div>
-        </section>
-        <hr>
+        </div>
+        <div class="col-lg-7 col-md-2 fade-in">
+            <b>Currently being updated! Sorry for the inconvenience :(</b>
+        </div>
+    </section>
+    <hr>
 
     <div class="container fade-in">
-        <h2>Overview</h2>
-        <p>Wanting to become a better designer and explore various UI trends, I thought what better way to accomplish this than to design more. However, I was struggling with coming up with ideas for a single landing page. Instead, I was ideating complicated solutions to my everyday pain-points (a case study for this is coming soon!) by designing apps/websites. Promted by <a class="highlight" href="https://www.dailyui.co/">Daily UI</a>, I began to design a simple landing page everyday for 100 days. 
-        </p>
+            <h2>Overview</h2>
+       <div class="row">
+            <div class="col-lg-6"> 
+        
+        <p>I thought what better way to improve my design skills and familarize myself with various trends than to practice designing more. 
+            Promted by <a class="highlight" href="https://www.dailyui.co/">Daily UI</a>, I spend Summer '19 creating a simple landing page everyday for 100 days. 
+                </p>
+    </div>
+    <div class="col-lg-6">
+<p>Wanting to apply my skills practically, each design is crafted for an existing company. Treating each Daily UI as a client meant
+    I got to explore a branding guideline while learning about a new company each day, satisfying both my interest in business and passion in design.
+</p>
+    </div>
+</div>
+    </div>
+
+    <section>
+        <div class="container">
+
+            <div class="col-lg-9 space">
+                <h3>001 - Landing Page</h3>
+                <iframe src="../pages/DailyUI/DailyUI-001.mp4" frameborder="0"></iframe>
+            </div>
+
+
+            <div class="col-lg-9 space">
+                <h3>008 - 404 Error Page</h3>
+                <img class="img-fluid shadow" src="../pages/DailyUI/DailyUI-008.png" alt="">
+            </div>
+
+
+            <div class="col-lg-9 space">
+                <h3>040 - Recipe</h3>
+                <img class="img-fluid shadow" src="../pages/DailyUI/DailyUI-040.png" alt="">
+            </div>
         </div>
-
-        <section>
-                <div class="container">
-                        
-                        <div class="col-lg-9 space">
-                                <h3>001 - Landing Page</h3>
-                            <iframe src="../pages/DailyUI/DailyUI-001.mp4" frameborder="0"></iframe>
-                        </div>
-                    
-
-                    <div class="col-lg-9 space">
-                            <h3>008 - 404 Error Page</h3>
-                        <img class="img-fluid shadow" src="../pages/DailyUI/DailyUI-08.png" alt="">
-                    </div>
-
-                        
-                        <div class="col-lg-9 space">
-                                <h3>040 - Recipe</h3>
-                            <img class="img-fluid shadow" src="../pages/DailyUI/DailyUI-40.png" alt="">
-                        </div>
-                </div>
 
         <!--- FOOTER -->
         <div class="footer space">
-                <hr>
-                <p>Say hello at: <span><a class="highlight"
-                            href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
-                    <br> <br>
-                    Built with ♡ by Emily Liu
-                </p>
-            </div>
-    
-            <!--- STICK NAVBAR -->
-            <script>
-                $(function () {
-                    $(document).scroll(function () {
-                        var $nav = $("#mainNavbar");
-                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                    });
+            <hr>
+            <p>Say hello at: <span><a class="highlight"
+                        href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
+                <br> <br>
+                Built with ♡ by Emily Liu
+            </p>
+        </div>
+
+        <!--- STICK NAVBAR -->
+        <script>
+            $(function () {
+                $(document).scroll(function () {
+                    var $nav = $("#mainNavbar");
+                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
                 });
-            </script>
+            });
+        </script>
 
 </body>
 
