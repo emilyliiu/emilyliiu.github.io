@@ -31,8 +31,8 @@
 
 <body>
 
-<!-- NAVBAR -->
-<nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
         <div class="container">
             <div class="navbar-header collapse navbar-collapse">
                 <a href="https://www.emilyliu.co">
@@ -42,30 +42,30 @@
             <ul class="nav navbar-nav">
                 <li><a href="../emilyliiu.github.io/about.html" class="nav-link">About</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
+                <li><a href="../assets/Emily_Liu_Resume.pdf" class="nav-link" target="blank">Resume</a></li>
             </ul>
         </div>
     </nav>
 
     <section class="fade-in proj-header row">
-            <div class="col-lg-4 col-md-9">
-                <h1>Apple Wallet Redesign</h1>
-                <br><br>
-                <p>Breaking down and recreating the Wallet experience.</p>
-                    <div class="col-lg-6">
-                        <h4>Toolkit:</h4>
-                        <ul>
-                            <li>Photoshop</li>
-                            <li>Figma</li>
-                            <li>Illustrator</li>
-                        </ul>
-                </div>
+        <div class="col-lg-4 col-md-9">
+            <h1>Apple Wallet Redesign</h1>
+            <br><br>
+            <p>Breaking down and recreating the Wallet experience.</p>
+            <div class="col-lg-6">
+                <h4>Toolkit:</h4>
+                <ul>
+                    <li>Photoshop</li>
+                    <li>Figma</li>
+                    <li>Illustrator</li>
+                </ul>
             </div>
-            <div class="col-lg-7 col-md-2 fade-in">
-                <img class="feature img-fluid" src="../pages/Wallet/wallet-feature-img.png" alt="">
-            </div>
-        </section>
-        <hr>
+        </div>
+        <div class="col-lg-7 col-md-2 fade-in">
+            <img class="feature img-fluid" src="../pages/Wallet/wallet-feature-img.png" alt="">
+        </div>
+    </section>
+    <hr>
 
     <div class="container fade-in">
         <h2>Overview</h2>
@@ -104,43 +104,27 @@
                         <img class="img-fluid shadow" src="../pages/Wallet/ideation.png" alt="">
                     </div>
                     <div class="col-lg-6">
-
-                    </div>
-                </div>
-
-                <div class="row space">
-                    <div class="col-lg-4">
-                    </div>
-                    <div class="col-lg-8">
                         <img class="img-fluid shadow" src="../pages/Wallet/wf-2.png" alt="">
                     </div>
                 </div>
 
                 <div class="row space">
-                    <div class="col-lg-5">
-                        <img class="img-fluid shadow" src="../pages/Wallet/ideation-2.png" alt="">
-                    </div>
-                    <div class="col-lg-7">
-
-                    </div>
-                </div>
-
-                <div class="row space">
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                         <img class="img-fluid shadow" src="../pages/Wallet/wf-final.png" alt="">
                     </div>
-                    <div class="col-lg-4">
-                        <p></p>
+                    <div class="col-lg-6">
+                        <img class="img-fluid shadow" src="../pages/Wallet/ideation-2.png" alt="">
+
                     </div>
                 </div>
 
-                <div class="row space">
+                <!-- <div class="row space">
                     <div class="col-lg-4">
                     </div>
                     <div class="col-lg-8">
                         <img class="img-fluid shadow" src="../pages/Wallet/expenses-layout.png" alt="">
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row space">
                     <div class="col-lg-3">
@@ -153,26 +137,44 @@
                         <img class="img-fluid shadow" src="../pages/Wallet/cards-3.png" alt="">
                     </div>
                 </div>
+        </section>
 
-        <!--- FOOTER -->
-        <div class="footer space">
-                <hr>
-                <p>Say hello at: <span><a class="highlight"
-                            href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
-                    <br> <br>
-                    Built with ♡ by Emily Liu
-                </p>
+        <div>
+            <img class="space img-fluid shadow" src="../pages/Wallet/WF3.png" alt="">
+        </div>
+
+        <div class="row space">
+            <div class="col-lg-3">
+                <img class="img-fluid shadow" src="../pages/Wallet/cards.gif" alt="">
             </div>
-    
-            <!--- STICK NAVBAR -->
-            <script>
-                $(function () {
-                    $(document).scroll(function () {
-                        var $nav = $("#mainNavbar");
-                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                    });
-                });
-            </script>
+            <div class="col-lg-3">
+                <img class="img-fluid shadow" src="../pages/Wallet/payment.gif" alt="">
+
+            </div>
+        </div>
+
+    </div>
+    </section>
+    </div>
+
+    <!--- FOOTER -->
+    <div class="footer space">
+        <hr>
+        <p>Say hello at: <span><a class="highlight" href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
+            <br> <br>
+            Built with ♡ by Emily Liu
+        </p>
+    </div>
+
+    <!--- STICK NAVBAR -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 
 </body>
 
