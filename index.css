@@ -12,10 +12,7 @@
 }
 
 /* ABOUT ME */
-.container {
-  padding: 0px 150px;
 
-}
 
 #about {
   margin-top: 150px;
@@ -115,5 +112,11 @@
   .cards-list {
     flex-direction: column;
     padding: 35px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .container {
+    padding: 0px 150px;
   }
 }

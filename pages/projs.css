@@ -3,9 +3,7 @@
     margin: 140px 0px 100px 140px;
 }
 
-.description {
-    padding: 50px 150px;
-}
+
   
 h4 {
     text-align: center;
@@ -38,3 +36,10 @@ img {
     position: absolute;
     z-index: 1;
 }
+
+/*  */
+@media (min-width: 1300px) {
+    .description {
+        padding: 50px 150px;
+    }
+  }

@@ -41,22 +41,6 @@ h3 {
   text-align: center;
 }
 
-/* BUTTON */
-button {
-  border: 2px solid #ACA1B2;
-  border-radius: 50px;
-  padding: 10px 15px;
-}
-
-a button {
-  color: #ACA1B2;
-}
-
-button:hover {
-  transform: scale(1.05);
-  transition: all 200ms ease-out;
-  box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
-}
 
 /* NAVBAR */
 #mainNavbar a {
@@ -185,5 +169,13 @@ a:link {
 
   100% {
     opacity: 1;
+  }
+}
+
+/*  */
+@media only screen and (max-width: 540px) {
+  img {
+    flex-direction: column;
+    padding: 35px;
   }
 }
