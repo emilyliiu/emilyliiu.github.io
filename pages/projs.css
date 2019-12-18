@@ -7,6 +7,10 @@
     padding: 50px 150px;
 }
   
+h4 {
+    text-align: center;
+}
+
 #graphicsIsotope img {
   box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
 }
@@ -17,4 +21,20 @@
 
 .proj-header h1 {
     font-size: 40px;
+}
+
+img {
+    z-index: 2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.enlarge:hover {
+    transition:transform 0.25s ease;
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    z-index: 1;
 }

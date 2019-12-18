@@ -12,29 +12,21 @@
 }
 
 /* ABOUT ME */
-#about {
-  margin-top: 150px;
-  margin-bottom: 30px !important;
+.container {
+  padding: 0px 150px;
+
 }
 
-#flat-me {
-  width: 95%;
-  padding-top: 20px;
-  text-align: right;
+#about {
+  margin-top: 150px;
 }
 
 /* MORE-ABOUT */
 
 #portrait {
   margin-bottom: 50px;
-  box-shadow: 10px 10px 0px #ACA1B2;
-  width: 80%;
 }
 
-#portrait:hover {
-  box-shadow: 13px 13px 0px #333;
-  transition: 500ms;
-}
 
 /* PROJECTS CARDS */
 #projects {
@@ -45,7 +37,7 @@
   cursor: default;
   margin: 30px;
   position: relative;
-  max-height: 500px;
+  max-height: 520px;
   background-color: #fff;
   overflow: hidden;
   transition: all 200ms ease-out;
@@ -58,13 +50,9 @@
 }
 
 .card img {
-  height: 65%;
+  height: 62%;
 }
 
-.tags{
-  justify-content: space-around;
-  padding: 10px 0px;
-}
 
 .tags span {
   background: #eee;

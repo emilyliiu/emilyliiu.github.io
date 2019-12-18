@@ -17,20 +17,18 @@ body p, li {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
 h2 {
-  color: #555;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
   font-weight: 700;
 }
 
@@ -41,11 +39,6 @@ h3 {
 
 .center {
   text-align: center;
-}
-
-/* LOGO */
-.logo {
-  width: 35px;
 }
 
 /* BUTTON */
@@ -63,19 +56,18 @@ button:hover {
   transform: scale(1.05);
   transition: all 200ms ease-out;
   box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
-  /* background-color: #ACA1B2; */
 }
 
 /* NAVBAR */
-#mainNavbar .nav-link {
-  padding: 0px 30px;
-  color: #555;
+#mainNavbar a {
+  margin-top: 5px;
+  padding: 0px 10px;
+  color: #888;
 }
 
-#mainNavbar .nav-link:hover {
-  color: #ACA1B2;
-  opacity: 0.5;
-  transition: 500ms;
+#mainNavbar a:hover {
+  color: #000;
+  transition: 800ms;
 }
 
 .navbar.scrolled {
@@ -92,7 +84,7 @@ button:hover {
 }
 
 .footer hr {
-  border: 0.25px solid #ACA1B2;
+  border: 0.25px solid #888;
   opacity: 0.3;
 }
 
@@ -107,7 +99,7 @@ a:link {
 
 .highlight {
   display: inline-block;
-  color: #ACA1B2;
+  color: #888;
   transition: color 250ms, text-shadow 250ms;
   text-decoration: none;
   position: relative;
@@ -123,18 +115,18 @@ a:link {
   transform: translateX(-50%);
   content: '';
   height: 1px;
-  background-color: #ACA1B2;
+  background-color: rgba(0, 0, 0, 0.13);
   transition: all 250ms;
   text-decoration: none;
 }
 
 .highlight:hover {
-  color: #fff;
+  color: #000;
 }
 
 .highlight:hover::after {
-  height: 110%;
-  width: 105%;
+  height: 60%;
+  width: 100%;
 }
 
 /* IMAGES, ICONS */
@@ -143,12 +135,12 @@ a:link {
 }
 
 .icon {
-  color: rgb(0, 0, 0);
+  color: #888;
   font-size: 18px;
 }
 
 .icon:hover {
-  color: #ACA1B2;
+  color: #000;
   transition: 500ms;
 }
 
