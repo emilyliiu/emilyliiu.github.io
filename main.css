@@ -16,22 +16,17 @@ body p, li {
   color: #333;
 }
 
-h1 {
-  font-size: 40px;
+h1 h2 h3 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+.caption {
+  font-style: italic;
+  color: #888;
+  font-size: 80%;
+  text-align: center;
 }
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-}
-
 /* SPACING */
 .space {
   padding-top: 150px;
