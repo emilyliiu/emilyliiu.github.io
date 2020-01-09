@@ -26,14 +26,14 @@ img {
     margin-right: auto;
 }
 
-.enlarge:hover {
+/* .enlarge:hover {
     transition:transform 0.25s ease;
     -webkit-transform:scale(1.5); 
     transform:scale(1.5);
     box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
     position: absolute;
     z-index: 1;
-}
+} */
 
 /*  */
 @media (min-width: 1300px) {
