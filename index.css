@@ -25,24 +25,25 @@
   cursor: default;
   margin: 30px;
   position: relative;
-  max-height: 520px;
   background-color: #fff;
   overflow: hidden;
   transition: all 200ms ease-out;
   padding: 0px;
 }
 
-.card .info {
-  height: 30%;
+.info {
   padding: 20px;
 }
 
 .tags span {
-  background: #eee;
-  color: #999;
-  padding: 5px 10px;
-  border-radius: 5px;
-  margin-right: 2px;
+  background: rgba(0, 123, 255, 0.1);
+  color: #007bff;
+  padding: 2px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  border: 1px solid #007bff;
+  font-size: 80%;
+  opacity: 0.8;
 }
 
 .card:hover {
@@ -51,22 +52,9 @@
   box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
 }
 
-.card:hover .overlay {
-  cursor: pointer;
-  bottom: -45px;
-  right: -40px;
-  transition: all 300ms ease-out;
-}
-
-.card .overlay {
-  background-color: #333;
-  height: 130px;
-  /* width: 130px; */
-  border-radius: 50%;
-  position: absolute;
-  bottom: -190px;
-  right: -190px;
-  transition: all 300ms ease-in;
+/* More about me */
+#more-about {
+  padding-top: 100px;
 }
 
 /*  */
