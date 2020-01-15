@@ -30,7 +30,7 @@
     <script src="../isotope.js"></script>
     <script src="https://kit.fontawesome.com/37496dac6b.js"></script>
     <!-- Google Fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Barlow:400,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,12 +39,12 @@
     <nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
             <div class="container">
                 <a class="highlight" href="https://www.emilyliu.co">
-                    Emily Liu
+    Emily Liu
                 </a>
                 <div>
-                        <a href="../about.html" class="highlight">About</a>
-                    <a href="https://emilyliu.co/#projects" class="highlight">Projects</a>
-                    <a href="https://emilyliu.co/#fun" class="highlight">Fun</a>
+                    <a href="#more-about" class="highlight">About</a>
+                    <a href="#projects" class="highlight">Projects</a>
+                    <a href="#fun" class="highlight">Fun</a>
                     <a href="../assets/Emily_Liu_Resume.pdf" class="highlight" target="blank">Resume</a>
                 </div>
             </div>
@@ -71,21 +71,21 @@
     </section>
     <hr>
 
-<div class="container">
-    <div class="description fade-in space">
-    
-                <h2>Background</h2>
-                <p>The University of Waterloo Management Consulting Club (UWMCC) aims to help students acquire the
-                    skills needed to succeed in pursuing opportunities in the consulting industry.
-                    With a love for problem solving, I joined the exec team and have been: Marketing
-                    Coordinator, VP Marketing, Case Committee, and Advisor.</p>
-                <h2>Why's this in my Portfolio?</h2>
-                <p>I felt these showcased my improvement in Photoshop and Illustrator throughout the past 2 years and
-                    highlights my ability to research and design for a specfic industry.</p>
-            </div>
-        </div>
+    <div class="container">
+        <div class="description fade-in space">
 
-            <!-- <div class="col-lg-6">
+            <h2>Background</h2>
+            <p>The University of Waterloo Management Consulting Club (UWMCC) aims to help students acquire the
+                skills needed to succeed in pursuing opportunities in the consulting industry.
+                With a love for problem solving, I joined the exec team and have been: Marketing
+                Coordinator, VP Marketing, Case Committee, and Advisor.</p>
+            <h2>Why's this in my Portfolio?</h2>
+            <p>I felt these showcased my improvement in Photoshop and Illustrator throughout the past 2 years and
+                highlights my ability to research and design for a specfic industry.</p>
+        </div>
+    </div>
+
+    <!-- <div class="col-lg-6">
                 <h2>The Problem:</h2>
                 <p>Although UWMCC events are well-known on campus, I felt our marketing materials lacked branding and
                     execution process due to:
@@ -106,7 +106,7 @@
                     </ul>
                 </p>
             </div> -->
-        </div>
+    </div>
     </div>
 
     <section id="graphicsIsotope">
@@ -332,31 +332,47 @@
     </div> -->
 
     <div class="space container">
-            <a class="highlight" href="../pages/dailyUI.html"><i class="fas fa-long-arrow-alt-left"></i>PREVIOUS <br>DailyUI - UI Design</a>
-           <span style="text-align: right; float:right;">
-               <a class="highlight" href="../pages/yfp.html" class="highlight">NEXT <i class="fas fa-long-arrow-alt-right"></i><br>YFP - Web Redesign</a>
-           </span> 
-        </div>
+        <a class="highlight" href="../pages/dailyUI.html"><i class="fas fa-long-arrow-alt-left"></i>PREVIOUS <br>DailyUI
+            - UI Design</a>
+        <span style="text-align: right; float:right;">
+            <a class="highlight" href="../pages/yfp.html" class="highlight">NEXT <i
+                    class="fas fa-long-arrow-alt-right"></i><br>YFP - Web Redesign</a>
+        </span>
+    </div>
 
     <!--- FOOTER -->
-    <div class="footer space">
-            <hr>
-            <p>Say hello at: <span><a class="highlight"
-                        href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a></span>
-                <br> <br>
-                Built with ♡ by Emily Liu
-            </p>
+    <div class="footer">
+        <hr>
+        <div class="row">
+            <div class="col-lg-4">
+                Say hello at: <br>
+                <a class="highlight" href="mailto:emilyliu107@gmail.com">emilyliu107@gmail.com</a>
+            </div>
+
+            <div class="col-lg-4">
+                Built with ❤ by Emily Liu <br> <span style="color:#888"> ux + product designer </span>
+
+            </div>
+
+            <div class="col-lg-4">
+                Find me on: <br>
+                <a class="highlight" href="https://www.linkedin.com/in/emilyliu716/" target="blank">
+                    LinkedIn</a>
+                <a class="highlight" href="https://www.instagram.com/emilyliu.co" target="blank">Instagram</a>
+                <a class="highlight" href="https://www.facebook.com/eliu16" target="blank">Facebook</a>
+            </div>
         </div>
 
-        <!--- STICK NAVBAR -->
-        <script>
-            $(function () {
-                $(document).scroll(function () {
-                    var $nav = $("#mainNavbar");
-                    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                });
+    </div>
+    <!--- STICK NAVBAR -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
             });
-        </script>
+        });
+    </script>
 
 </body>
 
