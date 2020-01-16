@@ -35,6 +35,14 @@
   padding: 20px;
 }
 
+.social a{
+  color: #000;
+}
+
+.social a:hover {
+  color: #007bff;
+}
+
 .tags span {
   background: rgba(0, 123, 255, 0.1);
   color: #007bff;
@@ -54,7 +62,9 @@
 
 /* More about me */
 #more-about {
-  padding-top: 100px;
+  background-color: aliceblue;
+  margin: 50px 0px;
+  padding: 80px;
 }
 
 /*  */
@@ -70,3 +80,5 @@
     padding: 0px 150px;
   }
 }
+
+
