@@ -12,9 +12,9 @@
 }
 
 #portrait:hover {
-  opacity: 1;
-  transition: 300ms ;
-}
+    transform: scale(1.05);
+    transition: all 200ms ease-out;
+  }
 
 /* PROJECTS CARDS */
 #projects {
@@ -40,16 +40,15 @@
 }
 
 .social a:hover {
-  color: #007bff;
+  color: #E27092;
 }
 
 .tags span {
-  background: rgba(0, 123, 255, 0.1);
-  color: #007bff;
+  color: #E27092;
   padding: 2px 10px;
   border-radius: 4px;
   margin-right: 10px;
-  border: 1px solid #007bff;
+  border: 1px solid #E27092;
   font-size: 80%;
   opacity: 0.8;
 }
@@ -62,7 +61,6 @@
 
 /* More about me */
 #more-about {
-  background-color: aliceblue;
   margin: 50px 0px;
   padding: 80px;
 }

@@ -1,11 +1,3 @@
-/* COLOR PALLET:
-#333 - Dark gray (H1, p)
-#888 - Light gray (H2)
-#555 - Med gray (H3)
-
-#ACA1B2 - Pastel pink (highlight, hover) 
-*/
-
 html {
   scroll-behavior: smooth;
 }
@@ -51,7 +43,7 @@ h1 {
 }
 
 #mainNavbar a:hover {
-  color: #007bff;
+  color: #E27092;
 }
 
 .navbar.scrolled {
@@ -76,6 +68,7 @@ font-size: 90%;
 
 .footer a {
   padding: 0px 10px;
+  color: #888;
 }
 
 /* SOCIAL LINKS */
@@ -102,7 +95,7 @@ a:link {
 
 .highlight {
   display: inline-block;
-  color:rgb(184, 184, 184);
+  color:#E27092;
   transition: color 300ms, text-shadow 300ms;
   text-decoration: none;
   position: relative;
@@ -118,13 +111,13 @@ a:link {
   transform: translateX(-50%);
   content: '';
   height: 1px;
-  background-color: rgba(0, 123, 255, 0.2); 
+  background-color:rgb(228, 82, 88, 0.2); 
   transition: 300ms;
   text-decoration: none;
 }
 
 .highlight:hover {
-  color: #007bff;
+  color: #E27092;;
   /* font-weight: bold; */
   transition: all 300ms;
 }
