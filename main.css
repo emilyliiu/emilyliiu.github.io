@@ -7,12 +7,13 @@ body p, li {
   font-family: 'Barlow', sans-serif;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   font-weight: bold;
+  font-family: 'Poppins';
 }
 
 .caption {
@@ -28,8 +29,8 @@ h1 {
 
 /* NAVBAR */
 #mainNavbar a {
-  margin-top: 10px;
-  padding: 0px 20px;
+  margin: 10px;
+  /* padding: 0px 10px; */
   color: #000;
   font-family: 'Poppins', sans-serif;
 }
@@ -41,22 +42,17 @@ h1 {
 #mainNavbar:hover {
   opacity: 1;
   transition: 500ms ease-in-out;
+  background: #fff;
+  box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.02);
 }
 
 #mainNavbar a:hover {
   color: #E27092;
 }
 
-.navbar.scrolled {
-  background: #fff;
-  opacity: 0.9;
-  transition: background 800ms;
-  box-shadow: 0 0px 20px 1px rgba(0, 0, 0, 0.05);
-}
-
 /* FOOTER */
 .footer {
-  padding: 100px;
+  padding: 50px;
 text-align: center;
 font-size: 90%;
 }
