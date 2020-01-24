@@ -26,7 +26,7 @@
 }
 
 .item {
-    padding: 10px;
+    padding: 20px;
 }
 
 button:focus {
@@ -34,13 +34,13 @@ button:focus {
 }
 
 #filters {
-    padding: 30px;
+    padding: 10px;
 }
 
 #filters button {
     color: #888;
     padding: 5px 15px;
-    border-radius: 50px;
+    border-radius: 5px;
     display: inline-block;
 }
 

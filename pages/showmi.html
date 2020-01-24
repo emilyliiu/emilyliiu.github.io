@@ -31,18 +31,17 @@
 </head>
 
 <body>
-   <!-- NAVBAR -->
-   <nav id="mainNavbar" class="navbar navbar-expand-sm fixed-top">
-        <div class="container">
-            <a class="highlight" href="https://www.emilyliu.co">
-                Emily Liu
-            </a>
-            <div>
-                <a href="https://emilyliu.co/#about" class="highlight">About</a>
-                <a href="https://emilyliu.co/#projects" class="highlight">Projects</a>
-                <a href="https://emilyliu.co/#fun" class="highlight">Fun</a>
-                <a href="../assets/Emily_Liu_Resume.pdf" class="highlight" target="blank">Resume</a>
-            </div>
+
+    <!-- NAVBAR -->
+    <nav id="mainNavbar" class="navbar-expand-sm fixed-top">
+        <a class="highlight" href="https://www.emilyliu.co">Emily Liu
+        </a>
+        <div style="float:right">
+            <a href="#more-about" class="highlight">About</a>
+            <a href="#projects" class="highlight">Projects</a>
+            <a href="#fun" class="highlight">Fun</a>
+            <a href="../emilyliiu.github.io/assets/Emily_Liu_Resume.pdf" class="highlight" target="blank">Resume</a>
+        </div>
         </div>
     </nav>
 
@@ -61,6 +60,10 @@
                 </div>
 
                 <div class="col-lg-3">
+                        <p><b>Timeframe:</b><br>1 month </p>
+                    </div>
+
+                <div class="col-lg-3">
                     <p><b>Tools:</b><br> Figma, Illustrator, Principle </p>
                 </div>
 
@@ -68,9 +71,7 @@
                     <p><b>Deliverables:</b><br>User Research, UX/UI Design, Hi-fidelity Mockup </p>
                 </div>
 
-                <div class="col-lg-3">
-                    <p><b>Timeframe:</b><br>1 month </p>
-                </div>
+                
             </div>
         </div>
         <div class="col-lg-5 col-md-5 fade-in">
@@ -86,7 +87,8 @@
             <h2>A familiar problem </h2>
             <p>As a huge fan of concerts and festivals, I haven’t found a solution for efficiently tracking all the
                 artists I’ve seen or sharing high-quality media with my friends. Currently, my friends and I save
-                screenshots of the lineup to keep track of who we’ve seen or use social media platforms, which often reduces
+                screenshots of the lineup to keep track of who we’ve seen or use social media platforms, which often
+                reduces
                 video quality, to share content.
             </p>
         </div>
@@ -94,174 +96,200 @@
         <!-- AUDIENCE -->
         <div class="description">
             <h3>Defining the audience</h3>
-            <p>Users were separated into 3 user groups to better understand the needs/goals and how different each group would interact with the app.  
-                <br><br>For example, someone who attends many concerts a year will likely be more interested in event recommendations than someone who attends 1-2 concerts a year. Survey findings confirmed which features of the app appealed the most and the least to each user group. 
-            <img class="col-sm-5" src="../pages/SM/SM-Audience.png" alt="ShowMi audience illustration">
-            
-        
-        <div class="row">
-            <div class="col-lg-4">
-                <h4>Level 1</h4>
-                <p>Attends <b>1-3</b> events per year. Will only buy tickets for artists they love and are more likely able to
-                    remember all the artists they’ve seen and when.
-                </p>
-            </div>
-            <div class="col-lg-4">
-                <h4>Level 2</h4>
-                <p>Attends <b>4-9</b> concerts/festivals each year. Looks for shows to attend and follows their favourite
-                    artists tour dates or major events in their city.
-                </p>
-            </div>
+            <p>Users were separated into 3 user groups to better understand the needs/goals and how different each group
+                would interact with the app.
+                <br><br>For example, someone who attends many concerts a year will likely be more interested in event
+                recommendations than someone who attends 1-2 concerts a year. Survey findings confirmed which features
+                of the app appealed the most and the least to each user group.
+                <br><br>
+                <img class="col-sm-5" src="../pages/SM/SM-Audience.png" alt="ShowMi audience illustration">
+                <p class="caption">Illustration of people dancing, drawn by me</p>
 
-            <div class="col-lg-4">
-                <h4>Level 3</h4>
-                <p>
-                    Attends <b>10+</b> concerts/festivals per year. Will likely follow their favourite artists on tour.
-                </p>
-            </div>
-        </p>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h4>Level 1</h4>
+                        <p>Attends <b>1-3</b> events per year. Will only buy tickets for artists they love and are more
+                            likely able to
+                            remember all the artists they’ve seen and when.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4>Level 2</h4>
+                        <p>Attends <b>4-9</b> concerts/festivals each year. Looks for shows to attend and follows their
+                            favourite
+                            artists tour dates or major events in their city.
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h4>Level 3</h4>
+                        <p>
+                            Attends <b>10+</b> concerts/festivals per year. Will likely follow their favourite artists
+                            on tour.
+                        </p>
+                    </div>
+            </p>
         </div>
     </div>
 
-        <div class="description">
-            <h3>Features</h3>
-            <p>I used a survey to determine which features should be essential and which are nice-to-haves.
+    <div class="description">
+        <h3>Features</h3>
+        <p>I used a survey to determine which features should be essential and which are nice-to-haves.
 
-                I wanted the app to be more than just a record-keeping platform and instead be able to capture the full
-                experience before, during, and after the concert. I brainstormed how to expand the core features and
-                asked the same survey participants to rank each feature.
-            </p>
+            I wanted the app to be more than just a record-keeping platform and instead be able to capture the full
+            experience before, during, and after the concert. I brainstormed how to expand the core features and
+            asked the same survey participants to rank each feature.
+        </p>
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>Intuitively display event statistics </h4>
+                <p>Tracks the number of concerts attended, artists seen live, and how many times. Links to streaming
+                    profile of each artist. </p>
+            </div>
+
+            <div class="col-lg-4">
+                <h4>Store and share high-quality content </h4>
+                <p>A method for uploading, sharing, and viewing concert footage with our friends, using a public
+                    feed or private social-sharing links. </p>
+            </div>
+
+            <div class="col-lg-4">
+                <h4>Recommendations for upcoming concerts </h4>
+                <p>Personalized based on past attendance and music taste. </p>
+            </div>
+        </div>
+        <h3 class="space">Information architecture</h3>
+        <img class="img-fluid space" src="../pages/SM/SM-IA.png" alt="ShowMi information architecture breakdown">
+        <p class="caption">Breakdown of the information architecture and user flow.</p>
+
+
+        <h3 class="space">Low-fi Wireframes</h3>
+        <img class="img-fluid" src="../pages/SM/SM-WF lofi.png" alt="ShowMi lo-fi wireframes version 1">
+        <p class="caption">Low fidelity wireframes</p>
+    </div>
+
+    <div class="description">
+        <h3>User test findings</h3>
+        <p>10 rounds of user tests were conducted to identify frustrations or confusions when navigating. The findings
+            from user tests brought me back to the drawing board to answer some new questions I thought of.
+            <ul>
+                <li> <b>Sub-menu navigation in Events section was confusing.</b>
+                    <br>- HMW make it more intuitive so that users can swipe left/right to access 'Past' and 'Explore'
+                    events?
+                    <br>- What other methods of displaying sub-menus can be used?
+                    <br>- HMW create more inclusive and accesible design?
+                </li> <br>
+                <li> <b>Users questioned why they would use the Memories function over built-in photo gallery app.</b>
+                    <br>- HMW better communicate the high-quality sharing feature?
+                    <br>- HMW integrate a more social aspect into it and will that make the feature more
+                    worthwhile/desirable?
+                    <br>- HMW create more ethical designs so that users can easily remove photos they don't want shared
+                    (especially by friends)?
+                </li> <br>
+                <li><b>Concert and artist tracker under profile section was difficult to navigate</b>
+                    <br>- HMW find a balance between functionality and visual appearance?
+                    <br>- HMW display the user's statistics intuitivley?
+                </li>
+            </ul>
+        </p>
+
+        <h3>A/B testing</h3>
+        <p>A/B testing was conducted on the Profile page because that is the core functionality of the app. After
+            studying how 10 users interact with the wireframes, I found that:
+            70% of users interacted with wireframe A with more ease than with wireframe B as wireframe A looks more like
+            a standard profile page and has simplier navigation gestures.
+        </p>
+        <img class="img-fluid" src="../pages/SM/SM-A:B testing.png" alt="ShowMi lo-fi wireframes for A/B testing">
+        <p class="caption">Wireframes for A/B testing</p>
+    </div>
+
+    <div class="description">
+        <h3 class="">Visual Design</h3>
+        <p>When we look back at our nostalgic concert videos, our screens often flash with blue or purple strobe lights.
+            I wanted to resemble this feeling and chose blue over purple as it’s more subtle, allowing the images to be
+            the primary focal point. A simple sans-serif font family like Avenier was chosen to keep the use of images
+            as the primary focal point.
+        </p>
+        <img class="img-fluid" src="../pages/SM/Visual Design.png" alt="ShowMi visual design - color & typography">
+        <p class="caption">A simple colorscheme and font family was used to compliment the use of stock photos. </p>
+
+        <div class="row space">
+            <h3>Hi-fi mockups</h3>
             <div class="row">
                 <div class="col-lg-4">
-                    <h4>Intuitively display event statistics </h4>
-                    <p>Tracks the number of concerts attended, artists seen live, and how many times. Links to streaming
-                        profile of each artist. </p>
+                    <img class="img-fluid" src="../pages/SM/Events - upcoming.png"
+                        alt="ShowMi upcoming events wireframe">
+                    <p class="caption">Shows a grid of all the upcoming performances.</p>
                 </div>
-
-                <div class="col-lg-4">
-                    <h4>Store and share high-quality content </h4>
-                    <p>A method for uploading, sharing, and viewing concert footage with our friends, using a public
-                        feed or private social-sharing links. </p>
-                </div>
-
-                <div class="col-lg-4">
-                    <h4>Recommendations for upcoming concerts </h4>
-                    <p>Personalized based on past attendance and music taste. </p>
-                </div>
-            </div>
-            <h3 class="space">Information architecture</h3>
-            <img class="img-fluid" src="../pages/SM/SM-IA.png" alt="ShowMi Information architecture breakdown">
-            <p class="caption">Breakdown of the information architecture and user flow.</p>
-
-        
-            <h3 class="space">Low-fi Wireframes</h3>
-                    <img class="img-fluid" src="../pages/SM/SM-WF lofi.png" alt="ShowMi lo-fi wireframes version 1">
-                    <p class="caption">Low fidelity wireframes</p>
-        </div>
-
-                    <div class="description">
-                        <h3>User test findings</h3>
-                        <p>10 rounds of user tests were conducted to identify frustrations or confusions when navigating. The findings from user tests brought me back to the drawing board to answer some new questions I thought of.
-                            <ul>
-                                <li> <b>Sub-menu navigation in Events section was confusing.</b> 
-        <br>- HMW make it more intuitive so that users can swipe left/right to access 'Past' and 'Explore' events? 
-        <br>- What other methods of displaying sub-menus can be used?
-                                    <br>- HMW create more inclusive and accesible design?
-                                </li> <br>
-                                <li> <b>Users questioned why they would use the Memories function over built-in photo gallery app.</b>
-        <br>- HMW better communicate the high-quality sharing feature?
-        <br>- HMW integrate a more social aspect into it and will that make the feature more worthwhile/desirable? 
-        <br>- HMW create more ethical designs so that users can easily remove photos they don't want shared (especially by friends)?
-                                </li> <br>
-                                <li><b>Concert and artist tracker under profile section was difficult to navigate</b>
-                                    <br>- HMW find a balance between functionality and visual appearance?
-                                    <br>- HMW display the user's statistics intuitivley? 
-                                </li>
-                            </ul>
-                        </p>
-
-                    <h3>A/B testing</h3>
-                    <p>A/B testing was conducted on the Profile page because that is the core functionality of the app. After studying how 10 users interact with the wireframes, I found that:
-                        70% of users interacted with wireframe A with more ease than with wireframe B as wireframe A looks more like a standard profile page and has simplier navigation gestures.
-                    </p>
-                    <img class="img-fluid" src="../pages/SM/SM-A:B testing.png" alt="ShowMi lo-fi wireframes for A/B testing">
-                    <p class="caption">Wireframes for A/B testing</p>
-        </div>
-           
-<div class="description">
-                <h3 class="">Visual Design</h3>
-                <p>When we look back at our nostalgic concert videos, our screens often flash with blue or purple strobe lights. I wanted to resemble this feeling and chose blue over purple as it’s more subtle, allowing the images to be the primary focal point. A simple sans-serif font family like Avenier was chosen to keep the use of images as the primary focal point.
-                </p>
-            <img class="img-fluid" src="../pages/SM/Visual Design.png" alt="ShowMi visual design - color & typography">
-            <p class="caption">A simple colorscheme and font family was used to compliment the use of stock photos. </p>
-            
-                <div class="row space">
-                <h3>Hi-fi mockups</h3>
-                <div class="row">
-                    <div class="col-lg-4">
-                            <img class="img-fluid" src="../pages/SM/Events - upcoming.png" alt="ShowMi upcoming events wireframe">
-                            <p class="caption">Shows a grid of all the upcoming performances.</p>
-                        </div>
                 <div class="col-lg-4">
                     <img class="img-fluid" src="../pages/SM/Events - past.png" alt="ShowMi past events wireframe">
-                    <p class="caption">Shows a grid of all the performances the user has attended. Tapping on each card will show users
+                    <p class="caption">Shows a grid of all the performances the user has attended. Tapping on each card
+                        will show users
                         the performers.</p>
                 </div>
-            
-                    <div class="col-lg-4">
-                        <img class="img-fluid" src="../pages/SM/Events - Explore.png" alt="ShowMi explore events wireframe">
-                        <p class="caption">Recommended upcoming performances that might be of interest to users.</p>
-                    </div>
+
+                <div class="col-lg-4">
+                    <img class="img-fluid" src="../pages/SM/Events - Explore.png" alt="ShowMi explore events wireframe">
+                    <p class="caption">Recommended upcoming performances that might be of interest to users.</p>
+                </div>
 
 
                 <div class="col-lg-4">
                     <img class="img-fluid" src="../pages/SM/Events - upcoming-overlay.png" alt="ShowMi event details">
                     <p class="caption">Tap on any event card to view the performers.</p>
                 </div>
-                <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/Events - upcoming-1.png" alt="ShowMi swipe to add artist to seen">
+                <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/Events - upcoming-1.png"
+                        alt="ShowMi swipe to add artist to seen">
                     <p class="caption">Users can swipe on each artist to add them to their 'seen' list.</p>
                 </div>
-                <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/Events - upcoming-2.png" alt="ShowMi added artist to seen">
+                <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/Events - upcoming-2.png"
+                        alt="ShowMi added artist to seen">
                     <p class="caption">Successfully added to the user's 'seen' list.</p>
                 </div>
             </div>
-                
-                <h3 class="space">Iterations</h3>
-                <p>Looking at the navigation of other social sharing applications, I tested out what user's opinions were on 
-                    <ul>
-                        <li>Drop-down menus on tap</li>
-                        <li>Drop-down menus on drag</li>
-                        <li>Swipe between screens</li>
-                        <li>3D tap to access sub-menu</li>
-                    </ul>
-                </p>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="../pages/SM/Events - upcoming2.png" alt="ShowMi drop-down on tap">
-                        <p class="caption">An on-tap drop-down menu was preferred over the swiping. Label and highlight added to navigation menu.</p>
-                    </div>
-                    <div class="col-lg-6"> <img class="img-fluid" src="../pages/SM/Events - upcoming3.png" alt="ShowMi drop-down on drag">
-                        <p class="caption">Drop-down sub-menu - took inspiration from Instagram's switching accounts functionality.</p>
-                    </div>
-                </div>
-               
-                <div class="row">
-                    
-                        <div class="col-lg-6">
-                            <img class="img-fluid" src="../pages/SM/Memories.png" alt="ShowMi memories lo-fi wireframes">
-                            <p class="caption">Upper-right shows users who they've shared each memory with.</p>
-                        </div>
-                        <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/Memories - 3D.png" alt="3D tap for sub-menu">
-                            <p class="caption">3D touch is applied on a memory to get an overview of the images inside and to make quick edits. </p>
-                        </div>
 
-                        <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/memories-toronto.gif" alt="ShowMi memories interaction">
-                            <p class="caption">A quick look inside one of the memories</p>
-                        </div>
-                    </div>
+            <h3 class="space">Iterations</h3>
+            <p>Looking at the navigation of other social sharing applications, I tested out what user's opinions were on
+                <ul>
+                    <li>Drop-down menus on tap</li>
+                    <li>Drop-down menus on drag</li>
+                    <li>Swipe between screens</li>
+                    <li>3D tap to access sub-menu</li>
+                </ul>
+            </p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="../pages/SM/Events - upcoming2.png" alt="ShowMi drop-down on tap">
+                    <p class="caption">An on-tap drop-down menu was preferred over the swiping. Label and highlight
+                        added to navigation menu.</p>
+                </div>
+                <div class="col-lg-6"> <img class="img-fluid" src="../pages/SM/Events - upcoming3.png"
+                        alt="ShowMi drop-down on drag">
+                    <p class="caption">Drop-down sub-menu - took inspiration from Instagram's switching accounts
+                        functionality.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="../pages/SM/Memories.png" alt="ShowMi memories lo-fi wireframes">
+                    <p class="caption">Upper-right shows users who they've shared each memory with.</p>
+                </div>
+                <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/Memories - 3D.png"
+                        alt="3D tap for sub-menu">
+                    <p class="caption">3D touch is applied on a memory to get an overview of the images inside and to
+                        make quick edits. </p>
                 </div>
 
-                <!-- <h3 class="space">The solution</h3>
+                <div class="col-lg-4"> <img class="img-fluid" src="../pages/SM/memories-toronto.gif"
+                        alt="ShowMi memories interaction">
+                    <p class="caption">A quick look inside one of the memories</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <h3 class="space">The solution</h3>
                 <div class="row">
                     
                     <div class="col-lg-6">
@@ -272,21 +300,18 @@
                         <p class="caption">Drop-down sub-menu - took inspiration from Instagram's switching accounts functionality.</p>
                     </div>
                 </div> -->
+    </div>
 
-            
+    <div class="space container more">
+        <a class="highlight" href="../pages/yfp.html"><i class="fas fa-chevron-left"></i> YFP - Web redesign</a>
+        <span style="text-align: right; float:right;">
+            <a class="highlight" href="../pages/tyltgo.html" class="highlight">TyltGO - App design <i
+                    class="fas fa-chevron-right"></i></a>
+        </span>
+    </div>
 
-            </div>
-
-            <div class="space container">
-                    <a class="highlight" href="../pages/yfp.html"><i class="fas fa-long-arrow-alt-left"></i>PREVIOUS <br>YFP - UX Redesign</a>
-                   <span style="text-align: right; float:right;">
-                       <a class="highlight" href="../pages/dailyUI.html" class="highlight">DailyUI - UI Design <i class="fas fa-long-arrow-alt-right"></i></a>
-                   </span> 
-                </div>
-
-              
 <!--- FOOTER -->
-<div class="footer">
+<section class="footer"> 
         <hr>
         <div class="row">
             <div class="col-lg-4">
@@ -295,8 +320,7 @@
             </div>
 
             <div class="col-lg-4">
-                Built with ❤ by Emily Liu <br> <span style="color:#888"> ux + product designer </span>
-
+                    <center>Built with ❤ by Emily Liu <br> <span style="color:#888"> ux + product designer </span></center>
             </div>
 
             <div class="col-lg-4">
@@ -307,19 +331,19 @@
                 <a class="highlight" href="https://www.facebook.com/eliu16" target="blank">Facebook</a>
             </div>
         </div>
-
     </div>
+</section>
 
 
-            <!--- STICK NAVBAR -->
-            <script>
-                $(function () {
-                    $(document).scroll(function () {
-                        var $nav = $("#mainNavbar");
-                        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-                    });
-                });
-            </script>
+    <!--- STICK NAVBAR -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
 
 </body>
 
