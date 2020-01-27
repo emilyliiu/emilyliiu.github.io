@@ -75,15 +75,13 @@ font-size: 90%;
 
 /* SOCIAL LINKS */
 .social {
-  margin: 0;
   padding: 0;
   margin-top: 15px;
 }
 
 .social li {
   display: inline-block;
-  padding: 10px 10px;
-
+  padding-right: 20px;
 }
 
 /* LINKS, HIGHLIGHT ANIMATION, HOVER */
@@ -120,7 +118,6 @@ a:link {
 
 .highlight:hover {
   color: #E27092;;
-  /* font-weight: bold; */
   transition: all 300ms;
 }
 
