@@ -30,13 +30,13 @@ h1 {
 /* NAVBAR */
 
 #mainNavbar {
-  opacity: .3;
+  opacity: .4;
   padding: 20px;
 }
 
 #mainNavbar a {
   padding: 0px 10px;
-  color: #000;
+  color: #888;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -44,10 +44,11 @@ h1 {
   opacity: 1;
   transition: 500ms ease-in-out;
   background: #fff;
+
 }
 
 #mainNavbar a:hover {
-  color: #E27092;
+  color: #000;
 }
 
 /* NEXT PROJ SECTION */
@@ -95,7 +96,7 @@ a:link {
 
 .highlight {
   display: inline-block;
-  color:#E27092;
+  color:#79a5be;
   transition: color 300ms, text-shadow 300ms;
   text-decoration: none;
   position: relative;
@@ -111,13 +112,13 @@ a:link {
   transform: translateX(-50%);
   content: '';
   height: 1px;
-  background-color:rgb(228, 82, 88, 0.2); 
+  background-color:rgba(189, 211, 224, 0.45);
   transition: 300ms;
   text-decoration: none;
 }
 
 .highlight:hover {
-  color: #E27092;;
+  color: #000;;
   transition: all 300ms;
 }
 

@@ -8,20 +8,20 @@
 /* MORE-ABOUT */
 
 #portrait {
-  opacity: .95;
+  opacity: .85;
   padding: 0px 20px 20px 0px;
   border-radius: 5px ;
 }
 
 #portrait:hover {
     transform: scale(1.05);
-    transition: all 200ms ease-out;
+    transition: all 200ms ease-in-out;
+    opacity: .95;
   }
 
 /* PROJECTS CARDS */
 .proj-card {
   position: relative;
-  width: 80%;
   margin: 30px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .social a:hover {
-  color: #E27092;
+  color: #CFD2E1;
 }
 
 .proj-card:hover, .fun-card:hover {
@@ -60,16 +60,16 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70%;
+  height: 68%;
   width: 100%;
   opacity: 0;
   transition: .4s ease-in-out ;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.16);
 }
 
 .fun-card:hover .overlay {
   opacity: 1;
-  border-radius: 5px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 /* More about me */

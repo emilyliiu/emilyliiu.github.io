@@ -2,10 +2,6 @@
 .proj-header {
     margin: 140px 0px 100px 140px;
 }
-  
-p {
-    padding-bottom: 30px;
-}
 
 #graphicsIsotope img {
   box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.05);
@@ -17,6 +13,15 @@ p {
 
 .proj-header h1 {
     font-size: 40px;
+}
+
+h2 {
+    color: #888;
+    font-size: 40px;
+}
+
+li {
+    list-style-type: none;
 }
 
 img {
@@ -35,9 +40,71 @@ img {
     z-index: 1;
 }
 
+.stats {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    }
+
+.stats p {
+    font-size: 120%;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.stats:before, 
+.stats:after, 
+.stats>:last-child:before, 
+.stats>:last-child:after {
+    position: absolute;
+    width: 60px; 
+    height: 50px;
+    border-color: #d1d1d1; 
+    border-style: solid;
+    content: ' ';
+}
+
+.stats:before {
+    top: 10px;
+    left: 10px;
+    border-width: 8px 0 0 8px
+}
+
+.stats:after {
+    top: 10px;
+    right: 10px;
+    border-width: 8px 8px 0 0
+}
+
+.stats>:last-child:before {
+    bottom: 10px;
+    right: 10px;     
+    border-width: 0 8px 8px 0
+}
+
+.stats>:last-child:after {
+    bottom: 10px;
+    left: 10px;
+    border-width: 0 0 8px 8px
+}
+
+
+.more {
+    font-size: 180%;
+    opacity: 0.6;
+}
+
+.more:hover {
+    font-size: 180%;
+    opacity: 1;
+    transition: 500ms ease-in-out;
+}
+
 /*  */
 @media (min-width: 1300px) {
     .description {
-        padding: 50px 150px;
+        padding: 50px 180px;
     }
   }
