@@ -12,18 +12,26 @@
 }
 
 .proj-header h1 {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h2, h3 {
+    font-size: 24px;
 }
 
 h4 {
     color: #79a5be98;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 h5 {
     color: #999;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 img {
