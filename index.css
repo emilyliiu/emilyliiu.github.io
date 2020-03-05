@@ -11,22 +11,21 @@
 #portrait {
   opacity: .85;
   padding: 0px 20px 20px 0px;
-  border-radius: 5px ;
+  border-radius: 5px;
 }
 
 #portrait:hover {
-    transform: scale(1.05);
-    transition: all 200ms ease-in-out;
-    opacity: .95;
-  }
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  opacity: .95;
+}
 
 /* PROJECTS CARDS */
 .proj-card {
   position: relative;
-  margin: 30px;
 }
 
-#fun  {
+#fun {
   margin-top: 60px;
 }
 
@@ -44,7 +43,7 @@
   margin: 30px;
 }
 
-.social a{
+.social a {
   color: #000;
 }
 
@@ -52,7 +51,8 @@
   color: #CFD2E1;
 }
 
-.proj-card:hover, .fun-card:hover {
+.proj-card:hover,
+.fun-card:hover {
   transform: scale(1.05);
   transition: all 200ms ease-out;
   box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.06);
@@ -67,19 +67,13 @@
   height: 68%;
   width: 100%;
   opacity: 0;
-  transition: .4s ease-in-out ;
+  transition: .4s ease-in-out;
   background-color: rgba(0, 0, 0, 0.16);
 }
 
 .fun-card:hover .overlay {
   opacity: 1;
   border-radius: 8px 8px 0px 0px;
-}
-
-/* More about me */
-#more-about {
-  margin: 50px 0px;
-  padding: 80px;
 }
 
 /*  */
@@ -90,10 +84,21 @@
   }
 }
 
-@media (min-width: 1360px) {
-  .container {
-    padding: 0px 150px;
+@media only screen and (max-width: 540px) {
+  #portrait {
+    width: 50%;   
   }
 }
 
+  @media (min-width: 1360px) {
+    .container {
+      padding: 0px 150px;
+    }
+  }
 
+  @media (min-width: 1360px) {
+    #more-about {
+      margin: 50px 0px;
+      padding: 80px;
+    }
+  }
