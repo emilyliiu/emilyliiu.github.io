@@ -4,12 +4,12 @@ html {
 
 /* TEXT */
 body p, li {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -37,7 +37,6 @@ h1 {
 #mainNavbar a {
   padding: 0px 10px;
   color: #888;
-  font-family: 'Poppins', sans-serif;
 }
 
 #mainNavbar:hover {
@@ -110,7 +109,7 @@ a:link {
   transform: translateX(-50%);
   content: '';
   height: 1px;
-  background-color:rgba(189, 211, 224, 0.45);
+  background-color:rgba(189, 211, 224, 0.6);
   transition: 300ms;
   text-decoration: none;
 }
