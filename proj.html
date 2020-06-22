@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--START Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151539766-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-151539766-1');
+    </script>
+    <!-- END Google Analytics -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Emily Liu - Product Designer Portfolio"
+        content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emily Liu - []</title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- FONTAWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/37496dac6b.js"></script>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../emilyliiu.github.io/proj.css">
+    <link rel="stylesheet" href="../emilyliiu.github.io/main.css">
+    <!-- GOOGLE Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- START navbar -->
+    <nav id="mainNavbar" class="fixed-top">
+        <a class="highlight" href="http://emilyliu.co/">Emily Liu</a>
+        <div style="float:right">
+            <a class="highlight" href="#about">About</a>
+            <a class="highlight" href="#proj">Work</a>
+            <a class="highlight" href="../emilyliiu.github.io/assets/Emily_Liu_Resume.pdf" target="__blank">Resume</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- START template - intro -->
+        <div id="intro">
+            <h1>[Proj title]</h1>
+            <h4>[description]</h4>
+
+            <img class="img-fluid" src="https://via.placeholder.com/150" alt="">
+        </div>
+    </div>
+        <!-- END template - intro -->
+<!-- START template - problem -->
+        <div class="space50">
+            <h2>The problem</h2>
+            <h4>Subheader text</h4>
+
+            <div class="body">
+            <p class="space50">[text]</p>
+        </div>
+        </div>
+                <!-- END template - problem -->
+<!-- START template - research -->
+        <div class="space50">
+            <h2>User research</h2>
+            <h4>[Subheader text]</h4>
+            <p class="space">[text]</p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://via.placeholder.com/150" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://via.placeholder.com/150" alt="">
+                </div>
+            </div>
+        <!-- END template - research -->
+        <!-- START template -->
+
+        </div>
+
+    </div>
+
+
+    <!-- START Footer -->
+    <div class="space" id="footer">
+        <hr>
+        <h4>Say hello at:</h4>
+        <i class="enlarge far fa-envelope"></i>
+        <i class="enlarge fab fa-linkedin-in"></i>
+        <i class="enlarge fab fa-instagram"></i>
+        <br><br>
+        <p>Built with ❤ by Emily Liu</p>
+    </div>
+
+    </div>
+
+    <!--- STICK NAVBAR -->
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+
+</html>
