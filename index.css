@@ -1,6 +1,6 @@
 /* BACKGROUNDS */
 #proj {
-    background: linear-gradient(0deg, rgb(240, 241, 254,0) 0%, rgba(240, 241, 254,1) 10%, rgba(240, 241, 254,1) 90%, rgba(245,247,255,0) 100%);
+    background: linear-gradient(0deg, rgba(245, 247, 255, 0) 0%, #F5F7FF 10%, #F5F7FF 90%, rgba(245, 247, 255, 0) 100%);
 }
 
 /* CARDS */
@@ -22,10 +22,6 @@
 
 .card-body {
     padding: 50px;
-}
-
-.card-horizontal:hover img {
-    background-color: #F5F7FF;
 }
 
 .card-btn {
