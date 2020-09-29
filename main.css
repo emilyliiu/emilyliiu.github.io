@@ -20,7 +20,7 @@ html {
 }
 
 #mainNavbar a:hover {
-    color: #000;
+    color: #222;
 }
 
 
@@ -31,7 +31,7 @@ h3,
 h4,
 p,
 a {
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
     color: #4d4d4d;
 }
 
@@ -98,6 +98,7 @@ a {
 a,
 a:link {
     text-decoration: none;
+    color: #222;
 }
 
 .highlight {
@@ -116,17 +117,16 @@ a:link {
     transform: translateX(-50%);
     content: '';
     height: 1px;
-    background: linear-gradient(to top, rgba(84, 92, 246, 0.5) 0%, #F5F7FF 100%);
+    background: rgba(84, 92, 246, 0.5);
     transition: 300ms;
     text-decoration: none;
 }
 
 .highlight:hover {
-    color: #000;
     transition: all 300ms;
 }
 
 .highlight:hover::after {
-    height: 60%;
-    width: 100%;
+    height: 50%;
+    width: 120%;
 }
