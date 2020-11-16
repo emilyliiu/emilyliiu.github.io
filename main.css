@@ -3,39 +3,53 @@
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 TEXT
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
-h1, h2, h3, h4 {
-  margin-bottom: 1rem;
-  color: #222237;
+
+h1, h2 {
+    padding-bottom: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: #4f4f55;
+    font-size: 2rem;
+}
+
+h3, h4 {
+  padding: 0.5rem 0rem;
+  font-size: 1.24rem;
+  font-weight: 700;
+  color: #4f4f55;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+b {
+    font-weight: 700;
 }
 
 p, a, li {
-  margin-top: 0;
-  color: #4E4B66;
-  font-size: .75rem;
+  color: #4f4f55;
+  font-weight: 300;
+  font-size: 0.8rem;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
-  color: #4E4B66;
-  text-decoration: none;
+  color: #FB8888;
+  font-weight: 700;
 }
 
 a:hover {
-  color: #D6D8E7;
+  color: #FB8888;
+  text-decoration: none;
 }
 
-caption {
-  padding-top: 0.5rem;
+.caption {
   padding-bottom: 1rem;
-  color: #6c757d;
-  text-align: center;
-  font-size: 0.5rem;
+  font-size: 50%;
 }
 
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
-
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1.5rem;
@@ -44,21 +58,23 @@ NAVBAR
 }
 
 #mainNav a {
-margin-left: 2rem;
+    padding: 0rem 4em;
+    color: #4f4f55;
+    font-weight: 300;
 }
 
 #mainNav a.nav-link:hover,
 #mainNav a.nav-link:active,
 #mainNav a.nav-link:focus {
-  color: #a3c4c9;
+  color: #FB8888;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 MAIN HEAD
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .head {
-  padding-top: 15rem;
-  padding-bottom: 6rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -68,49 +84,69 @@ PROJECTS
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
-  border-radius: 0.5rem;
+  max-width: 40rem;
+  border-radius: 1rem;
   overflow: hidden;
   margin-bottom: 4rem;
 }
 
+.projects .projects-card:hover {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1rem 2rem 3rem #dadadd;
+  }
 
 .projects .projects-card .projects-card-caption {
   position: absolute;
   transition: all 0.4s ease-in-out;
   opacity: 0;
-  background-color: rgba(40, 40, 40, 0.8);
-  text-align: center;
-  align-items: center;
-  
+  padding: 2rem;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
 }
 
-
-.projects .projects-card .projects-card-caption:hover,
-.projects .projects-card .projects-card-caption:hover h2 {
+.projects .projects-card .projects-card-caption:hover {
   opacity: 1;
-  color: #fff;
+
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 FOOTER
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .footer {
-  padding: 2rem 0rem;
+  padding: 4rem;
+  text-align: center;
 }
 
+.footer a {
+    color: #4f4f55;
+    padding: 1rem;
+    border-radius:100px;
+    font-size: 1rem;
+}
+
+.footer a:hover {
+    color:  #FB8888; 
+}
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 SCROLL TO TOP 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .scroll-to-top {
-  z-index: 1042;
-  right: 3rem;
-  bottom: 3rem;
+  z-index: 10;
+  right: 2rem;
+  bottom: 2rem;
+  padding: 1rem;
+  border-radius:100px;
+  font-size: 1rem;
+  color: #4f4f55;
 }
 
-.scroll-to-top a {
-  width: 3rem;
-  height: 3rem;
-  background-color: #FFF;
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+ANIMATIONS
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+.enlarge:hover {
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1rem 1rem 3rem #dadadd;
 }
