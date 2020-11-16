@@ -87,7 +87,7 @@ PROJECTS
 
 
 .projects .projects-card .projects-card-caption:hover,
-.projects .projects-card .projects-card-caption:hover p {
+.projects .projects-card .projects-card-caption:hover h2 {
   opacity: 1;
   color: #fff;
 }
