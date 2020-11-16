@@ -9,12 +9,12 @@ h1, h2 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     color: #4f4f55;
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 h3, h4 {
   padding: 0.5rem 0rem;
-  font-size: 1.24rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: #4f4f55;
   font-family: 'Nunito Sans', sans-serif;
@@ -27,7 +27,7 @@ b {
 p, a, li {
   color: #4f4f55;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -43,7 +43,7 @@ a:hover {
 
 .caption {
   padding-bottom: 1rem;
-  font-size: 50%;
+  color: #888 !important;
 }
 
 
@@ -100,8 +100,8 @@ PROJECTS
   position: absolute;
   transition: all 0.4s ease-in-out;
   opacity: 0;
-  padding: 2rem;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.1) 100%);
+  padding: 6rem;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.92) 75%, rgba(255, 255, 255, 0) 100%);
 }
 
 .projects .projects-card .projects-card-caption:hover {
@@ -149,4 +149,9 @@ ANIMATIONS
     transform: scale(1.2);
     transition: all 0.4s ease-in-out;
     box-shadow: 1rem 1rem 3rem #dadadd;
+}
+
+
+.page-section{
+padding-top: 8rem;
 }
