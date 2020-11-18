@@ -14,36 +14,42 @@ h1, h2 {
 
 h3, h4 {
   padding: 0.5rem 0rem;
-  font-size: 1.6rem;
   font-weight: 700;
   color: #4f4f55;
   font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.breadcrumbs a {
+  color: #4f4f55;
+  font-size: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 b {
     font-weight: 700;
 }
 
-p, a, li {
+p, li {
   color: #4f4f55;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
   color: #FB8888;
-  font-weight: 700;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #FB8888;
-  text-decoration: none;
+  color: #FB8888 !important;
 }
 
 .caption {
   padding-bottom: 1rem;
-  color: #888 !important;
+  color: #4f4f55 !important;
+  text-align: center;
 }
 
 
@@ -52,9 +58,9 @@ NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 #mainNav {
   padding-top: 1rem;
-  padding-bottom: 1.5rem;
-  color: #fff;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, .75), rgba(255, 255, 255, 0));
+  padding-bottom: 3rem;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
 }
 
 #mainNav a {
@@ -63,18 +69,18 @@ NAVBAR
     font-weight: 300;
 }
 
-#mainNav a.nav-link:hover,
-#mainNav a.nav-link:active,
-#mainNav a.nav-link:focus {
-  color: #FB8888;
+#mainNav a:hover {
+  transform: translateY(-0.25rem);
+  transition: all 0.2s ease-in-out;
 }
+
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 MAIN HEAD
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .head {
   padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-bottom: 8rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -88,6 +94,7 @@ PROJECTS
   border-radius: 1rem;
   overflow: hidden;
   margin-bottom: 4rem;
+  border: 1px solid #F9F7FC;
 }
 
 .projects .projects-card:hover {
@@ -101,7 +108,7 @@ PROJECTS
   transition: all 0.4s ease-in-out;
   opacity: 0;
   padding: 6rem;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.92) 75%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 75%, rgba(255, 255, 255, 0.2) 100%);
 }
 
 .projects .projects-card .projects-card-caption:hover {
@@ -113,7 +120,7 @@ PROJECTS
 FOOTER
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .footer {
-  padding: 4rem;
+  padding: 6em 6rem;
   text-align: center;
 }
 
@@ -132,7 +139,6 @@ FOOTER
 SCROLL TO TOP 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .scroll-to-top {
-  z-index: 10;
   right: 2rem;
   bottom: 2rem;
   padding: 1rem;
@@ -141,6 +147,9 @@ SCROLL TO TOP
   color: #4f4f55;
 }
 
+.scroll-to-top a:hover {
+  color:  #FB8888; 
+}
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 ANIMATIONS
@@ -148,9 +157,23 @@ ANIMATIONS
 .enlarge:hover {
     transform: scale(1.2);
     transition: all 0.4s ease-in-out;
-    box-shadow: 1rem 1rem 3rem #dadadd;
+    box-shadow: 1rem 1rem 3rem #c7c7ca;
+    border-radius: 1rem;
+    border: 1 solid #F9F7FC;
 }
 
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+SPACING
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+.space {
+  padding-top: 4rem;
+}
+
+.center-stack {
+  align-items: center;
+  text-align: center;
+}
 
 .page-section{
 padding-top: 8rem;
