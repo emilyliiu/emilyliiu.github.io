@@ -22,8 +22,8 @@ h3, h4 {
 
 .breadcrumbs a {
   color: #4f4f55;
-  font-size: 0.5rem;
   padding-right: 0.5rem;
+  text-decoration: none;
 }
 
 b {
@@ -33,7 +33,7 @@ b {
 p, li {
   color: #4f4f55;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -113,7 +113,17 @@ PROJECTS
 
 .projects .projects-card .projects-card-caption:hover {
   opacity: 1;
+}
 
+.more a{
+  padding: 5rem;
+  text-decoration: none;
+}
+
+.more {
+  background-color: #F9F7FC;
+  margin-top: 8rem;
+  padding: 3rem 0rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  

@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="https://emojipedia.org/sparkles/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!--START Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151539766-1"></script>
@@ -11,355 +14,358 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('js', new Date());
+        gtag("js", new Date());
 
-        gtag('config', 'UA-151539766-1');
+        gtag("config", "UA-151539766-1");
     </script>
     <!-- END Google Analytics -->
 
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e881d59122.js" crossorigin="anonymous"></script>
+    <title>Emily Liu / Projects / ShowMi</title>
 
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="Emily Liu - Product Designer Portfolio"
-        content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Emily Liu - ShowMi</title>
-
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- FONTAWESOME ICONS -->
-    <script src="https://kit.fontawesome.com/37496dac6b.js"></script>
-    <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="../proj.css">
-    <link rel="stylesheet" href="../main.css">
-    <!-- GOOGLE Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <!-- STYLESHEET -->
+    <link href="../main.css" rel="stylesheet" />
 </head>
 
-<body>
-
-    <!-- START navbar -->
-    <nav id="mainNavbar" class="fixed-top">
-        <a class="highlight" href="http://emilyliu.co/">Emily Liu</a>
-        <div style="float:right">
-            <a class="highlight" href="https://emilyliu.co/#about">About</a>
-                <a class="highlight" href="https://emilyliu.co/#proj">Work</a>
-                <a class="highlight" href="../emilyliiu.github.io/assets/Emily_Liu_Resume.pdf" target="__blank">Resume</a>
+<body id="page-top">
+    <!-- NARBAR-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="js-scroll-trigger" href="https://emilyliu.co/#page-top">
+                <h3>✨</h3>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                🍔
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="https://emilyliu.co/#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="https://emilyliu.co/#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link js-scroll-trigger"
+                            href="assets/Emily_Liu_Resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="container">
-        <!-- START SM - intro -->
-        <div id="intro">
-            <h1>ShowMi - Case study</h1>
-            <h4>Designing a solution to track and share concert memories.</h4>
-
-            <img class="img-fluid" src="../assets/SM-feature.png" alt="">
-        </div>
-
-
-        <!-- END SM - intro -->
-
-        <!-- START SM - problem -->
-        <div class="space50">
-            <h2>The problem</h2>
-            <h4>How can I track artists/events and share high-quality media?</h4>
-            <div class="body">
-                <p>As a huge fan of concerts and festivals, I haven’t found a solution for efficiently
-                    tracking all the artists I’ve seen or sharing high-quality media with my friends. Currently, my
-                    friends and I save
-                    screenshots of the lineup to keep track of who we’ve seen or use social media platforms, which often
-                    reduces video quality, to share content.</p>
-            </div>
-        </div>
-        <!-- END SM - problem -->
-
-        <!-- START SM - research -->
-        <div class="space50">
-            <h2>User research</h2>
-            <h4>Is the problem significant enough?</h4>
-            <div class="body">
-                <p>A survey was used to validate that users actually lack a solution to effectively track event
-                    statistics and if people actually find this to be a pain point. Survey findings showed that:</p>
-            </div>
-
+    <!-- LANDING -->
+    <section class="head">
+        <div class="container">
+            <p class="breadcrumbs"> <a href="https://emilyliu.co/#page-top">Emily Liu </a>
+                / <a href="https://emilyliu.co/#projects">Projects </a>
+                / <a href="https://emilyliu.co/projects/SM.html/#page-top">ShowMi</a></p>
             <div class="row">
-                <div class="col-md-6">
-                    <img class="img-fluid" src="../pages/SM/SM - Survey-01.png" alt="">
-                    <br>
-                    <p><b style="font-size: 200%;">60%</b> care about tracking artists. </p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid" src="../pages/SM/SM - Survey-06.png" alt="">
-                    <br>
-                    <p><b style="font-size: 200%;">60%</b> don't keep track of artists.</p>
-                </div>
 
-                <div class="space50 col-md-6">
-                    <img class="img-fluid" src="../pages/SM/SM - Survey-02.png" alt="">
-                    <br>
-                    <p> <b style="font-size: 200%;">83%</b> care about tracking events.</p>
+                <!-- start content -->
+                <div class="col-sm-12 col-lg-4">
+                    <h1>ShowMi</h1>
+                    <p>
+                        A passion project driven by a personal pain point and user research. Helping users keep track of
+                        all the artists they’ve seen at concert events and exploring events.
+                    </p>
+                    <p class="caption">Passion Project • IXD • UX • UXR</p>
                 </div>
-                <div class="space50 col-md-6">
-                    <img class="img-fluid" src="../pages/SM/SM - Survey-07.png" alt="">
-                    <br>
-                    <p><b style="font-size: 200%;">48%</b> don't keep track of events.</p>
+                <!-- -->
+                <div class="col-sm-10 col-lg-6">
+                    <img class="img-fluid" src="../projects/SM/SM-feature.png" alt="" />
                 </div>
-
             </div>
-            <!-- END SM - research -->
-
-            <!-- START SM - Information architecture -->
-            <div class="space50">
-                <h2>Information architecture</h2>
-                <h4>Breakdown of the information architecture and user flow.</h4>
-                <!-- <p class="space">[text]</p> -->
-                <img class="img-fluid" src="../pages/SM/SM-IA.png" alt="">
-            </div>
-            <!-- END SM - Information architecture -->
-
-            <!-- START SM - Feature 1 -->
-            <div class="space50">
-                <h2>Feature 1</h2>
-                <h4>Intuitive display of event statistics</h4>
-                <div class="body">
-                    <p>Tracks the number of concerts attended, artists seen live, and how many times. Links to streaming
-                        profile of each artist.</p>
-
-                    <div class="col-md-5 justify-content-center">
-                        <video class="img-fluid" src="../pages/SM/SM-addartistfinal.webm" alt="" playsinline autoplay
-                            muted loop>
-                        </video>
-                    </div>
-                </div>
-
-                <div class="space50">
-                    <h3>A/B testing</h3>
-                    <h4>Feature 1: intuitive display of event statistics</h4>
-
-                    <div class="body">
-                        <p>A/B testing was conducted on the Profile page because that is the core functionality of the
-                            app. After studying how 10 users interact with the wireframes, I found that participants
-                            prefered Wireframe A
-                            as Wireframe A looks more like a standard profile page and has simpler navigation gestures.
-                        </p>
-                        <div class="space50">
-                            <img class="img-fluid" src="../pages/SM/SM-A:B testing.png"
-                                alt="ShowMi lo-fi wireframes for A/B testing">
-                            <br>
-                            <p> <b style="font-size: 200%;">70%</b>interacted with Wireframe A with more ease than with
-                                Wireframe B </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SM - feature 1 -->
-
-                <!-- START SM - Feature 2 -->
-                <div class="space50">
-                    <h2>Feature 2</h2>
-                    <h4>Store & share high-quality content</h4>
-                    <div class="body">
-                        <p>A method for relieving your best moments... after the event. Upload, share, and view concert
-                            footage with friends, using a public
-                            feed or private social-sharing links. To do this, I asked survey participants what they like
-                            and what their pain points are for the current media-sharing platform they use</p>
-
-                        <div class="col-md-5 justify-content-center">
-                            <video class="img-fluid" src="../pages/SM/SM-memoriesfinal.webm" alt="" playsinline autoplay
-                                muted loop></video>
-                        </div>
-                    </div>
-
-                    <div class="space50">
-                        <h3>User feedback</h3>
-                        <h4>Feature 2: Store & share high-quality content</h4>
-
-                        <div class="body">
-                            <p>Participants critiqued the visual layout, mentioning that it appeared clustered and
-                                messy, especially with the disorganized video thumbnails. To ideate on this, I came up
-                                with a few HMW questions that would guide me as I did competitve research.
-                                <br><br>• HMW differentiate this from any normal photo album?
-                                <br>• HMW better establish hierarchy between elements and add more whitespace?
-                            </p>
-                            <div class="col-md-5 justify-content-center">
-                                <video class="img-fluid" src="../pages/SM/SM-memories (1).webm" playsinline autoplay
-                                    muted loop></video>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SM - feature 2 -->
-
-                <!-- START SM - Feature 3 -->
-                <div class="space50">
-                    <h2>Feature 3</h2>
-                    <h4>Upcoming concert recommendations</h4>
-                    <div class="body">
-                        <p>Surveys showed that participants wanted to see personalized event recommendations based on
-                            past attendance and music taste.</p>
-
-                        <div class="col-md-5 justify-content-center">
-                            <video class="img-fluid" src="../pages/SM/SM-recommendfinal.webm" alt="" playsinline
-                                autoplay muted loop></video>
-                        </div>
-                    </div>
-
-                    <div class="space50">
-                        <h3>Navigation exploration</h3>
-                        <h4>Feature 3: Upcoming concert recommendations</h4>
-
-                        <div class="body">
-                            <p>Wireframes in the first iteration combined all the screens that involved event cards.
-                                These included the
-                                Past, Upcoming, and Explore screens. However, user tests showed that participants were
-                                confused with the
-                                gestures to navigate and unsure why Recommendations were grouped with event statistics.
-                                So, I went back to the drawing board and came up with some more guiding questions.
-                                <br><br>• What other methods of displaying sub-menus can be used to improve
-                                accessibility?
-                                <br>• Should 'recommended events' be separated from 'past events' and 'upcoming events'
-                                to highlight it as a core feature?
-                            </p>
-                            <div class="col-md-5 justify-content-center">
-                                <video class="img-fluid" src="../pages/SM/SM-eventsnav.webm" playsinline autoplay muted
-                                    loop></video>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="space50">
-                        <h3>Designing cards</h3>
-                        <h4>Feature 3: Upcoming concert recommendations</h4>
-
-                        <div class="body">
-                            <p>ShowMi uses plenty of cards to display the events. The perfect card layout had to be a
-                                balance between: being visually appealing,
-                                easily scan important information (ie. event date or venue location), and accommodate
-                                various types and dimensions of thumbnail images.</p>
-
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>Card 1</h3>
-                                    <img class="img-fluid" src="../pages/SM/SM-card 1.png" alt="">
-                                    <br>
-                                    <p>Taking inspiration from Facebook's event page. However, this wasn't very mobile
-                                        friendly as only
-                                        2 cards could be on the screen at once in order to keep all necessary
-                                        information legible.</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <h3>Card 2</h3>
-                                    <img class="img-fluid" src="../pages/SM/SM-card 2.png" alt="">
-                                    <br>
-                                    <p>The 'Interested' and 'Share' buttons were removed as it didn't add much value in
-                                        user tests. The
-                                        category tag was also removed as the feature image implies the event genre
-                                        clearly.</p>
-                                </div>
-
-                                <div class="space50 col-md-6">
-                                    <h3>Card 3</h3>
-                                    <img class="img-fluid" src="../pages/SM/SM-card 3.png" alt="">
-                                    <br>
-                                    <p>This layout is narrower - allowing for more cards to be shown on the phone screen
-                                        at once.
-                                        However, it's less scannable and the feature iamge may be too small to see.</p>
-                                </div>
-                                <div class="space50 col-md-6">
-                                    <h3>Card 4</h3>
-                                    <img class="img-fluid" src="../pages/SM/SM-card 4.png" alt="">
-                                    <br>
-                                    <p>My personal favourite however, very few feature images would fit perfectly in
-                                        this card layout.</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SM - feature 3 -->
-
-                <!-- START SM - solution -->
-                <div class="space50">
-                    <h2>The solution</h2>
-                    <h4>Putting it all together</h4>
-                    <div class="body">
-                        <p>Walkthrough of the final deliverable: an interactive prototype. Screens were created using
-                            Figma, animated using Principle, and illustrations were made with Procreate.</p>
-                    
-                    <div class="col-md-5 justify-content-center">
-                        <video class="img-fluid" src="../pages/SM/SM-final.webm" playsinline autoplay muted
-                            loop></video>
-                    </div>
-                </div>
-                <!-- END SM - solution -->
-
-                <!-- START SM - takeaways -->
-                <div class="space50">
-                    <h2>Takeaways & reflection</h2>
-                    <h4>What did I learn from this?</h4>
-                    <div class="body">
-                        <h3>Using design systems to build consistency</h3>
-                        <p>Crafting the visual interface meant I was constantly implementing tiny changes throughout the
-                            entire
-                            prototype. Exploring how to create a design system really saved me countless hours and also
-                            made it much
-                            easier to establish consistency, whether that be with defining margins, font styles, or
-                            shadows.</p>
-
-                        <br><br>
-                        <h3>Deconstruct and improve on existing solutions</h3>
-                        <p>In the beginning, I wanted to create something unlike anything else. However, I soon realized
-                            this isn’t
-                            feasible nor practical. I turned my efforts to breaking down existing designs (a lot of
-                            inspiration from
-                            Facebook, Apple Photos, and Dribbble) and analyzing why it works, why it doesn’t work, and
-                            what I can do
-                            to take it a step further.</p>
-                        <br><br>
-                        <h3>Detach bias and turn feedback into opportunities</h3>
-                        <p>Interpreting user tests showed me the importance of understanding my own bias and instead, to
-                            let the
-                            research and testing guide the decision making. This allowed me to turn feedback into
-                            opportunities. If
-                            I didn’t do this, I would not have thought of adding a recommendations page, nor would I
-                            have separated
-                            it from the rest of the events. </p>
-                    </div>
-                </div>
-                    <!-- END SM - takeaways -->
-            </div>
+            <!-- end content -->
         </div>
+    </section>
+    <!-- END LANDING -->
+    <!--  -->
+    <!-- CONTENT -->
+    <section>
+        <div class="container">
+            <div class="column">
+                <!-- START PROBLEM-->
+                <div class="col-sm-10 col-lg-6">
+                    <p> <b>The Problem</b> </p>
+                    <h2>How can I track which events I’ve attended and who I saw?</h2>
+                    <p>
+                        ShowMi originated from a personal pain point of mine. I love attending concerts, music
+                        festivals, jazz festivals, etc. However, I can never remember which events I’ve been to,
+                        never-the-less list out all the artists I’ve seen (virtual and live).
+                    </p>
+                </div>
+                <!-- END PROBLEM -->
+                <!--  -->
+                <!--START PROCESS -->
+                <div class="col-sm-10 col-lg-6 space">
+                    <h3>The Process</h3>
+                    <p>
+                        With a frustration, I wanted to really dive into understand why I was frustrated, when do I feel
+                        frustrated, and if anyone else feels the same way as me.
+                    </p>
+                </div>
+
+                <div class="col-sm-12 ">
+                    <img class="img-fluid" src="../projects/SM/process.png" alt="">
+                    <p class="caption">Diagram of project process</p>
+                </div>
+            </div>
+            <!-- END PROCESS -->
+            <!--  -->
+            <!-- START RESEARCH -->
+            <div class="col-sm-10 col-lg-6 space">
+                <h3>Research</h3>
+                <p>
+                    I began with doing some competitive research. To my surprise, there’s literally a tracking app for
+                    everything… except concert artists. Which caused me to wonder, perhaps nothing like this exists
+                    because no one else feels this pain point. To see if the problem is significant enough for me to
+                    take action, I surveyed people who attend concerts.
+                    <br><br>
+                    December 2019, I was at a music festival and realized this is the perfect opportunity to gather
+                    feedback from my target audience. So I made a google forms, passed my phone around, and recieved
+                    around 130 responses.
+                    <br><br>
+                    Below shows some findings from my survey:
+                </p>
+            </div>
+
+            <!-- start stats -->
+            <div class="center-stack space">
+                <!-- -->
+                <p> <b>Tracking artists seen</b> </p>
+                <h4>78 (59%) would want to 👉 78 (83%) currently don’t do so</h4>
+
+                <div class="col-sm-12 ">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img class="img-fluid" src="../projects/SM/Survey1.2.png" alt="">
+                        </div>
+                        <div class="col-sm-5">
+                            <img class="img-fluid" src="../projects/SM/Survey1.1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- -->
+                    <p> <b>Tracking events attended</b> </p>
+                    <h4>108 (83%) would want to 👉 62 (48%) currently don’t do so</h4>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-5">
+                        <img class="img-fluid" src="../projects/SM/Survey2.2.png" alt="">
+                    </div>
+                    <div class="col-sm-5">
+                        <img class="img-fluid" src="../projects/SM/Survey2.1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- end stats -->
+            <!--  -->
+            <!-- START USER STORIES -->
+            <div class="col-sm-10 col-lg-6 space">
+                <h3>User stories</h3>
+                <p>
+                    After analyzing survey results and deciding the pain point is significant enough to take action, I
+                    broke it down into 3 main user stories - which I used to guide my designs.
+                </p>
+            </div>
+            <!-- stories -->
+            <div class="center-stack column space">
+                <div class="col-sm-12">
+                    <p> <b>User story 1</b> </p>
+                    <h4>I just saw a concert! Now I want to track all the artists I saw</h4>
+                    <img class=" img-fluid" src="../projects/SM/Sitemap1.png" alt="">
+                </div>
+                <!--  -->
+                <div class="col-sm-12">
+                    <p> <b>User story 2</b> </p>
+                    <h4>How many events have I attended? Artists have I seen?</h4>
+                    <img class=" img-fluid" src="../projects/SM/Sitemap2.png" alt="">
+                </div>
+                <!--  -->
+                <div class="col-sm-12">
+                    <p> <b>User story 3</b> </p>
+                    <h4>I want to explore events that might be of interest to me</h4>
+                    <p>This user story was generated directly through user feedback, who mentioned they’d like to
+                        see suggested event recommendations. This feature would provide users with a more holistic
+                        and end-to-end experience. </p>
+                    <img class=" img-fluid" src="../projects/SM/Sitemap3.png" alt="">
+                </div>
+            </div>
+            <!-- END USER STORIES-->
+            <!--  -->
+                           <!--START USER FLOW -->
+                           <div class="col-sm-10 col-lg-6 space">
+                            <h3>User flow</h3>
+                            <p>
+                                I’d like to share context into the interaction structure prior to getting into nitty gritty design decisions.
+<br><br>
+In this particular flow, the user simply searches for the music festival using the <b>global search</b>, tap the ‘+’ button to <b>add artists</b> from the lineup, tap ‘done’ and view the details. The user can also use the ‘explore’ tab to browse through an <b>infinite scroll</b> of upcoming events, where they can tap into an event to view the event details as well as details of the performing artists. 
+                            </p>
+                        </div>
+        
+                        <div class="col-sm-12 ">
+                            <img class="img-fluid" src="../projects/SM/overview-flow.png" alt="">
+                            <p class="caption">Contextual overview of the core user flow</p>
+                        </div>
+        
+                    <!-- END USER FLOW -->
+                    <!--  -->
+                     <!--START DESIGN DECISIONS -->
+                     <div class="col-sm-10 col-lg-6 space">
+                        <h3>Design decisions</h3>
+                        <p>
+                            Let’s analyze the designs for User Story 1 - adding artists. We’ll first walk through the userflow and interactions a user takes, then dig into how I used guiding questions to help me conduct A/B testing, make various tradeoffs, and justify my design decisions. </p>
+                    </div>
+    
+                    <div class="col-sm-12 ">
+                        <img class="img-fluid" src="../projects/SM/tracking-flow.png" alt="">
+                        <p class="caption">User story 1 core flow (tracking/adding artists from an event)</p>
+                    </div>
+                
+                <!-- END DESIGN DECISIONS -->
+                <!--  -->
+                <h2>🚧 Project being updated 🚧</h2>
+                <p>
+                    If you found this (unlinked) project from my homepage, props to you!!! However, the rest of the content is being update at the moment, sorry for the
+                    inconvenience. Check back soon!
+                </p>
+
+                <!--  -->
+                <div class="row">
+
+                <div class="col-sm-10 col-lg-4">
+                    <h3>Global search</h3>
+                    <p>[content TBD]</p>
+                </div>
+
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="../projects/SM/search-documentated.png" alt="">
+                    <p class="caption">[placeholder]</p>
+                </div>
+            </div>
+
+                 <!--  -->
+                 <div class="row">
+
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="../projects/SM/tracking -documentated.png" alt="">
+                    <p class="caption">[placeholder]</p>
+                </div>
+
+                <div class="col-sm-10 col-lg-4">
+                    <h3>Tracking</h3>
+                    <p>[content TBD]</p>
+                </div>
+
+            </div>
+
+                 <!--  -->
+                 <div class="row">
+                 <div class="col-sm-10 col-lg-6 space">
+                    <h3>Analyzing attention</h3>
+                    <p>[content TBD]</p>
+                </div>
+
+                <div class="col-sm-6">
+                    <img class=" img-fluid" src="../projects/SM/stats-heatmap.png" alt="">
+                    <p class="caption">[placeholder]</p>
+                </div>
+            </div>
+                <!--  -->
+ 
+    </section>
+
+<section>
+    <div class="space container">
+    <div class="space row">
+
+    <div class="col-sm-8">
+        <img class=" img-fluid" src="" alt="">
+        <p class="caption">[placeholder]</p>
     </div>
-    <!-- START Footer -->
-    <div id="footer">
-        <hr>
-        <h4>Say hello at:</h4>
-        <a href="mailto:emilyliu107@gmail.com">
-            <i class="enlarge far fa-envelope"></i></a>
-            
-            <a href="https://www.linkedin.com/in/emilyliu716/">
-            <i class="enlarge fab fa-linkedin-in"></i></a>
 
-            <a href="https://www.instagram.com/emilyliu.co/">
-            <i class="enlarge fab fa-instagram"></i></a>
-        <br><br>
-        <p>Built with ❤ by Emily Liu</p>
+    <div class="col-sm-10 col-lg-4">
+        <h3>Putting it all together</h3>
+        <p>[content TBD]</p>
     </div>
 
+</div>
+</div>
 
-    <!--- STICK NAVBAR -->
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
+</section>
+<!-- END PROJ CONTENT -->
+<!--  -->
+<!-- START MORE -->
+<section class="more">
+    <div class="container">
+        <h3>More projects</h3>
+        <div class="row">
+
+        <div class="col-sm-10 col-lg-4 enlarge">
+            <a href="https://emilyliu.co/projects/wish.html">
+            <h4>💙 Wish</h4>
+            <p>Internship • Product Thinking • IXD • UX</p>   </a>
+        </div>
+ 
+    
+        <div class="col-sm-10 col-lg-4">
+            <a href="#">
+            <h4>🚘 TyltGO</h4>
+            <p>Freelance • UI • Leadership</p></a>
+        </div>
+
+        <div class="col-sm-10 col-lg-4">
+            <a href="#">
+            <h4>🍽 TasteBuds (coming soon)</h4>
+            <p> Start-up • Product Thinking • IXD • UXR</p></a>
+        </div>
+    
+    </div>
+    </div>
+</section>
+ <!-- END MORE -->
+ <!--  -->
+    <!-- START FOOTER-->
+    <footer class="footer text-center">
+        <hr class="space">
+        <!-- Footer Social Icons-->
+        <p>Say hello at:</p>
+        <a class="enlarge" target="_blank" href="https://www.linkedin.com/in/emilyliu716/">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a class="enlarge" target="_blank" href="mailto:emilyliu107@gmail.com">
+            <i class="fas fa-envelope"></i></a>
+    </footer>
+    <!-- END FOOTER -->
+    <!--  -->
+
+    <!-- Scroll to Top Button-->
+    <a class="js-scroll-trigger scroll-to-top position-fixed enlarge" href="#page-top"><i
+            class="fas fa-chevron-up"></i></a>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
