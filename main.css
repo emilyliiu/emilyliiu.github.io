@@ -44,6 +44,7 @@ a {
 
 a:hover {
   color: #FB8888 !important;
+  text-decoration: none;
 }
 
 .caption {
@@ -87,11 +88,10 @@ MAIN HEAD
 PROJECTS
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .projects .projects-card {
-  cursor: pointer;
   position: relative;
   display: block;
   max-width: 40rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   margin-bottom: 4rem;
   border: 1px solid #F9F7FC;
@@ -115,9 +115,10 @@ PROJECTS
   opacity: 1;
 }
 
-.more a{
-  padding: 5rem;
-  text-decoration: none;
+.more-card {
+  padding: 2rem;
+  position: relative;
+  border: 1px solid #F9F7FC;;
 }
 
 .more {
