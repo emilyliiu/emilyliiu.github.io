@@ -1,27 +1,33 @@
 @charset "UTF-8";
 
+/*
+gray: F9F9FB 
+accent: FB8888
+body: 3E4043
+h: 0A0A0A
+*/
+
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 TEXT
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 h1, h2 {
-    padding-bottom: 1rem;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
-    color: #4f4f55;
+    color: #0A0A0A;
     font-size: 2.4rem;
 }
 
 h3, h4 {
   padding: 0.5rem 0rem;
   font-weight: 700;
-  color: #4f4f55;
+  color: #0A0A0A;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 
 .breadcrumbs a {
-  color: #4f4f55;
+  color: #FB8888;
   padding-right: 0.5rem;
   text-decoration: none;
 }
@@ -31,7 +37,7 @@ b {
 }
 
 p, li {
-  color: #4f4f55;
+  color: #3E4043;
   font-weight: 300;
   font-size: 1rem;
   font-family: 'Nunito Sans', sans-serif;
@@ -43,14 +49,12 @@ a {
 }
 
 a:hover {
-  color: #FB8888 !important;
+  color: #0A0A0A !important;
   text-decoration: none;
 }
 
 .caption {
-  padding-bottom: 1rem;
-  color: #4f4f55 !important;
-  text-align: center;
+  font-size: 0.75rem;
 }
 
 
@@ -66,11 +70,12 @@ NAVBAR
 
 #mainNav a {
     padding: 0rem 4em;
-    color: #4f4f55;
+    color: #3E4043;
     font-weight: 300;
 }
 
 #mainNav a:hover {
+  color: #FB8888 !important;
   transform: translateY(-0.25rem);
   transition: all 0.2s ease-in-out;
 }
@@ -87,33 +92,25 @@ MAIN HEAD
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 PROJECTS
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
-.projects .projects-card {
-  position: relative;
-  display: block;
-  max-width: 40rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  margin-bottom: 4rem;
-  border: 1px solid #F9F7FC;
+.projects {
+  background-color: #F9F9FB;
+  padding: 6rem 0rem;
 }
 
-.projects .projects-card:hover {
+.proj-card {
+background-color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #F9F7FC;
+  padding: 2rem; 
+}
+
+.proj-card:hover {
     transform: scale(1.02);
     transition: all 0.4s ease-in-out;
     box-shadow: 1rem 2rem 3rem #dadadd;
+    z-index: 2;
   }
 
-.projects .projects-card .projects-card-caption {
-  position: absolute;
-  transition: all 0.4s ease-in-out;
-  opacity: 0;
-  padding: 6rem;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 75%, rgba(255, 255, 255, 0.2) 100%);
-}
-
-.projects .projects-card .projects-card-caption:hover {
-  opacity: 1;
-}
 
 .more-card {
   padding: 2rem;
@@ -131,15 +128,18 @@ PROJECTS
 FOOTER
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .footer {
-  padding: 6em 6rem;
+  margin-top: 10rem;
   text-align: center;
+  background-color: #F9F9FB;
+  padding: 3rem 0rem;
 }
 
 .footer a {
     color: #4f4f55;
     padding: 1rem;
     border-radius:100px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 1.5rem;
 }
 
 .footer a:hover {
@@ -188,4 +188,11 @@ SPACING
 
 .page-section{
 padding-top: 8rem;
+}
+
+.mr-n1 {
+  margin-right: -1rem !important;
+}
+.ml-6 {
+  margin-left: 1rem !important;
 }
