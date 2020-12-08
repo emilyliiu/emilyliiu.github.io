@@ -62,7 +62,7 @@ a:hover {
 NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 #mainNav {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
   transition: all 0.4s ease-in-out;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
@@ -85,8 +85,8 @@ NAVBAR
 MAIN HEAD
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .head {
-  padding-top: 12rem;
-  padding-bottom: 8rem;
+  padding-top: 16rem;
+  padding-bottom: 10rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
