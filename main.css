@@ -12,17 +12,17 @@ TEXT
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
 h1, h2 {
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
     color: #0A0A0A;
     font-size: 2.4rem;
 }
 
 h3, h4 {
   padding: 0.5rem 0rem;
-  font-weight: 700;
+  font-weight: 400;
   color: #0A0A0A;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 
@@ -33,14 +33,14 @@ h3, h4 {
 }
 
 b {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 p, li {
   color: #3E4043;
   font-weight: 300;
   font-size: 1rem;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -54,7 +54,10 @@ a:hover {
 }
 
 .caption {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #3E4043;
+  padding-top: 1rem;
 }
 
 
@@ -62,16 +65,21 @@ a:hover {
 NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 #mainNav {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
+  opacity: .2;
   transition: all 0.4s ease-in-out;
   background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+}
+#mainNav:hover { 
+opacity: 1;
+transition: all 0.2s ease-in-out;
 }
 
 #mainNav a {
     padding: 0rem 4em;
     color: #3E4043;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #mainNav a:hover {
@@ -115,12 +123,11 @@ background-color: #fff;
 .more-card {
   padding: 2rem;
   position: relative;
-  border: 1px solid #F9F7FC;;
 }
 
-.more {
-  background-color: #F9F7FC;
-  margin-top: 8rem;
+.bg {
+  background-color: #F9F9FB;
+  margin: 6rem 0rem;
   padding: 3rem 0rem;
 }
 
