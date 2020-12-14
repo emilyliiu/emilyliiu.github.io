@@ -1,0 +1,35 @@
+
+
+.breadcrumbs a {
+    color: #FB8888;
+    padding-right: 0.5rem;
+    text-decoration: none;
+  }
+
+  
+
+.more-card {
+    padding: 2rem;
+    position: relative;
+  }
+  
+  /*  */
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+    opacity:0.8;
+}
+
+#myCarousel .carousel-indicators > li {
+    text-indent: initial;
+    color: #3E4043;
+    font-size: 1rem;
+}
+
+#myCarousel .carousel-indicators > li.active {
+    opacity: 1;
+    color: #FB8888
+}
