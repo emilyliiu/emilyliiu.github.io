@@ -1,4 +1,4 @@
-AuthUserFile /Users/emily/Desktop/GitHub/emilyliiu.github.io/projects/Wish/.htaccess
+AuthUserFile /emilyliiu.github.io/projects/Wish/.htaccess
 AuthType Basic
 AuthName "My Secret Folder"
 Require valid-user
