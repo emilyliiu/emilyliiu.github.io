@@ -65,15 +65,14 @@ a:hover {
 NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding: 0.6rem 0rem;
   opacity: .2;
   transition: all 0.4s ease-in-out;
-  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
-}
+  }
 #mainNav:hover { 
 opacity: 1;
 transition: all 0.2s;
+background-color: #F9F9FB
 }
 
 #mainNav li {
@@ -110,14 +109,20 @@ PROJECTS
 }
 
 .proj-card {
-background-color: #fff;
+  background-color: #fff;
   border-radius: 0.25rem;
-  border: 1px solid #F9F7FC;
-  padding: 2rem; 
+  border: 1px solid #F9F9FB;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
-.proj-card:hover {
-    transform: scale(1.02);
+.card-gutter {
+  max-width: 35rem; 
+}
+
+.proj-card:hover, .feature-card:hover {
+    transform: scale(1.05);
     transition: all 0.4s;
     box-shadow: 1rem 2rem 3rem #dadadd;
     z-index: 2;
@@ -169,7 +174,7 @@ ANIMATIONS
     transition: all 0.4s ease-in-out;
     box-shadow: 1rem 1rem 3rem #c7c7ca;
     border-radius: 1rem;
-    border: 1 solid #F9F7FC;
+    border: 1 solid #F9F9FB;
 }
 
 
@@ -183,13 +188,6 @@ SPACING
 .center-stack {
   align-items: center;
   text-align: center;
-}
-
-.mr-n1 {
-  margin-right: -1rem !important;
-}
-.ml-6 {
-  margin-left: 1rem !important;
 }
 
 /*  */

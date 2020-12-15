@@ -10,7 +10,7 @@ background-color: #F9F9FB
 
 /*  */
 .breadcrumbs a {
-    color: #FB8888;
+    color: #abaebe;
     padding-right: 0.5rem;
     text-decoration: none;
   }
@@ -35,10 +35,10 @@ background-color: #F9F9FB
 #myCarousel .carousel-indicators > li {
     text-indent: initial;
     color: #3E4043;
-    font-size: rem;
+    font-size: 1rem;
 }
 
 #myCarousel .carousel-indicators > li.active {
     opacity: 1;
-    color: #FB8888
+    color: #0A0A0A
 }
