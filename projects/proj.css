@@ -1,6 +1,7 @@
-.box {
-background-color: #F9F9FB ;
-padding: 2rem 6rem;
+.highlight {
+background-color: #F5F5F5 ;
+padding: 1rem;
+border-radius: 0.5rem;
 }
 
 .center-block {
@@ -10,21 +11,12 @@ padding: 2rem 6rem;
  }
 
 /*  */
-.breadcrumbs a {
-    color: #abaebe;
-    padding-right: 0.5rem;
-    text-decoration: none;
-  }
-
-  
-
 .more-card {
     padding: 2rem;
     position: relative;
   }
   
   /*  */
-
 #myCarousel .carousel-indicators {
     position: static;
     left: initial;
@@ -35,7 +27,7 @@ padding: 2rem 6rem;
 
 #myCarousel .carousel-indicators > li {
     text-indent: initial;
-    color: #3E4043;
+    color: #abaebe;
     font-size: 1rem;
 }
 
