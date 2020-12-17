@@ -1,5 +1,7 @@
-AuthUserFile /emilyliiu.github.io/projects/Wish/.htaccess
+AuthUserFile ../.htpasswd
 AuthType Basic
-AuthName "My Secret Folder"
-Require valid-user
+AuthName "Protected Page"
 
+<Files "wish.html">
+  Require valid-user
+</Files>

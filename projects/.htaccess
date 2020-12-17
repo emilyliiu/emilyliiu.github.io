@@ -1,7 +1,0 @@
-AuthUserFile /Users/emily/Desktop/GitHub/emilyliiu.github.io/projects/Wish/.htaccess
-AuthType Basic
-AuthName "Protected Page"
-
-<Files "wish.html">
-  Require valid-user
-</Files>
