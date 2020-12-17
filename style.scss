@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+$gray: #F9F9FB;
+$highlight: #FB8888;
+$body: #3E4043;
+$header: #0A0A0A;
+
+.container {
+  background-color: $header;
+}
