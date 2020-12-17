@@ -56,10 +56,13 @@ a:hover {
 .caption {
   font-size: 0.7rem;
   text-align: center;
-  color: #3E4043;
   padding-top: 1rem;
 }
 
+.tag {
+  font-size: 0.7rem;
+  margin-bottom: -0.25rem;
+}
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 NAVBAR
@@ -134,7 +137,6 @@ FOOTER
 }
 
 .footer a {
-    color: #0A0A0A;
     padding: 1rem;
     border-radius:100px;
     font-size: 1.5rem;
@@ -145,12 +147,11 @@ FOOTER
 SCROLL TO TOP 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .scroll-to-top {
-  right: 2rem;
+  right: 4rem;
   bottom: 2rem;
   padding: 1rem;
   border-radius:100px;
   font-size: 1rem;
-  color: #0A0A0A;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -162,6 +163,7 @@ ANIMATIONS
     box-shadow: 1rem 1rem 3rem #c7c7ca;
     border-radius: 1rem;
     border: 1 solid #F5F5F5;
+    opacity: 1;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -171,13 +173,8 @@ SPACING
   padding-top: 4rem;
 }
 
-.center-stack {
-  align-items: center;
-  text-align: center;
-}
-
 ul {
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 /*  */
