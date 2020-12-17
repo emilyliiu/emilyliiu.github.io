@@ -12,7 +12,8 @@ border-radius: 0.5rem;
 
 /*  */
 .more-card {
-    padding: 2rem;
+    padding: 1rem;
+    z-index: 2;
     position: relative;
   }
   
