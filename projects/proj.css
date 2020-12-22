@@ -1,7 +1,7 @@
 .highlight {
-background-color: #F5F5F5 ;
-padding: 1rem;
-border-radius: 0.5rem;
+    background-color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 
 .proj-head {
@@ -15,33 +15,140 @@ border-radius: 0.5rem;
     border: 1px solid #F5F5F5;
     padding: 2rem;
     max-width: 23rem;
-  }
+}
 
-  .moreCard:hover {
+.cardHover:hover {
     transform: scale(1.05);
     transition: all 0.4s;
     box-shadow: 1rem 2rem 3rem #dadadd;
     z-index: 2;
     position: relative;
-  }
+}
 
-  
-  /*  */
+
+/*  */
 #myCarousel .carousel-indicators {
     position: static;
     left: initial;
     width: initial;
     margin-left: initial;
-    opacity:0.8;
+    opacity: 0.8;
 }
 
-#myCarousel .carousel-indicators > li {
+#myCarousel .carousel-indicators>li {
     text-indent: initial;
     color: #abaebe;
     font-size: 1rem;
 }
 
-#myCarousel .carousel-indicators > li.active {
+#myCarousel .carousel-indicators>li.active {
     opacity: 1;
-    color: #0A0A0A
+    color: #0A0A0A;
 }
+
+
+/*  */
+
+#errorMessage {
+    color: red;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #abaebe;
+    background-color: #F5F5F5;
+    transition: 0.6s;
+}
+
+input:focus {
+    border: 1px solid #0A0A0A;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+#submit {
+    border: none;
+    color: #0A0A0A;
+    padding: 0.5rem 1rem;
+}
+
+#submit:hover {
+    background-color: #0A0A0A;
+    color: #FFF;
+}
+/* 
+.effect {
+    border: 1px solid #abaebe;
+    transition: 0.6s;
+}
+
+.effect~.focus-border:before,
+.effect~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    transition: 0.6s;
+}
+
+.effect~.focus-border:after {
+    top: auto;
+    bottom: 0;
+}
+
+.effect~.focus-border i:before,
+.effect~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background-color: blue;
+    transition: 0.6s;
+}
+
+.effect~.focus-border i:after {
+    left: auto;
+    right: 0;
+}
+
+.effect:focus~.focus-border:before,
+.effect:focus~.focus-border:after,
+.has-content.effect~.focus-border:before,
+.has-content.effect~.focus-border:after {
+    left: 0;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.effect:focus~.focus-border i:before,
+.effect:focus~.focus-border i:after,
+.has-content.effect~.focus-border i:before,
+.has-content.effect~.focus-border i:after {
+    top: -1px;
+    height: 100%;
+    transition: 0.6s;
+}
+
+.effect~label {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    color: #abaebe;
+    transition: 0.6s;
+    z-index: -1;
+}
+
+.effect:focus~label,
+.has-content.effect~label {
+    top: -2rem;
+    left: 0;
+    opacity: 1;
+    color: blue;
+    transition: 0.6s;
+} */

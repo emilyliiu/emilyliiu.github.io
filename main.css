@@ -48,7 +48,7 @@ a {
 }
 
 a:hover {
-  color: #abaebe !important;
+  color: #abaebe ;
   text-decoration: none;
   transition: all 0.4s;
 }
@@ -67,7 +67,7 @@ a:hover {
 NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 #mainNav {
-  padding: 0.6rem 0rem;
+  padding: 1rem 0rem;
   transition: all 0.4s ease-in-out;
   opacity: 0.2;
   background-color: #FFF;
@@ -80,21 +80,13 @@ transition: all 0.2s;
 }
 
 #mainNav a {
-    padding: 0rem 3rem;
+    padding: 0.25rem 3rem;
     font-weight: 400;
 }
 
 #mainNav a:hover {
   transform: translateY(-0.25rem);
   transition: all 0.4s;
-}
-
-
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
-MAIN HEAD
-*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
-.head {
-  margin: 14rem 0rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -108,7 +100,7 @@ PROJECTS
 
 .proj-card {
   background-color: #fff;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   border: 1px solid #F5F5F5;
   padding: 2rem;
   padding-bottom: 3rem;
@@ -118,7 +110,7 @@ PROJECTS
 
 .featureCard {
   background-color: #fff;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   border: 1px solid #F5F5F5;
   padding: 2rem;
   margin-bottom: 1rem;
@@ -173,9 +165,9 @@ ANIMATIONS
     transition: all 0.4s;
     border-radius: 1rem;
     position: relative;
-    box-shadow: 1rem 2rem 3rem #dadadd;
-    z-index: 2;
-    position: relative;
+    box-shadow: 1rem 1rem 2rem #abaebe;
+    color: #abaebe !important;
+    background-color: #FFF;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -197,9 +189,15 @@ ul {
   display: block;
   width: 50%
 }
+
+
+.head {
+  margin: 16rem;
+}
+
 }
 
 img {
-  max-width:100%;
-  height:auto;
+  max-width: 100%;
+  height: auto;
 }

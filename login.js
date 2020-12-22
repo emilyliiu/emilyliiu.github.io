@@ -10,10 +10,9 @@ function validate() {
         return false;
     } else {
         attempt--; 
-        document.getElementById("errorMessage").textContent="Incorrect username and/or password";
+        document.getElementById("errorMessage").textContent="Incorrect password";
 
         if (attempt == 0) {
-            document.getElementById("username").disabled = true;
             document.getElementById("password").disabled = true;
             document.getElementById("submit").disabled = true;
             return false;
