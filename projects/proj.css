@@ -61,16 +61,14 @@ input {
     transition: 0.6s;
 }
 
-input:focus {
-    border: 1px solid #0A0A0A;
-    transition: 0.6s;
-    opacity: 1;
+#password {
+    width: 75%;
 }
 
 #submit {
     border: none;
     color: #0A0A0A;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
 }
 
 #submit:hover {
