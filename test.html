@@ -1,4 +1,26 @@
+<html>
 
+<head>
+    <!-- Include CSS File Here -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Include JS File Here -->
+    <script src="test.js"></script>
+</head>
 
- <link href="../emilyliiu.github.io/test.css" rel="stylesheet" />
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>test</h2>
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username" />
+                <label>Password :</label>
+                <input type="password" name="password" id="password" />
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+                <span class="error_form" id="errorMessage"></span>
+            </form>
+        </div>
+    </div>
+</body>
 
+</html>

@@ -6,7 +6,7 @@ html {
 /*
 gray-bg: F5F5F5 
 gray: abaebe
-accent: 0A0A0A
+accent: 1d1d1d
 body: 3E4043
 h: 2c2c2c
 */
@@ -42,9 +42,9 @@ p, li {
 }
 
 a {
-  color: #0A0A0A;
+  color: #1d1d1d;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 a:hover {
@@ -61,7 +61,6 @@ a:hover {
 
 .tag {
   font-size: 0.7rem;
-  margin-bottom: -0.25rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
@@ -80,8 +79,9 @@ opacity: 1;
 transition: all 0.2s;
 }
 
-#mainNav li {
+#mainNav a {
     padding: 0rem 3rem;
+    font-weight: 400;
 }
 
 #mainNav a:hover {
@@ -113,13 +113,18 @@ PROJECTS
   padding: 2rem;
   padding-bottom: 3rem;
   margin-bottom: 1rem;
-}
-
-.card-gutter {
   max-width: 35rem; 
 }
 
-.proj-card:hover, .feature-card:hover {
+.featureCard {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  border: 1px solid #F5F5F5;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cardHover:hover {
     transform: scale(1.05);
     transition: all 0.4s;
     box-shadow: 1rem 2rem 3rem #dadadd;
@@ -131,9 +136,8 @@ PROJECTS
 FOOTER
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .footer {
-  margin-top: 10rem;
+  /* margin-top: 8rem; */
   text-align: center;
-  background-color: #F5F5F5;
   padding: 3rem 0rem;
 }
 
@@ -142,6 +146,12 @@ FOOTER
     border-radius:100px;
     font-size: 1.5rem;
     margin: 1.5rem;
+}
+
+#moreProj {
+  background-color: #F5F5F5;
+  padding: 4rem 0rem;
+  margin-top: 6rem;
 }
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  

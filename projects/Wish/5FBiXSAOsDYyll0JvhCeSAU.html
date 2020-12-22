@@ -35,8 +35,6 @@
     <!-- STYLESHEET -->
     <link href="../main.css" rel="stylesheet" />
     <link href="../projects/proj.css" rel="stylesheet" />
-    <script src="../login.js"></script>
-
 </head>
 
 <body id="page-top">
@@ -69,49 +67,55 @@
         </div>
     </nav>
 
-<!-- LANDING -->
-<section class="head">
+
+
+    <!-- LANDING -->
+    <section class="proj-head">
         <div class="container">
-            <div class="row justify-content-center ">
+            <div class="row">
+
                 <!-- start content -->
-                <div class="col-sm-6">
+                <div class="col-sm-12 col-lg-6">
                     <h1>Wish Internship</h1>
                     <p>
-                            <b>Duration:</b> May 2020 - Dec 2020 (2 terms)
-                            <br>
-                            <b>Role:</b> Product Design Intern (Virtual)
+                        <b>Duration:</b> May 2020 - Dec 2020 (2 terms)
+                        <br>
+                        <b>Role:</b> Product Design Intern
                     </p>
-                    <p><b>Thanks for showing interest in my work! </b>
-                        Unfortuantely, I am unable to share the details publicly. Please enter the password to continue:</p>
-                    <form id="form_id" method="post" name="myform">
-
-
-                        <input type="password" name="password" id="password" />
-                        <input type="button" value="Submit" id="submit" onclick="validate()"/>
-                        <span class="error_form" id="errorMessage"></span>
-                    </form>
-
-                    <p>Don't have the password? Please reach out to me via <a target="_blank"
-                        href="mailto:emilyliu107@gmail.com">e-mail</a> or <a target="_blank"
-                        href="https://www.linkedin.com/in/emilyliu716/">LinkedIn</a>!</p>   
                 </div>
                 <!-- -->
-                <div class="col-sm-6">
+                <div class="col-sm-10 col-lg-6">
                     <img class="img-fluid" src="../Wish-thumbnail.png" alt="" />
                 </div>
             </div>
+            <!-- end content -->
         </div>
-    </section>
-    <!-- END LANDING -->
+        <!-- END LANDING -->
+        <!--  -->
+        <!-- CONTENT -->
+
+        <section>
+            <div class="container space">
+                <div class="container space justify-content-center col-lg-8">
+
+                    <h3>Thanks for showing interest in my work! Unfortuantely, I am unable to share details publicly.
+                    </h3>
+                    <p>Please feel free to reach out to me via <a target="_blank"
+                            href="mailto:emilyliu107@gmail.com">e-mail me</a> or <a target="_blank"
+                            href="https://www.linkedin.com/in/emilyliu716/">LinkedIn</a> if you would like to hear more
+                        about the projects I worked on, my internship experience, or just to chat!
+                        <br> <br>
+                        From May - Dec 2020, I interned (virtually) as a Product Design Intern on the Marketplace
+                        Engineering team. I had the opportunity to collaborate and work with numerous engineers, PMs,
+                        designers, and other stakeholders located all across the globe to adapt to the ambiguous virtual
+                        landscape. <br><br>
+                    </p>
+                </div>
 
                 <hr>
 
-                <div class="container space justify-content-center col-lg-6">
-                    <p>From May - Dec 2020, I interned (virtually) as a Product Design Intern on the Marketplace
-                            Engineering team. I had the opportunity to collaborate and work with numerous engineers, PMs,
-                            designers, and other stakeholders located all across the globe to adapt to the ambiguous virtual
-                            landscape.</p>
-                        
+
+                <div class="container space justify-content-center col-lg-8">
                     <h3>A few featured projects:</h3>
                     <h2 class="space">Merchant Plus – MVP</h2>
                     <p>Merchant Plus is a brand new version of the current Merchant Dashboard. The goal is to curate
@@ -129,40 +133,47 @@
                             <li>2 payment-related pages</li>
                         </ul>
                     </p>
-            
-                    <img class="img-fluid" src="../projects/Wish/Wish-payments.png" alt="">
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid col-sm-10" src="../projects/Wish/Wish-payments.png" alt="">
                     <p class="caption"></p>
-               
+                </div>
 
 
                 <hr>
 
-              
-                    <h2 class="space">Merchant Dashboard</h2>
+                <div class="container space justify-content-center col-lg-8">
+                    <h2>Merchant Dashboard</h2>
                     <p>Highlighted project is an internal merchant review tool to help the team detect, prevent, and
                         justify decision related to fraudulent merchants. By replacing the current method of using
                         various
                         Excel spreadsheets, this tool increases the efficiency drastically.
                     </p>
-                    <img class="img-fluid" src="../projects/Wish/MGR.webp" alt="">
+                </div>
+
+                <div class="text-center">
+                    <img class="img-fluid col-sm-10" src="../projects/Wish/MGR.webp" alt="">
                     <p class="caption"></p>
-                
+                </div>
 
                 <hr>
 
-                    <h2 class="space">Wish App (desktop version)</h2>
+                <div class="container space justify-content-center col-lg-8">
+                    <h2>Wish App (desktop version)</h2>
                     <p>Curated designs for a ‘buy now and pay later’ feature on the desktop version of the Wish App.
                         The ‘Pay Later’ feature allows buyers to purchase items now and pay a certain portion of the
                         total later and is estimated to increase Q4 revenue by 4%.
                     </p>
-            
-                    <img class="img-fluid" src="../projects/Wish/Wish-PayLater.png" alt="">
-                    <p class="caption"></p>
-               
+                </div>
 
+                <div class="text-center">
+                    <img class="img-fluid col-sm-10" src="../projects/Wish/Wish-PayLater.png" alt="">
+                    <p class="caption"></p>
+                </div>
                 <hr>
 
-                    <h2 class="space">Misc</h2>
+                <div class="container space justify-content-center col-lg-8">
+                    <h2>Misc</h2>
                     <h3>Design System </h3>
                     <p>Contributed to the Wish Global Design System by creating components for both desktop and mobile,
                         including:
@@ -172,97 +183,93 @@
                             <li>Modals, collaborated with another designer for this </li>
                             <li>Roundness based on 8pt grid </li>
                         </ul>
+
                     </p>
                     <h3 class="space">'About Us' landing pages</h3>
                     <p>Redesigned the Wish ‘About Us’ website pages <a target="_blank"
                             href="https://www.wish.com/companyinfo">(see it live here!)</a>
                         in preparation for IPO.
                     </p>
-        
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid col-sm-10" src="../projects/Wish/about-us.webp" alt="" />
+                </div>
+  
+
+            <div class="container space justify-content-center col-lg-8">
             <h3 class="space">Rebrand Careers pages</h3>
             <p>Collaborated and presented designs to high-level stakeholders to rebrand and iterate on the Wish Careers
                 pages <a target="_blank" href="https://www.wish.com/careers">(see it live here!)</a>
             </p>
-
             </div>
-</section>
-
+            </div>
+        </section>
 
 
         <!-- END PROJ CONTENT -->
         <!--  -->
+        <!-- START MORE -->
+        <section>
+            <div class="container">
+                <h4>More Projects:</h4>
+                <p>While you're at it, check out some of my other projects!</p>
 
-    <!-- START MORE -->
-
-    <section id="moreProj">
-        <div class="container ">
-            <h4>More Projects:</h4>
-            <p>While you're at it, check out some of my other projects!</p>
-
-            <div class="row justify-content-between">
-                <div class="col-sm-10 col-lg-4 moreCard cardHover">
-                    <a href="https://emilyliu.co/projects/SM.html">
-                        <p class="tag">Case study</p>
-                        <b>ShowMi 🎶</b>
-                        <br>
-                        <p>User Research, UI/UX</p>
-
-                    <a href="projects/SM.html">View Project</a>
-                </a>
-                </div>
+                <div class="row">
+                    <div class="col-sm-10 col-lg-4 proj-card">
+                        <a href="https://emilyliu.co/projects/SM.html">
+                            <b>ShowMi 🎶</b>
+                            <p>Passion Project | User Research, UI/UX</p>
+                        </a>
+                    </div>
 
 
-                <div class="col-sm-10 col-lg-4 moreCard cardHover">
-                    <a href="https://emilyliu.co/projects/TG.html">
-                        <p class="tag">Freelance</p>
-                        <b> TyltGO 🛒 </b>
-                        <p>User Research, UI, Leadership</p>
-                    </a>
-                </div>
+                    <div class="col-sm-10 col-lg-4 proj-card">
+                        <a href="https://emilyliu.co/projects/TG.html">
+                            <b> TyltGO 🛒 </b>
+                            <p>Freelance | UI, Leadership</p>
+                        </a>
+                    </div>
 
-                <div class="col-sm-10 col-lg-4 moreCard">
-                        <p class="tag">Start-up</p>
-                    <p><b>TasteBuds (coming soon) 🍽 </b>
-                        <br>Product Thinking, IXD, UXR</p>
+                    <div class="col-sm-10 col-lg-4" style="padding: 1rem;">
+                        <p><b>TasteBuds (coming soon) 🍽 </b>
+                            <br>
+                            Start-up | Product Thinking, IXD, UXR</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- END MORE -->
-    <!--  -->
-    <!-- START FOOTER-->
-    <footer class="footer text-center">
-        <hr>
-        <!-- Footer Social Icons-->
-        <p class="space">Wanna chat? Say 👋 via:</p>
+        </section>
+        <!-- END MORE -->
+        <!--  -->
+        <!-- START FOOTER-->
+        <footer class="footer text-center space">
+            <!-- Footer Social Icons-->
+            <p>Wanna chat? Say 👋 via:</p>
 
-        <a class="enlarge" target="_blank" href="mailto:emilyliu107@gmail.com">
-            <i class="fas fa-envelope"></i></a>
-        <a class="enlarge" target="_blank" href="https://www.instagram.com/emilyliu.design/">
-            <i class="fab fa-instagram"></i></a>
-        <a class="enlarge" target="_blank" href="https://www.linkedin.com/in/emilyliu716/">
-            <i class="fab fa-linkedin-in"></i></a>
-        <br><br>
-        <p class="caption">Built with ♡ by Emily Liu (2020)</p>
-    </footer>
-    <!-- END FOOTER -->
-    <!--  -->
+            <a class="enlarge" target="_blank" href="mailto:emilyliu107@gmail.com">
+                <i class="fas fa-envelope"></i></a>
+            <a class="enlarge" target="_blank" href="https://www.instagram.com/emilyliu.design/">
+                <i class="fab fa-instagram"></i></a>
+            <a class="enlarge" target="_blank" href="https://www.linkedin.com/in/emilyliu716/">
+                <i class="fab fa-linkedin-in"></i></a>
+            <br><br>
+            <p class="caption">Built with ♡ by Emily Liu (2020)</p>
+        </footer>
+        <!-- END FOOTER -->
 
-    <!-- Scroll to Top Button-->
-    <a class="js-scroll-trigger scroll-to-top position-fixed enlarge" href="#page-top"><i
-            class="fas fa-chevron-up"></i></a>
+        <!-- Scroll to Top Button-->
+        <a class="js-scroll-trigger scroll-to-top position-fixed enlarge" href="#page-top"><i
+                class="fas fa-chevron-up"></i></a>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

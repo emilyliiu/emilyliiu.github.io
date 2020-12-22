@@ -5,15 +5,26 @@ border-radius: 0.5rem;
 }
 
 .proj-head {
-    margin: 12rem 0rem;
+    margin: 11rem 0rem;
 }
 
 /*  */
-.more-card {
-    padding: 1rem;
+.moreCard {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #F5F5F5;
+    padding: 2rem;
+    max-width: 23rem;
+  }
+
+  .moreCard:hover {
+    transform: scale(1.05);
+    transition: all 0.4s;
+    box-shadow: 1rem 2rem 3rem #dadadd;
     z-index: 2;
     position: relative;
   }
+
   
   /*  */
 #myCarousel .carousel-indicators {
