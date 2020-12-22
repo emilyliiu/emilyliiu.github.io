@@ -2,7 +2,7 @@ var attempt = 3;
 
 function validate() {
     var password = document.getElementById("password").value;
-    if (password == "123") {
+    if (password == "2w3e4r") {
         ;
 
 
