@@ -10,11 +10,12 @@ function validate() {
         return false;
     } else {
         attempt--; 
-        document.getElementById("errorMessage").textContent="Incorrect password";
+        document.getElementById("errorMessage").textContent="Incorrect password 😕";
 
         if (attempt == 0) {
             document.getElementById("password").disabled = true;
             document.getElementById("submit").disabled = true;
+            document.getElementById("disableMessage").textContent=" Please reach out to me for the password";
             return false;
         }
     }
