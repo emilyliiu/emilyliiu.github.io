@@ -1,0 +1,23 @@
+.container {
+    background-color: #000;
+    }
+  
+  canvas {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (min-width: 768px) {
+  
+    .content {
+      display: block;
+      width: 50%
+    }
+    
+    
+    .head {
+      margin: 16rem;
+    }
+    
+    }
