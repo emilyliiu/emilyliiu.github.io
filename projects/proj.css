@@ -8,7 +8,9 @@
     margin: 11rem 0rem;
 }
 
+
 /*  */
+
 .moreCard {
     background-color: #fff;
     border-radius: 0.25rem;
@@ -27,6 +29,7 @@
 
 
 /*  */
+
 #myCarousel .carousel-indicators {
     position: static;
     left: initial;
@@ -49,7 +52,8 @@
 
 /*  */
 
-#errorMessage, #disableMessage {
+#errorMessage,
+#disableMessage {
     color: red;
 }
 
@@ -79,6 +83,8 @@ input {
 input:disabled {
     opacity: 0.2;
 }
+
+
 /* 
 .effect {
     border: 1px solid #abaebe;
