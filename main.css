@@ -1,21 +1,15 @@
 @charset "UTF-8";
-
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-/*
-gray-bg: F5F5F5 
-gray: abaebe
-accent: 1d1d1d
-body: 3E4043
-h: 2c2c2c
-*/
+
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 TEXT
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     color: hsl(0, 0%, 17%);
@@ -23,60 +17,64 @@ h1, h2 {
     padding-bottom: 0.5rem;
 }
 
-h3, h4 {
-  padding: 0.5rem 0rem;
-  font-weight: 400;
-  color: #2c2c2c;
-  font-family: 'Inter', sans-serif;
+h3,
+h4 {
+    padding: 0.5rem 0rem;
+    font-weight: 400;
+    color: #2c2c2c;
+    font-family: 'Inter', sans-serif;
 }
 
 b {
     font-weight: 600;
 }
 
-p, li {
-  color: #3E4043;
-  font-weight: 300;
-  font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+p,
+li {
+    color: #3E4043;
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
-  color: #1d1d1d;
-  text-decoration: none;
-  font-weight: 600;
+    color: #1d1d1d;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover {
-  color: #abaebe ;
-  text-decoration: none;
-  transition: all 0.4s;
+    color: #abaebe;
+    text-decoration: none;
+    transition: all 0.4s;
 }
 
 .caption {
-  font-size: 0.7rem;
-  text-align: center;
-  padding-top: 1rem;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .tag {
-  font-size: 0.7rem;
+    font-size: 0.7rem;
 }
+
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 NAVBAR
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
 #mainNav {
-  padding: 1rem 0rem;
-  transition: all 0.4s ease-in-out;
-  opacity: 0.2;
-  background-color: #FFF;
-  border: 1px solid #F5F5F5;
+    padding: 1rem 0rem;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.2;
+    background-color: #FFF;
+    border: 1px solid #F5F5F5;
 }
 
-#mainNav:hover { 
-opacity: 1;
-transition: all 0.2s;
+#mainNav:hover {
+    opacity: 1;
+    transition: all 0.2s;
 }
 
 #mainNav a {
@@ -85,36 +83,23 @@ transition: all 0.2s;
 }
 
 #mainNav a:hover {
-  transform: translateY(-0.25rem);
-  transition: all 0.4s;
+    transform: translateY(-0.25rem);
+    transition: all 0.4s;
 }
 
-/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
-PROJECTS
-*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
 .bg {
-  background-color: #F5F5F5;
-  margin: 6rem 0rem;
-  padding: 3rem 0rem;
+    background-color: #F6F9FC;
 }
 
-.proj-card {
-  background-color: #fff;
-  border-radius: 0.5rem;
-  border: 1px solid #F5F5F5;
-  padding: 2rem;
-  padding-bottom: 3rem;
-  margin-bottom: 1rem;
-  max-width: 35rem; 
-}
 
+/* 
 .featureCard {
-  background-color: #fff;
-  border-radius: 0.5rem;
-  border: 1px solid #F5F5F5;
-  padding: 2rem;
-  margin-bottom: 1rem;
-}
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid #F5F5F5;
+    padding: 2rem;
+    margin-bottom: 1rem;
+} */
 
 .cardHover:hover {
     transform: scale(1.05);
@@ -122,82 +107,91 @@ PROJECTS
     box-shadow: 1rem 2rem 3rem #dadadd;
     z-index: 2;
     position: relative;
-  }
+}
+
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 FOOTER
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
 .footer {
-  /* margin-top: 8rem; */
-  text-align: center;
-  padding: 3rem 0rem;
+    text-align: center;
+    margin-top: 4rem;
 }
 
 .footer a {
     padding: 1rem;
-    border-radius:100px;
+    border-radius: 100px;
     font-size: 1.5rem;
     margin: 1.5rem;
 }
 
 #moreProj {
-  background-color: #F5F5F5;
-  padding: 4rem 0rem;
-  margin-top: 6rem;
+    background-color: #F5F5F5;
+    padding: 4rem 0rem;
+    margin-top: 6rem;
 }
+
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 SCROLL TO TOP 
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
 .scroll-to-top {
-  right: 4rem;
-  bottom: 2rem;
-  padding: 1rem;
-  border-radius:100px;
-  font-size: 1rem;
+    right: 4rem;
+    bottom: 2rem;
+    padding: 1rem;
+    border-radius: 100px;
+    font-size: 1rem;
 }
+
 
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 ANIMATIONS
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
 .enlarge:hover {
     transform: scale(1.2);
     transition: all 0.4s;
-    border-radius: 1rem;
     position: relative;
-    box-shadow: 1rem 1rem 2rem #abaebe;
+    box-shadow: 1rem 1rem 2rem #dadadd;
     color: #abaebe !important;
     background-color: #FFF;
 }
 
+
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 SPACING
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
 .space {
-  padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 ul {
-  padding-left: 1.5rem;
+    padding-left: 1.5rem;
 }
+
+hr {
+    margin: 2rem 10rem;
+    color: #abaebe;
+}
+
 
 /*  */
 
 @media only screen and (min-width: 768px) {
-  
-.content {
-  display: block;
-  width: 50%
-}
-
-/* 
+    .content {
+        display: block;
+        width: 50%
+    }
+    /* 
 .head {
   margin: 16rem;
 } */
-
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }

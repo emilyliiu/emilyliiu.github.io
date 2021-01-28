@@ -1,3 +1,7 @@
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+HEAD
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
 .head {
     padding: 8rem 2rem;
 }
@@ -12,6 +16,25 @@ canvas {
     .head {
         padding: 14rem;
     }
+}
+
+
+/*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
+PROJECTS
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
+
+#projects,
+#about {
+    padding: 8rem 0rem;
+}
+
+.proj-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 1rem 2rem 3rem #F5F5F5;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    height: 24rem;
 }
 
 
