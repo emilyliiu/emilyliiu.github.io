@@ -4,6 +4,14 @@ html {
 }
 
 
+/* 
+DarkInk: 1d1d1d
+Ink: 3E4043
+LialicBG: F6F9FC
+LightGray: dadadd
+*/
+
+
 /*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  
 TEXT
 *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  */
@@ -12,16 +20,15 @@ h1,
 h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    color: hsl(0, 0%, 17%);
-    font-size: 2.4rem;
+    color: #1d1d1d;
+    font-size: 2.6rem;
     padding-bottom: 0.5rem;
 }
 
 h3,
 h4 {
-    padding: 0.5rem 0rem;
-    font-weight: 400;
-    color: #2c2c2c;
+    font-weight: 600;
+    color: #3E4043;
     font-family: 'Inter', sans-serif;
 }
 
@@ -44,19 +51,22 @@ a {
 }
 
 a:hover {
-    color: #abaebe;
+    color: #dadadd;
     text-decoration: none;
     transition: all 0.4s;
 }
 
 .caption {
     font-size: 0.7rem;
+    opacity: 0.6;
     text-align: center;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .tag {
     font-size: 0.7rem;
+    opacity: 0.6;
+    padding-top: 1rem;
 }
 
 
@@ -69,7 +79,7 @@ NAVBAR
     transition: all 0.4s ease-in-out;
     opacity: 0.2;
     background-color: #FFF;
-    border: 1px solid #F5F5F5;
+    border: 1px solid #F6F9FC;
 }
 
 #mainNav:hover {
@@ -128,7 +138,7 @@ FOOTER
 }
 
 #moreProj {
-    background-color: #F5F5F5;
+    background-color: #F6F9FC;
     padding: 4rem 0rem;
     margin-top: 6rem;
 }
@@ -156,7 +166,6 @@ ANIMATIONS
     transition: all 0.4s;
     position: relative;
     box-shadow: 1rem 1rem 2rem #dadadd;
-    color: #abaebe !important;
     background-color: #FFF;
 }
 
@@ -175,7 +184,7 @@ ul {
 
 hr {
     margin: 2rem 10rem;
-    color: #abaebe;
+    color: #F6F9FC;
 }
 
 
