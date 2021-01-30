@@ -5,7 +5,7 @@ function validate() {
     if (password == "2w3e4r") {;
 
 
-        window.location = "/projects/5FBiXSAOsDYyll0JvhCeSAU.html";
+        window.location = "/5FBiXSAOsDYyll0JvhCeSAU.html";
         return false;
     } else {
         attempt--;
