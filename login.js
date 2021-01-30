@@ -5,7 +5,7 @@ function validate() {
     if (password == "2w3e4r") {;
 
 
-        window.location = "https://emilyliu.co/projects/Wish/5FBiXSAOsDYyll0JvhCeSAU.html";
+        window.location = "emilyliiu.github.io/projects/5FBiXSAOsDYyll0JvhCeSAU.html";
         return false;
     } else {
         attempt--;
