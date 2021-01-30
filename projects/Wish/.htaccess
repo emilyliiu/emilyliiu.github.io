@@ -1,7 +1,0 @@
-AuthUserFile ./.htpasswd
-AuthType Basic
-AuthName "Protected Page"
-
-<Files "wish.html">
-  Require valid-user
-</Files>
